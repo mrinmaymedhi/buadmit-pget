@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Bhattadev University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="header-main">
+            <div class="logo-container">
+                <img src="Logo.png" alt="Bhattadev University Logo" class="logo-img">
+                <span class="logo-text"><strong>Admin</strong> Panel</span>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Back to Main Site</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="admin-wrapper" id="admin-content" style="display: none;">
+        <div class="dashboard-header">
+            <h1>Admin Dashboard</h1>
+            <div id="notification-area">
+                <button id="notification-bell" title="View User-Reported Issues">
+                    <img src="notification.png" alt="Notifications">
+                    <span id="notification-count" class="hidden">0</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="admin-section collapsible active">
+            <div class="section-header">
+                <h2>Database Overview</h2>
+                <img src="up.png" class="toggle-icon" alt="Toggle Section">
+            </div>
+            <div class="section-content">
+                <div id="db-stats" class="stats-container">
+                    <!-- Stats will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="admin-section collapsible">
+            <div class="section-header">
+                <h2>Admit Card Download Logs</h2>
+                <img src="up.png" class="toggle-icon" alt="Toggle Section">
+            </div>
+            <div class="section-content">
+                <p>This table records every time the "Print Admit Card" button is clicked.</p>
+                <div class="table-container">
+                    <table id="print-log-table">
+                        <thead>
+                            <tr>
+                                <th>Timestamp</th>
+                                <th>Roll No.</th>
+                                <th>Name of Candidate</th>
+                                <th>Programme</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Print logs will be dynamically inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="admin-section collapsible">
+            <div class="section-header">
+                <h2>Full Candidate Database</h2>
+                <img src="up.png" class="toggle-icon" alt="Toggle Section">
+            </div>
+            <div class="section-content">
+                <div class="list-controls">
+                    <input type="search" id="search-input" placeholder="Search by name or roll no...">
+                    <select id="filter-select">
+                        <option value="all">All Programmes</option>
+                    </select>
+                </div>
+                <div class="table-container">
+                    <table id="candidate-table">
+                        <thead>
+                            <tr>
+                                <th>Roll No.</th>
+                                <th>Name</th>
+                                <th>Programme</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Rows will be dynamically inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <div id="password-prompt-overlay">
+        <div class="password-box">
+             <h2>Admin Access Required</h2>
+             <p>Please enter your credentials to continue.</p>
+             <p>.<p>
+             <div class="form-group">
+                <input type="text" id="admin-username" placeholder="Username">
+             </div>
+             <div class="form-group">
+                <input type="password" id="admin-password" placeholder="Password">
+             </div>
+             <button id="admin-login-submit">Login</button>
+             <p id="password-error" class="error-message"></p>
+             <div class="back-link-container">
+                <a href="index.html" class="back-to-site-link">« Back to Main Site</a>
+             </div>
+        </div>
+    </div>
+    
+    <div id="query-modal" class="modal-overlay">
+        <div class="modal-content modal-lg">
+            <span class="modal-close" id="query-modal-close-btn">×</span>
+            <h2>User-Reported Issues</h2>
+            <p>Issues reported by users. Click the checkmark to mark as resolved.</p>
+            <div id="query-list-modal">
+                <!-- Queries will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="database.js"></script>
+    <script src="admin.js"></script>
+</body>
+</html>

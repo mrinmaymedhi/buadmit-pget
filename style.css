@@ -1,0 +1,1316 @@
+/* --- Base Styles & Color Variables --- */
+:root { 
+    --primary-color: #005A9C; 
+    --secondary-color: #009A44; 
+    --danger-color: #c0392b;
+
+    /* Light Mode */
+    --background-light: #f4f7fc; 
+    --card-background-light: #ffffff; 
+    --text-color-light: #333; 
+    --text-muted-light: #6c757d; 
+    --border-color-light: #dee2e6; 
+    --shadow-light: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --header-footer-bg-light: #f8f9fa;
+    --header-footer-border-light: #e0e0e0;
+
+    /* Dark Mode (Neutral Grey) */
+    --background-dark: #121212;
+    --card-background-dark: #1e1e1e;
+    --text-color-dark: #e0e0e0;
+    --text-muted-dark: #a0a0a0;
+    --border-color-dark: #333333;
+    --shadow-dark: 0 4px 20px rgba(0, 0, 0, 0.5);
+    --header-footer-bg-dark: #1e1e1e;
+    --header-footer-border-dark: #333333;
+}
+
+body { 
+    --bg-color: var(--background-light); 
+    --card-bg: var(--card-background-light); 
+    --text-color: var(--text-color-light); 
+    --text-muted: var(--text-muted-light); 
+    --border-color: var(--border-color-light); 
+    --shadow: var(--shadow-light);
+    --header-footer-bg: var(--header-footer-bg-light);
+    --header-footer-border: var(--header-footer-border-light);
+}
+
+body.dark-mode {
+    --bg-color: var(--background-dark); 
+    --card-bg: var(--card-background-dark); 
+    --text-color: var(--text-color-dark); 
+    --text-muted: var(--text-muted-dark); 
+    --border-color: var(--border-color-dark); 
+    --shadow: var(--shadow-dark);
+    --header-footer-bg: var(--header-footer-bg-dark);
+    --header-footer-border: var(--header-footer-border-dark);
+}
+
+html { font-size: 70%; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { 
+    font-family: 'Poppins', sans-serif; 
+    background-color: var(--bg-color); 
+    color: var(--text-color); 
+    line-height: 1.6; 
+    padding-top: 135px; /* Offset for fixed header */
+    padding-bottom: 50px; /* Offset for fixed footer */
+    transition: background-color 0.3s, color 0.3s;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    position: relative; /* For stacking contexts if needed */
+}
+
+/* --- Header and Footer --- */
+.page-header { 
+    background-color: var(--header-footer-bg); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); 
+    padding: 0 2rem; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1010; 
+    border-bottom: 1px solid var(--header-footer-border); 
+}
+.header-main { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 80px; 
+}
+.logo-link { 
+    text-decoration: none; 
+    color: inherit; 
+}
+.logo-container { 
+    display: flex; 
+    align-items: center; 
+}
+.logo-img { 
+    height: 50px; 
+    margin-right: 15px; 
+}
+.logo-text { 
+    font-size: 1.5rem; 
+    color: var(--text-color); 
+}
+.header-actions { 
+    display: flex; 
+    align-items: center; 
+    gap: 1rem; 
+}
+.header-credit { 
+    background-color: var(--header-footer-bg); 
+    color: var(--text-color); 
+    text-align: center; 
+    padding: 0.8rem; 
+    font-size: 1rem; 
+    font-weight: 400; 
+    border-top: 1px solid var(--header-footer-border); 
+}
+.header-credit a { 
+    color: #5dade2; 
+    font-weight: 600; 
+    text-decoration: underline; 
+}
+.page-footer { 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: var(--header-footer-bg); 
+    color: var(--text-muted); 
+    text-align: center; 
+    padding: 0.8rem; 
+    font-size: 0.8rem; 
+    z-index: 1010; 
+    border-top: 1px solid var(--header-footer-border); 
+}
+
+/* --- Dark Mode Switch --- */
+.dark-mode-switch { 
+    position: relative; 
+}
+.dark-mode-switch input { 
+    opacity: 0; 
+    width: 0; 
+    height: 0; 
+    position: absolute; 
+}
+.dark-mode-switch label { 
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 100%; 
+    background-color: transparent; 
+    transition: background-color 0.3s ease; 
+}
+.dark-mode-switch label:hover { 
+    background-color: var(--border-color); 
+}
+.dark-mode-switch svg { 
+    width: 22px; 
+    height: 22px; 
+    color: var(--text-muted); 
+    transition: transform 0.4s ease, opacity 0.4s ease; 
+}
+.dark-mode-switch .moon { 
+    position: absolute; 
+    opacity: 0; 
+    transform: scale(0) rotate(-90deg); 
+}
+.dark-mode-switch input:checked + label .sun { 
+    opacity: 0; 
+    transform: scale(0) rotate(90deg); 
+}
+.dark-mode-switch input:checked + label .moon { 
+    opacity: 1; 
+    transform: scale(1) rotate(0deg); 
+}
+
+/* --- Homepage Styles --- */
+.homepage-container { 
+    padding: 4rem 2rem; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+.hero-section { 
+    margin-bottom: 3rem; 
+}
+.hero-section h1 { 
+    font-size: 2.5rem; 
+    color: var(--primary-color); 
+    margin-bottom: 0.5rem; 
+}
+body.dark-mode .hero-section h1 { 
+    color: #85c1e9; 
+}
+.hero-section p { 
+    font-size: 1.1rem; 
+    color: var(--text-muted); 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+.features-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 2rem; 
+    text-align: left; 
+}
+.feature-card { 
+    background-color: var(--card-bg); 
+    padding: 2.5rem 2rem; 
+    /* Increased border-radius for more rounded look */
+    border-radius: 30px; 
+    box-shadow: var(--shadow); 
+    display: flex; 
+    flex-direction: column; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; 
+}
+.feature-card:hover { 
+    transform: translateY(-8px); /* More pronounced lift */
+    box-shadow: 0 10px 35px rgba(0,0,0,0.15); /* Stronger shadow on hover */
+}
+body.dark-mode .feature-card:hover { 
+    box-shadow: 0 10px 35px rgba(0,0,0,0.6); 
+}
+.card-icon { 
+    width: 60px; 
+    height: 60px; 
+    background-color: rgba(0, 90, 156, 0.1); 
+    border-radius: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 1.5rem; 
+    flex-shrink: 0; /* Prevent icon from shrinking on small screens */
+}
+body.dark-mode .card-icon { 
+    background-color: rgba(133, 193, 233, 0.1); 
+}
+.card-icon svg { 
+    width: 30px; 
+    height: 30px; 
+    stroke: var(--primary-color); 
+}
+body.dark-mode .card-icon svg { 
+    stroke: #85c1e9; 
+}
+.feature-card h2 { 
+    font-size: 1.5rem; 
+    color: var(--primary-color); 
+    margin-bottom: 1rem; 
+}
+body.dark-mode .feature-card h2 { 
+    color: #aed6f1; 
+}
+.feature-card p { 
+    flex-grow: 1; 
+    color: var(--text-muted); 
+    margin-bottom: 2rem; 
+}
+.feature-button { 
+    display: inline-block; 
+    padding: 12px 20px; 
+    background-color: var(--primary-color); 
+    color: white; 
+    text-align: center; 
+    /* Increased border-radius for more rounded look */
+    border-radius: 25px; 
+    text-decoration: none; 
+    font-weight: 600; 
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+.feature-button:hover { 
+    background-color: #004170; 
+    transform: translateY(-2px); /* Lift button on hover */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Stronger shadow on hover */
+}
+body.dark-mode .feature-button { 
+    background-color: #5dade2; 
+    color: #121212; 
+}
+body.dark-mode .feature-button:hover { 
+    background-color: #85c1e9; 
+    color: #121212;
+}
+.feature-card.disabled { 
+    opacity: 0.6; 
+    pointer-events: none; /* Disable clicks */
+}
+.feature-card.disabled:hover { 
+    transform: none; 
+    box-shadow: var(--shadow); 
+}
+.disabled-button { 
+    background-color: var(--text-muted); 
+    cursor: not-allowed; 
+    transform: none; /* No transform on disabled */
+    box-shadow: none; /* No shadow on disabled */
+}
+.disabled-button:hover { 
+    background-color: var(--text-muted); 
+}
+
+/* --- Admit Card Page Layout --- */
+.main-content-wrapper { 
+    position: relative; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 2rem; 
+    margin-top: 1rem; 
+}
+.page-title { 
+    text-align: center; 
+    color: var(--primary-color); 
+    margin-bottom: 2rem; 
+    font-size: 2.25rem; 
+}
+
+/* Base styles for layout containers (apply to all viewports) */
+.initial-view-wrapper,
+.preview-view-wrapper { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 2rem; 
+    opacity: 1; 
+    visibility: visible; 
+    transform: scale(1); 
+    /* Combined transition for a smoother effect */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out, visibility 0s 0.5s; 
+}
+
+.main-content-wrapper.layout-preview-active .initial-view-wrapper { 
+    opacity: 0; 
+    visibility: hidden; 
+    transform: scale(0.95); 
+    transition-delay: 0s; 
+    pointer-events: none; 
+    height: 0; 
+    overflow: hidden; 
+}
+.main-content-wrapper.layout-preview-active .preview-view-wrapper { 
+    opacity: 1; 
+    visibility: visible; 
+    transform: scale(1); 
+    transition-delay: 0.3s; /* Delay appearance slightly for smoother transition */
+}
+
+/* Specific styling for the actions panel on the admit card page */
+.preview-view-wrapper .actions-panel { 
+    position: static; 
+    order: -1; 
+    z-index: auto;
+    top: auto;
+}
+
+/* --- Desktop Layout (wider screens) --- */
+@media (min-width: 992px) {
+    .initial-view-wrapper { 
+        grid-template-columns: 1fr 1fr; 
+        display: grid; 
+        align-items: stretch; 
+    }
+    .preview-view-wrapper { 
+        display: grid; 
+        grid-template-columns: 2fr 1fr; 
+        align-items: flex-start; 
+    }
+
+    .preview-view-wrapper .actions-panel { 
+        position: sticky; 
+        top: 135px; 
+        order: unset; 
+        align-self: flex-start; 
+    }
+}
+
+/* --- Instruction Box Style --- */
+.instructions-box-main { 
+    background-color: #e8f5fd; 
+    border-left: 5px solid var(--primary-color); 
+    padding: 1.5rem; 
+    margin-bottom: 0; 
+    border-radius: 25px; 
+    box-shadow: var(--shadow); 
+}
+body.dark-mode .instructions-box-main { 
+    background-color: rgba(133, 193, 233, 0.05); 
+    border-left-color: #5dade2; 
+}
+.instructions-box-main h4 { 
+    margin-top: 0; 
+    margin-bottom: 1rem; 
+    color: var(--primary-color); 
+    font-size: 1.2rem; 
+    display: flex; 
+    align-items: center; 
+    gap: 0.75rem; 
+}
+body.dark-mode .instructions-box-main h4 { 
+    color: #85c1e9; 
+}
+.instructions-box-main h4 svg { 
+    width: 24px; 
+    height: 24px; 
+    flex-shrink: 0; 
+}
+.instructions-box-main ol { 
+    padding-left: 20px; 
+    margin: 0; 
+}
+.instructions-box-main li { 
+    margin-bottom: 0.75rem; 
+    color: var(--text-muted); 
+    line-height: 1.5; 
+}
+.instructions-box-main li:last-child { 
+    margin-bottom: 0; 
+}
+.instructions-box-main strong { 
+    color: var(--text-color); 
+}
+
+/* --- Separator --- */
+.section-separator { 
+    border: none; 
+    height: 1px; 
+    background-color: var(--border-color); 
+    margin: 2rem auto; 
+}
+
+/* --- Content Panels --- */
+.content-panel { 
+    background-color: var(--card-bg); 
+    padding: 2rem; 
+    /* Increased border-radius */
+    border-radius: 25px; 
+    box-shadow: var(--shadow); 
+    display: flex; 
+    flex-direction: column; 
+}
+.content-panel h1 { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 0.75rem; 
+    font-size: 1.5rem; 
+    margin: 0 0 1rem 0; 
+    color: var(--primary-color); 
+}
+body.dark-mode .content-panel h1 { 
+    color: #85c1e9; 
+}
+.content-panel h1 svg { 
+    width: 28px; 
+    height: 28px; 
+    flex-shrink: 0; 
+}
+.content-panel h4 { 
+    display: flex; 
+    align-items: center; 
+    font-size: 1.1rem; 
+    font-weight: 600; 
+    margin: 0 0 1rem 0; 
+    border-bottom: 1px solid var(--border-color); 
+    padding-bottom: 0.75rem; 
+}
+.content-panel h4 svg { 
+    width: 20px; 
+    height: 20px; 
+    margin-right: 0.75rem; 
+    fill: currentColor; 
+}
+
+/* --- Notification Panel Specific Styles --- */
+.content-panel.updates-panel { 
+    background-color: #fffaf0; 
+}
+body.dark-mode .content-panel.updates-panel { 
+    background-color: rgba(255, 183, 77, 0.05); 
+}
+.updates-panel h4 { 
+    color: #d46b08; 
+}
+body.dark-mode .updates-panel h4 { 
+    color: #ffb74d; 
+}
+.updates-panel ul { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    overflow-y: auto; 
+    max-height: 350px; 
+}
+.updates-panel li { 
+    /* Changed display to flex and added alignment for new badge positioning */
+    display: flex; /* Makes contents flow in a row */
+    align-items: center; /* Vertically centers items */
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens if necessary */
+
+    padding: 1rem 0.5rem; 
+    border-bottom: 1px solid var(--border-color); 
+    line-height: 1.6; 
+    font-size: 0.9rem; 
+    color: var(--text-muted); 
+    /* Remove existing flex properties that will be on .notification-item itself */
+    gap: unset; /* Remove default gap */
+}
+
+/* Ensure the bullet point aligns at the start */
+.updates-panel li::before { 
+    content: '•'; 
+    color: #d46b08; 
+    font-size: 1.2rem; 
+    /* Adjustments to align bullet consistently */
+    margin-right: 0.75rem; 
+    flex-shrink: 0; /* Prevent it from shrinking */
+}
+body.dark-mode .updates-panel li::before { 
+    color: #ffb74d; 
+}
+
+
+/* New general styling for the individual date/time "badges" */
+.notification-date-badge,
+.notification-time-badge {
+    display: inline-flex; /* Use inline-flex for proper padding and alignment */
+    align-items: center;
+    padding: 4px 8px; /* Padding for badge appearance */
+    border-radius: 6px; /* Slightly rounded corners */
+    font-size: 0.75rem; /* Smaller text size for badges */
+    font-weight: 600; /* Bold text */
+    color: white; /* White text on badges */
+    margin-left: 0.6rem; /* Space between the text and badges, and between badges */
+    flex-shrink: 0; /* Prevent them from shrinking */
+    line-height: 1; /* Tighter line height for the text inside badge */
+}
+
+/* Specific color for the date badge (BLUE) */
+.notification-date-badge {
+    background-color: #3498db; /* Blue */
+}
+body.dark-mode .notification-date-badge {
+    background-color: #5dade2; /* Lighter blue in dark mode */
+}
+
+/* Specific color for the time badge (GREEN) */
+.notification-time-badge {
+    background-color: #2ecc71; /* Green */
+}
+body.dark-mode .notification-time-badge {
+    background-color: #58d68d; /* Lighter green in dark mode */
+}
+
+/* Style for the notification text to take up remaining space and allow flex layout */
+.notification-text {
+    flex-grow: 1; /* Allows text to take up available space before badges */
+}
+
+/* Ensure new badge positioning for consistency with time/date badges */
+.new-badge { 
+    background-color: var(--danger-color); 
+    color: white; 
+    font-size: 0.65rem; 
+    font-weight: bold; 
+    padding: 3px 8px; 
+    border-radius: 4px; 
+    margin-left: 0.6rem; /* Keep spacing consistent */
+    vertical-align: middle; 
+    flex-shrink: 0; /* Prevent it from shrinking */
+}
+
+
+.updates-panel li:last-child { 
+    border-bottom: none; 
+    padding-bottom: 0.5rem; 
+}
+.text-blue { 
+    color: #3498db; 
+}
+.text-black { 
+    color: #333; 
+}
+body.dark-mode .text-black { 
+    color: #ecf0f1; 
+}
+body.dark-mode .text-blue { 
+    color: #5dade2; 
+}
+/* --- Form & Buttons --- */
+.step-description { 
+    text-align: center; 
+    color: var(--text-muted); 
+    margin-bottom: 1.5rem; 
+    font-size: 1.1rem; /* Slightly larger for emphasis */
+}
+.form-group { 
+    margin-bottom: 1.5rem; /* Increased spacing */
+}
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+input, select { 
+    background-color: var(--bg-color); 
+    border: 1px solid var(--border-color); 
+    color: var(--text-color); 
+    width: 100%; 
+    padding: 12px 15px; 
+    /* Increased border-radius for more rounded look */
+    border-radius: 25px; 
+    font-size: 1rem; 
+    font-family: 'Poppins', sans-serif; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; 
+    line-height: 1.2; /* A specific line-height can help vertical centering of content */
+}
+
+/* New/Modified styles specifically for select elements to fix arrow position */
+select {
+    -webkit-appearance: none; /* Remove default arrow for Chrome/Safari */
+    -moz-appearance: none;    /* Remove default arrow for Firefox */
+    appearance: none;         /* Remove default arrow for other browsers */
+
+    /* Add a custom SVG arrow as background-image */
+    /* The SVG is a simple caret icon: fill='currentColor' will inherit the text color */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center; /* Position the arrow 15px from the right, vertically centered */
+    background-size: 18px 18px; /* Size of the arrow icon */
+    padding-right: 40px; /* Add more padding on the right to make space for the custom arrow */
+}
+
+
+input:focus, select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(0, 90, 156, 0.2); /* Focus ring */
+}
+body.dark-mode input:focus, body.dark-mode select:focus {
+    border-color: #5dade2;
+    box-shadow: 0 0 0 3px rgba(93, 173, 226, 0.2);
+}
+
+button { 
+    width: 100%; 
+    padding: 15px; 
+    background-color: var(--primary-color); 
+    color: white; 
+    border: none; 
+    /* Increased border-radius for more rounded look */
+    border-radius: 25px; 
+    cursor: pointer; 
+    font-size: 1.1rem; 
+    font-weight: 600; 
+    font-family: 'Poppins', sans-serif; 
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 0.5rem; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+button:hover { 
+    background-color: #004170; 
+    transform: translateY(-2px); /* Lift button on hover */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Stronger shadow on hover */
+}
+body.dark-mode button {
+    background-color: #5dade2;
+    color: #121212;
+}
+body.dark-mode button:hover {
+    background-color: #85c1e9;
+    color: #121212;
+}
+.secondary-button { 
+    background-color: transparent; 
+    border: 2px solid var(--primary-color); 
+    color: var(--primary-color); 
+    box-shadow: none; /* No initial shadow for secondary */
+}
+.secondary-button:hover { 
+    background-color: rgba(0, 90, 156, 0.1); 
+    transform: translateY(-2px); /* Lift button on hover */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08); /* Subtle shadow on hover */
+}
+body.dark-mode .secondary-button { 
+    border-color: #5dade2; 
+    color: #5dade2; 
+}
+body.dark-mode .secondary-button:hover { 
+    background-color: rgba(93, 173, 226, 0.1); 
+}
+.red-button { 
+    background-color: var(--danger-color); 
+    border-color: var(--danger-color); 
+    color: white; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+.red-button:hover { 
+    background-color: #a52a2a; 
+    border-color: #a52a2a; 
+    color: white; 
+}
+.confirmation-question { 
+    text-align: center; 
+    font-weight: 600; 
+    margin-top: 1.5rem; 
+    margin-bottom: 1rem; 
+    color: var(--primary-color); 
+    font-size: 1.1rem; /* Slightly larger for emphasis */
+    padding: 0.5rem 0; /* Added padding for prominence */
+}
+body.dark-mode .confirmation-question { 
+    color: #85c1e9; 
+}
+
+.confirmation-buttons { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem; 
+    margin-top: 1.5rem; /* Added margin-top for separation */
+    margin-bottom: 1rem; 
+}
+.form-section { 
+    max-height: 0; 
+    opacity: 0; 
+    overflow: hidden; 
+    transition: all 0.6s ease-in-out; 
+}
+#secondary-criteria.visible { 
+    max-height: 1000px; 
+    opacity: 1; 
+    margin-top: 2rem; 
+    padding-top: 2rem; 
+    border-top: 2px dashed var(--border-color); 
+}
+.autocomplete { 
+    position: relative; 
+}
+#name-suggestions { 
+    position: absolute; 
+    border: 1px solid var(--border-color); 
+    max-height: 150px; 
+    overflow-y: auto; 
+    width: 100%; 
+    background-color: var(--card-bg); 
+    z-index: 1000; 
+    border-radius: 0 0 8px 8px; /* Match new border-radius for input */
+    box-shadow: var(--shadow); 
+}
+.suggestion-item { 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease;
+}
+.suggestion-item:hover { 
+    background-color: var(--bg-color); 
+}
+#search-result { 
+    text-align: center; 
+    margin-top: 1.5rem; 
+    font-weight: 600; 
+    color: #e74c3c; 
+}
+#not-found-container { 
+    display: none; 
+    text-align: center; 
+    margin-top: 1.5rem; 
+}
+#not-found-container p { 
+    margin-bottom: 1rem; 
+    color: var(--text-muted); /* Ensure color consistency */
+}
+
+/* --- ADMIT CARD PREVIEW --- */
+.preview-view-wrapper .actions-panel button { 
+    margin-bottom: 1rem; 
+}
+.preview-view-wrapper .actions-panel button svg { 
+    width: 18px; 
+    height: 18px; 
+}
+.preview-admit-card { 
+    box-shadow: var(--shadow); 
+    /* Increased border-radius for consistency */
+    border-radius: 25px; 
+    overflow: hidden; 
+}
+
+/* --- ADMIT CARD STYLES --- */
+.admit-card-a4 { 
+    background: white; 
+    width: 100%; 
+    padding: 15mm; 
+    color: black; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 9pt; 
+    line-height: 1.5; 
+    position: relative; 
+    overflow: hidden; 
+}
+.admit-card-separator {
+    border: none;
+    height: 1px; 
+    background-color: #dee2e6; 
+    margin: 1.5rem 0; 
+    width: 100%; 
+}
+body.dark-mode .admit-card-a4 .admit-card-separator {
+    background-color: black;
+}
+.ac-watermark { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    opacity: 0.08; 
+    pointer-events: none; 
+}
+.ac-watermark img { 
+    width: 300px; 
+    height: auto; 
+}
+.ac-content { 
+    position: relative; 
+    z-index: 2; 
+    background-color: transparent; 
+}
+.ac-header { 
+    display: flex; 
+    align-items: center; 
+    padding-bottom: 0.75rem; 
+    margin-bottom: 1rem; 
+    border-bottom: 2px solid var(--primary-color); 
+}
+.ac-logo { 
+    height: 70px; 
+    margin-right: 1rem; 
+}
+.ac-title-area h1 { 
+    font-size: 18pt; 
+    line-height: 1.1; 
+    color: var(--primary-color); 
+}
+.ac-title-area h3 {
+    color: var(--secondary-color);
+}
+.ac-general-instructions-box { 
+    padding: 0; 
+    margin-bottom: 1rem; 
+}
+.ac-general-instructions-box h4 { 
+    font-size: 10pt; 
+    font-weight: 600; 
+    margin: 0; 
+    margin-bottom: 0.5rem; 
+    color: var(--primary-color); 
+    display: inline-block; 
+    border-bottom: 1px solid currentColor; 
+    padding-bottom: 2px; 
+}
+.ac-general-instructions-box h4 u {
+    text-decoration: none; 
+}
+.ac-general-instructions-box ol { 
+    padding-left: 20px; 
+    margin: 0; 
+    list-style-position: outside; 
+    color: black !important; 
+}
+.ac-general-instructions-box li { 
+    margin-bottom: 0.75rem; 
+    color: black !important; /* Ensure text is black for print */
+    line-height: 1.5; 
+}
+.ac-general-instructions-box li:last-child { 
+    margin-bottom: 0; 
+}
+.ac-general-instructions-box strong { 
+    color: black !important; 
+}
+.ac-candidate-details { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 1rem; 
+    gap: 2rem; 
+    border-bottom: 1px solid #dee2e6; 
+    padding-bottom: 1rem; 
+}
+.ac-details-grid { 
+    flex-grow: 1; 
+    display: grid; 
+    grid-template-columns: auto 1fr; 
+    gap: 0.5rem 1rem; 
+    align-items: flex-start; 
+}
+.ac-detail-label, .ac-sign-box p, .ac-photo-box { 
+    color: var(--text-muted-light); 
+}
+.ac-detail-value { 
+    word-break: break-word; 
+    font-weight: 600; 
+    text-transform: uppercase;
+    color: black !important; 
+}
+.ac-photo-box { 
+    border: 2px dashed #dee2e6; 
+    width: 120px; 
+    height: 150px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 8px; 
+    border-radius: 4px; 
+}
+.ac-data-table { 
+    margin-bottom: 1.5rem; 
+}
+.ac-data-table table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+.ac-data-table th, .ac-data-table td { 
+    border: 1px solid #dee2e6; 
+    padding: 10px; 
+    text-align: left; 
+}
+.ac-data-table th { 
+    background-color: var(--background-light); 
+    color: var(--primary-color); 
+}
+.ac-signatures { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-end; 
+    margin-top: 1rem; 
+}
+.ac-sign-box { 
+    width: 30%; 
+    text-align: center; 
+}
+.ac-sign-placeholder { 
+    height: 40px; 
+    border-bottom: 1px solid black; 
+    margin-bottom: 5px; 
+}
+.controller-sign { 
+    position: relative; 
+}
+.controller-sign-img { 
+    height: 40px; 
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+.ac-final-instructions { 
+    margin-top: 1.5rem; 
+}
+.ac-final-instructions .instruction-heading { 
+    text-align: center; 
+    font-size: 11pt; 
+    font-weight: bold; 
+    margin-bottom: 0.75rem; 
+}
+.ac-final-instructions ol { 
+    padding-left: 20px; 
+    margin: 0; 
+    font-size: 8.5pt; 
+    list-style-position: outside; 
+    color: black !important; /* Ensure list text is explicitly black */
+}
+.ac-final-instructions li { 
+    margin-bottom: 0.4rem; 
+    color: black !important; /* Ensure text is black for print */
+}
+.ac-final-instructions .highlight-red { 
+    color: var(--danger-color) !important; /* Keep red color */
+    font-weight: 600; 
+}
+
+/* ADMIT CARD DARK MODE OVERRIDE (FORCES LIGHT THEME) */
+body.dark-mode .admit-card-a4 { 
+    background-color: white; 
+    color: black; 
+}
+body.dark-mode .admit-card-a4 .ac-title-area p,
+body.dark-mode .admit-card-a4 .ac-detail-label, 
+body.dark-mode .admit-card-a4 .ac-sign-box p, 
+body.dark-mode .admit-card-a4 .ac-photo-box { 
+    color: var(--text-muted-light); 
+}
+body.dark-mode .admit-card-a4 .ac-title-area h2,
+body.dark-mode .admit-card-a4 .instruction-heading,
+body.dark-mode .admit-card-a4 .text-black,
+body.dark-mode .admit-card-a4 .ac-detail-value,
+body.dark-mode .admit-card-a4 .ac-general-instructions-box ol,
+body.dark-mode .admit-card-a4 .ac-general-instructions-box li,
+body.dark-mode .admit-card-a4 .ac-general-instructions-box strong,
+body.dark-mode .admit-card-a4 .ac-final-instructions ol,
+body.dark-mode .admit-card-a4 .ac-final-instructions li,
+body.dark-mode .admit-card-a4 .ac-final-instructions strong { 
+    color: black !important; 
+}
+body.dark-mode .ac-general-instructions-box h4 {
+    color: var(--primary-color) !important; 
+}
+body.dark-mode .admit-card-a4 .ac-candidate-details { 
+    border-color: var(--border-color-light); 
+}
+body.dark-mode .admit-card-a4 .ac-photo-box { 
+    border-color: var(--border-color-light); 
+}
+body.dark-mode .admit-card-a4 .ac-data-table th, 
+body.dark-mode .admit-card-a4 .ac-data-table td { 
+    border-color: var(--border-color-light); 
+}
+body.dark-mode .admit-card-a4 .ac-data-table th { 
+    background-color: var(--background-light); 
+}
+body.dark-mode .admit-card-a4 .ac-sign-placeholder { 
+    border-color: black; 
+}
+body.dark-mode .ac-watermark,
+body.dark-mode .controller-sign-img { 
+    filter: none; 
+}
+body.dark-mode .ac-watermark { 
+    opacity: 0.08; 
+}
+
+
+/* --- MODAL STYLES --- */
+.modal-overlay { 
+    display: none; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 2000; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 1rem; 
+
+    /* Initial state for transition */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.modal-overlay.modal-active {
+    opacity: 1;
+}
+
+.modal-content { 
+    background-color: var(--card-bg); 
+    padding: 2.5rem; 
+    border-radius: 25px; /* Consistent rounded corners */
+    width: 100%; 
+    max-width: 600px; 
+    position: relative; 
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3); /* Stronger shadow */
+
+    /* Initial state for transition */
+    transform: translateY(-20px) scale(0.95);
+    opacity: 0;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+.modal-overlay.modal-active .modal-content {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+
+.modal-close { 
+    position: absolute; 
+    top: 15px; 
+    right: 20px; 
+    font-size: 2.5rem; /* Larger close button */
+    font-weight: bold; 
+    color: var(--text-muted); 
+    cursor: pointer; 
+    line-height: 1; 
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+.modal-close:hover { 
+    color: var(--text-color); 
+    transform: rotate(90deg);
+}
+.modal-content h2 { 
+    margin-top: 0; 
+    color: var(--primary-color); 
+    text-align: center; 
+    margin-bottom: 1.5rem; 
+    font-size: 1.8rem; /* Larger modal title */
+}
+.modal-content p { 
+    color: var(--text-muted); 
+    margin-bottom: 1rem; 
+    font-size: 1rem; /* Slightly larger text */
+}
+.modal-results-container { 
+    margin-top: 1.5rem; 
+    border-top: 1px solid var(--border-color); 
+    padding-top: 1.5rem; 
+    max-height: 250px; 
+    overflow-y: auto; 
+}
+.modal-result-item { 
+    padding: 12px 15px; 
+    border: 1px solid var(--border-color); 
+    /* Increased border-radius */
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease; 
+}
+.modal-result-item:hover { 
+    background-color: var(--bg-color); 
+    border-color: var(--primary-color); 
+    transform: translateY(-2px); /* Subtle lift */
+}
+.modal-result-item strong { 
+    color: var(--primary-color); 
+    display: block; 
+    font-size: 1.1em; 
+}
+.modal-result-item span { 
+    font-size: 0.9em; 
+    color: var(--text-muted); 
+}
+.instruction-text { 
+    text-align: center; 
+    line-height: 1.6; 
+}
+.instruction-text .email-address { 
+    font-weight: bold; 
+    font-size: 1.1rem; 
+    background-color: var(--bg-color); 
+    padding: 12px; 
+    border-radius: 8px; /* Consistent rounded corners */
+    margin: 1rem 0; 
+}
+.instruction-text .email-address a { 
+    color: var(--primary-color); 
+    text-decoration: none; 
+}
+body.dark-mode .instruction-text .email-address a { 
+    color: #85c1e9; 
+}
+
+/* NEW: Form link button styling - consistency with primary buttons */
+.form-link-button {
+    display: inline-flex; /* Use flex for icon/text alignment if ever needed */
+    background-color: rgb(211, 233, 248);;
+    color: white;
+    padding: 12px 25px; /* More generous padding */
+    border-radius: 25px; /* Consistent rounded corners */
+    text-decoration: none;
+    margin-top: 0px; /* More spacing */
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.form-link-button:hover {
+    background-color:rgb(169, 219, 255); /* Darker shade on hover */
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+body.dark-mode .form-link-button {
+    background-color: #5dade2;
+    color: #121212;
+}
+body.dark-mode .form-link-button:hover {
+    background-color: #85c1e9;
+    color: #121212;
+}
+
+
+.modal-list-header {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-muted);
+}
+.details-to-include-box {
+    background-color: rgba(220, 53, 69, 0.05);
+    border: 1px solid rgba(220, 53, 69, 0.2);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+body.dark-mode .details-to-include-box {
+    background-color: rgba(220, 53, 69, 0.1);
+    border-color: rgba(220, 53, 69, 0.3);
+}
+.details-to-include-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.details-to-include-box ul li {
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+.details-to-include-box ul li:last-child {
+    margin-bottom: 0;
+}
+.details-to-include-box ul li::before {
+    content: '•';
+    color: var(--danger-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.details-to-include-box strong {
+    color: var(--danger-color);
+}
+.final-reminder {
+    font-weight: 600;
+    color: var(--danger-color);
+    margin-top: 1.5rem !important;
+}
+
+/* --- PRINT STYLES --- */
+@media print {
+    body { 
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        background: white !important; 
+        font-size: 100% !important; /* Ensure default font size for printing calculation */
+    }
+    @page { 
+        size: A4; 
+        margin: 0; 
+    }
+    html, body.dark-mode, body { 
+        background: white !important;
+    }
+    .page-header, .initial-view-wrapper, .actions-panel, .page-footer, .modal-overlay, .main-content-wrapper > .page-title, .instructions-box-main, .section-separator {
+        display: none !important;
+    }
+    /* Added to prevent content break on subsequent pages if content is very long */
+    .admit-card-a4 {
+        break-after: always;
+        orphans: 3;
+        widows: 3;
+    }
+    
+    .main-content-wrapper { 
+        padding: 0 !important; 
+        margin-top: 0 !important; 
+        min-height: 100vh; 
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; 
+    }
+    .preview-view-wrapper, .preview-admit-card {
+        display: block !important;
+        position: static !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        box-shadow: none !important;
+        border: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+        height: auto !important; 
+        flex: 1; 
+    }
+
+    .admit-card-a4 {
+        width: 210mm !important;
+        height: 297mm !important; 
+        padding: 20mm 15mm !important; 
+        font-size: 8.5pt !important;
+        color: black !important;
+        display: block !important;
+        margin: 0 auto !important; 
+    }
+    .admit-card-a4 * {
+        color: black !important;
+        background-color: transparent !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .ac-watermark { 
+        opacity: 0.1 !important; 
+        filter: none !important; 
+    }
+    .controller-sign-img { 
+        filter: none !important; 
+    }
+    .ac-candidate-details,
+    .ac-data-table {
+        margin-bottom: 0.75rem !important; 
+    }
+    .ac-general-instructions-box ol,
+    .ac-final-instructions ol {
+        list-style-position: outside !important; 
+        margin-left: 0.5cm !important; 
+    }
+    .ac-final-instructions ol {
+        page-break-inside: avoid;
+    }
+}
