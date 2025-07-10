@@ -3,6 +3,10 @@
 // The timestamp should be in YYYY-MM-DDTHH:MM:SS format.
 const notifications = [
     {
+        text: "The new database has been updated",
+        timestamp: "2025-07-10T20:00"
+    },
+    {
         text: "Admit card download is now live.",
         timestamp: "2025-07-10T00:00"
     }
