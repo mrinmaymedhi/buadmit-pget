@@ -8641,7 +8641,7 @@ const allCandidates = [
     },
     {
         "ROLL NUMBER":"CHE25153",
-        "NAME OF THE APPLICANT":"EALREEN RAHMAN",
+        "NAME OF THE APPLICANT":"EALLREEN RAHMAN",
         "FATHER'S NAME":"ATOWAR RAHMAN",
         "GENDER":"FEMALE",
         "HALL NO":"CR-16",
@@ -13415,6 +13415,16 @@ const allCandidates = [
         "FATHER'S NAME":"MD WAZED KHAN",
         "GENDER":"FEMALE",
         "HALL NO":"BOYS\u2019 C\u2019MON ROOM",
+        "PROGRAMME APPLIED":"M.Sc. In ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"16-07-2025",
+        "TIME OF ENTRANCE TEST":"12.30 PM - 2.00 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO25204",
+        "NAME OF THE APPLICANT":"JIMLI RABHA",
+        "FATHER'S NAME":"HARI CHANDRA RABHA",
+        "GENDER":"FEMALE",
+        "HALL NO":"LIB. READING ROOM",
         "PROGRAMME APPLIED":"M.Sc. In ZOOLOGY",
         "DATE OF ENTRANCE TEST":"16-07-2025",
         "TIME OF ENTRANCE TEST":"12.30 PM - 2.00 PM"
