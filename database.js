@@ -8640,6 +8640,16 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"12.30 PM - 2.00 PM"
     },
     {
+        "ROLL NUMBER":"CHE25153",
+        "NAME OF THE APPLICANT":"EALREEN RAHMAN",
+        "FATHER'S NAME":"ATOWAR RAHMAN",
+        "GENDER":"FEMALE",
+        "HALL NO":"CR-16",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"16-07-2025",
+        "TIME OF ENTRANCE TEST":"12.30 PM - 2.00 PM"
+    },
+    {
         "ROLL NUMBER":"GGY25001",
         "NAME OF THE APPLICANT":"AKBAR BADSHA",
         "FATHER'S NAME":"JAYNAL HOQUE ",
