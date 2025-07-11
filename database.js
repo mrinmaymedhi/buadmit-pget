@@ -5060,6 +5060,16 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"9.30 AM -11.00 AM"
     },
     {
+        "ROLL NUMBER":"ENG25214",
+        "NAME OF THE APPLICANT":"JUBILEE BORO",
+        "FATHER'S NAME":"DWIPENDRA BORO",
+        "GENDER":"FEMALE",
+        "HALL NO":"HALL",
+        "PROGRAMME APPLIED":"M.A. In ENGLISH",
+        "DATE OF ENTRANCE TEST":"16-07-2025",
+        "TIME OF ENTRANCE TEST":"9.30 AM -11.00 AM"
+    },
+    {
         "ROLL NUMBER":"MAT25001",
         "NAME OF THE APPLICANT":"ABDUL MAJID OWASIM FARDINAND",
         "FATHER'S NAME":"ABDUL KARIM",
@@ -13423,6 +13433,16 @@ const allCandidates = [
         "ROLL NUMBER":"ZOO25204",
         "NAME OF THE APPLICANT":"JIMLI RABHA",
         "FATHER'S NAME":"HARI CHANDRA RABHA",
+        "GENDER":"FEMALE",
+        "HALL NO":"LIB. READING ROOM",
+        "PROGRAMME APPLIED":"M.Sc. In ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"16-07-2025",
+        "TIME OF ENTRANCE TEST":"12.30 PM - 2.00 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO25205",
+        "NAME OF THE APPLICANT":"ANKITA TALUKDAR",
+        "FATHER'S NAME":"DWIP TALUKDAR",
         "GENDER":"FEMALE",
         "HALL NO":"LIB. READING ROOM",
         "PROGRAMME APPLIED":"M.Sc. In ZOOLOGY",
