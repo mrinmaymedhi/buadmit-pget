@@ -1380,6 +1380,16 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"9.30 AM -11.00 AM"
     },
     {
+        "ROLL NUMBER":"ASM25141",
+        "NAME OF THE APPLICANT":"DEBASISH KOCH ",
+        "FATHER'S NAME":"DHANANJAY KOCH ",
+        "GENDER":"MALE",
+        "HALL NO":"CR-2",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"16-07-2025",
+        "TIME OF ENTRANCE TEST":"9.30 AM -11.00 AM"
+    },
+    {
         "ROLL NUMBER":"BOT25001",
         "NAME OF THE APPLICANT":"ABDUL SALAM ",
         "FATHER'S NAME":"RAHIMUDDIN ",
@@ -2924,6 +2934,16 @@ const allCandidates = [
         "NAME OF THE APPLICANT":"BAISHALI SARKAR",
         "FATHER'S NAME":"RATAN SARKAR",
         "GENDER":"FEMALE",
+        "HALL NO":"PSC (LIB BUILDING)",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"16-07-2025",
+        "TIME OF ENTRANCE TEST":"9.30 AM -11.00 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT25156",
+        "NAME OF THE APPLICANT":"PROJJAL SAHA",
+        "FATHER'S NAME":"PRAKASH CHANDRA SAHA ",
+        "GENDER":"MALE",
         "HALL NO":"PSC (LIB BUILDING)",
         "PROGRAMME APPLIED":"M.Sc. In BOTANY",
         "DATE OF ENTRANCE TEST":"16-07-2025",
@@ -17085,6 +17105,16 @@ const allCandidates = [
         "FATHER'S NAME":"PARESH DAS",
         "GENDER":"FEMALE",
         "HALL NO":"CR-1",
+        "PROGRAMME APPLIED":"M.A. In ECONOMICS",
+        "DATE OF ENTRANCE TEST":"16-07-2025",
+        "TIME OF ENTRANCE TEST":"3.00 PM \u2013 4.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ECO25119",
+        "NAME OF THE APPLICANT":"DIKSHITA DAS",
+        "FATHER'S NAME":"DAVID DAS",
+        "GENDER":"FEMALE",
+        "HALL NO":"HALL",
         "PROGRAMME APPLIED":"M.A. In ECONOMICS",
         "DATE OF ENTRANCE TEST":"16-07-2025",
         "TIME OF ENTRANCE TEST":"3.00 PM \u2013 4.30 PM"
