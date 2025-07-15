@@ -18348,5 +18348,15 @@ const allCandidates = [
         "PROGRAMME APPLIED":"M. COM.",
         "DATE OF ENTRANCE TEST":"16-07-2025",
         "TIME OF ENTRANCE TEST":"3.00 PM \u2013 4.30 PM"
+    },
+    {
+        "ROLL NUMBER":"COM25105",
+        "NAME OF THE APPLICANT":"ELIMA KHATUN",
+        "FATHER'S NAME":"AYNAL HOQUE",
+        "GENDER":"FEMALE",
+        "HALL NO":"HALL",
+        "PROGRAMME APPLIED":"M. COM.",
+        "DATE OF ENTRANCE TEST":"16-07-2025",
+        "TIME OF ENTRANCE TEST":"3.00 PM \u2013 4.30 PM"
     }
 ];
