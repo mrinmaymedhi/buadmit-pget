@@ -4,7 +4,7 @@
 const notifications = [
     {
         text: "The new database has been updated.",
-        timestamp: "2025-07-14T21:00"
+        timestamp: "2025-07-15T16:00"
     },
     {
         text: "Admit card download is now live.",
