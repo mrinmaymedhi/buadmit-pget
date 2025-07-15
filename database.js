@@ -11440,6 +11440,16 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"12.30 PM - 2.00 PM"
     },
     {
+        "ROLL NUMBER":"PHI25059",
+        "NAME OF THE APPLICANT":"PRIYANKA DUTTA",
+        "FATHER'S NAME":"GURU CHARAN DUTTA",
+        "GENDER":"FEMALE",
+        "HALL NO":"LIB. READING ROOM",
+        "PROGRAMME APPLIED":"M.A. In PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"16-07-2025",
+        "TIME OF ENTRANCE TEST":"12.30 PM - 2.00 PM"
+    },
+    {
         "ROLL NUMBER":"ZOO25001",
         "NAME OF THE APPLICANT":"AFRIN FARJANA AHMED",
         "FATHER'S NAME":"ABDUL KADER AHMED",
@@ -17113,6 +17123,16 @@ const allCandidates = [
         "ROLL NUMBER":"ECO25119",
         "NAME OF THE APPLICANT":"DIKSHITA DAS",
         "FATHER'S NAME":"DAVID DAS",
+        "GENDER":"FEMALE",
+        "HALL NO":"HALL",
+        "PROGRAMME APPLIED":"M.A. In ECONOMICS",
+        "DATE OF ENTRANCE TEST":"16-07-2025",
+        "TIME OF ENTRANCE TEST":"3.00 PM \u2013 4.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ECO25120",
+        "NAME OF THE APPLICANT":"LILY PRIYA BORO",
+        "FATHER'S NAME":"KHAGEN CHANDRA BORO",
         "GENDER":"FEMALE",
         "HALL NO":"HALL",
         "PROGRAMME APPLIED":"M.A. In ECONOMICS",
