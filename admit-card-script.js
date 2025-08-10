@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h1>BHATTADEV UNIVERSITY</h1>
                             <p>Pathsala, Bajali, 781325, Assam</p>
                             <h2>ADMIT CARD</h2>
-                            <h3>Ph.D. Entrance Test (PET) - 2025</h3>
+                            <h3>Bhattadev University Ph.D. Entrance Test (BUPET) - 2025</h3>
                         </div>
                     </header>
                     <section class="ac-general-instructions-box">
