@@ -285,16 +285,17 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h1>BHATTADEV UNIVERSITY</h1>
                             <p>Pathsala, Bajali, 781325, Assam</p>
                             <h2>ADMIT CARD</h2>
-                            <h3>Post Graduate Entrance Test (PGET) - 2025</h3>
+                            <h3>Ph.D. Entrance Test (PET) - 2025</h3>
                         </div>
                     </header>
                     <section class="ac-general-instructions-box">
                         <h4><u>General Instructions:</u></h4>
                         <ol>
                             <li>You are asked to bring one valid <strong>Photo ID Proof</strong> (e.g., Aadhaar Card, PAN Card, Driving License, Voter ID, or Passport) on the day of the entrance test.</li>
-                            <li>You must bring the successful <strong>payment receipt of Rs. 600/-</strong> to examination committee member on the day of the entrance test.</li>
+                            <li>You must bring the successful <strong>payment receipt </strong> to examination on the day of the entrance test.</li>
                             <li>Candidates must bring their own <strong class="text-blue">blue</strong>/<strong class="text-black">black</strong> inked pen. No borrowing of stationery will be allowed during the exam.</li>
                         </ol>
+                        _______________________________________________
                     </section>
                     <hr class="admit-card-separator">
                     <section class="ac-candidate-details">
@@ -304,7 +305,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="ac-detail-label">Father's Name</div><div class="ac-detail-value">${data["FATHER'S NAME"] || 'N/A'}</div>
                             <div class="ac-detail-label">Gender</div><div class="ac-detail-value">${data['GENDER'] || 'N/A'}</div>
                             <div class="ac-detail-label">Examination Centre</div><div class="ac-detail-value">BHATTADEV UNIVERSITY</div>
-                            <div class="ac-detail-label">Exam Hall No.</div><div class="ac-detail-value">${data['HALL NO'] || 'N/A'}</div>
+                            <div class="ac-detail-label"> </div><div class="ac-detail-value">${data['HALL NO'] || ' '}</div>
                         </div>
                         <div class="ac-details-right"><div class="ac-photo-box">Paste a recent passport size photograph here. (Do not staple)</div></div>
                     </section>
@@ -323,7 +324,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h2 class="instruction-heading"><u>INSTRUCTIONS TO THE CANDIDATES</u></h2>
                         <ol class="ac-detailed-list">
                             <li>The Candidates will be permitted to occupy their allotted seats 20 minutes before the scheduled commencement of the examination.</li>
-                            <li>The Candidates must carry the Admit Card in original to the examination hall on each day of examinations.</li>
+                            <li>The Candidates must carry the Admit Card in original to the examination hall on the day of examinations.</li>
                             <li>A Candidate must not write his/her name, institution name, phone no. or put any identifying mark anywhere in the Answer Script.</li>
                             <li>Candidates are forbidden to carry into the Examination Hall any book, note paper, writing, scribbling or other materials except Admit Cards.</li>
                             <li class="highlight-red">Use of electronic gadgets / Mobile phone is not allowed inside the Examination Hall.</li>
