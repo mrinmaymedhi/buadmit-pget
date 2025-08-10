@@ -4,6 +4,7 @@
 const notifications = [
     {
         text: "Admit card download is now live.",
-        timestamp: "2025-07-10T00:00"
+        timestamp: "2025-08-16T00:00"
     }
+
 ];
