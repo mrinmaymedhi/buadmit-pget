@@ -331,16 +331,6 @@ const allCandidates = [
     },
     {
         "ROLL NUMBER":"PhDASM25034",
-        "NAME OF THE APPLICANT":"PARINITA LALITA ",
-        "FATHER'S NAME":"BASANTA KUMAR KALITA ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25035",
         "NAME OF THE APPLICANT":"PHULASREE BAROOWA",
         "FATHER'S NAME":"PRAFULLA KUMAR BAROOWA",
         "GENDER":"Female",
@@ -350,7 +340,7 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     },
     {
-        "ROLL NUMBER":"PhDASM25036",
+        "ROLL NUMBER":"PhDASM25035",
         "NAME OF THE APPLICANT":"PINKI KONWAR",
         "FATHER'S NAME":"TULAN KONWAR",
         "GENDER":"Female",
@@ -360,7 +350,7 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     },
     {
-        "ROLL NUMBER":"PhDASM25037",
+        "ROLL NUMBER":"PhDASM25036",
         "NAME OF THE APPLICANT":"PRADIP KUMAR DEKA",
         "FATHER'S NAME":"LABANYA KUMAR DEKA",
         "GENDER":"Male",
@@ -370,7 +360,7 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     },
     {
-        "ROLL NUMBER":"PhDASM25038",
+        "ROLL NUMBER":"PhDASM25037",
         "NAME OF THE APPLICANT":"PRANJIT SARMA",
         "FATHER'S NAME":"SACHIN SARMA",
         "GENDER":"Male",
@@ -380,7 +370,7 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     },
     {
-        "ROLL NUMBER":"PhDASM25039",
+        "ROLL NUMBER":"PhDASM25038",
         "NAME OF THE APPLICANT":"SARZINARA AHMED",
         "FATHER'S NAME":"NURMAHAMMAD ALI",
         "GENDER":"Female",
@@ -390,7 +380,7 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     },
     {
-        "ROLL NUMBER":"PhDASM25040",
+        "ROLL NUMBER":"PhDASM25039",
         "NAME OF THE APPLICANT":"SATABDI SARMA",
         "FATHER'S NAME":"LATE ATUL SARMA",
         "GENDER":"Female",
@@ -400,7 +390,7 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     },
     {
-        "ROLL NUMBER":"PhDASM25041",
+        "ROLL NUMBER":"PhDASM25040",
         "NAME OF THE APPLICANT":"SEMIM JUBINA YASHMIN",
         "FATHER'S NAME":"MOSTAFA HUSSAIN",
         "GENDER":"Female",
@@ -410,7 +400,7 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     },
     {
-        "ROLL NUMBER":"PhDASM25042",
+        "ROLL NUMBER":"PhDASM25041",
         "NAME OF THE APPLICANT":"SHIKHARANI BORA ",
         "FATHER'S NAME":"BIREN BORA ",
         "GENDER":"Female",
@@ -420,7 +410,7 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     },
     {
-        "ROLL NUMBER":"PhDASM25043",
+        "ROLL NUMBER":"PhDASM25042",
         "NAME OF THE APPLICANT":"SHORIF AHMED SHAH",
         "FATHER'S NAME":"YAKUB HUSSAIN SHAH",
         "GENDER":"Male",
@@ -430,7 +420,7 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     },
     {
-        "ROLL NUMBER":"PhDASM25044",
+        "ROLL NUMBER":"PhDASM25043",
         "NAME OF THE APPLICANT":"SMITA RABHA",
         "FATHER'S NAME":"LACHIT RABHA",
         "GENDER":"Female",
@@ -440,7 +430,7 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     },
     {
-        "ROLL NUMBER":"PhDASM25045",
+        "ROLL NUMBER":"PhDASM25044",
         "NAME OF THE APPLICANT":"SUPAM PAUL",
         "FATHER'S NAME":"SURJYA KANTA PAUL",
         "GENDER":"Male",
@@ -450,7 +440,7 @@ const allCandidates = [
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     },
     {
-        "ROLL NUMBER":"PhDASM25046",
+        "ROLL NUMBER":"PhDASM25045",
         "NAME OF THE APPLICANT":"TANMOY KALITA",
         "FATHER'S NAME":"RAMCHANDRA KALITA",
         "GENDER":"Male",
