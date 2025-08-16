@@ -2772,7 +2772,7 @@ const allCandidates = [
     {
         "ROLL NUMBER":"PhDSTA25008",
         "NAME OF THE APPLICANT":"SHAINEE SAHA",
-        "FATHER'S NAME":"UTPAL BARUAH",
+        "FATHER'S NAME":"ARUP KUMAR SAHA",
         "GENDER":"Female",
         "HALL NO":null,
         "PROGRAMME APPLIED":"Ph.D. in STATISTICS",
@@ -3069,4 +3069,5 @@ const allCandidates = [
         "DATE OF ENTRANCE TEST":"20-08-2025",
         "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
     }
+
 ];
