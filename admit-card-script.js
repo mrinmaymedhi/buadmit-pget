@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const li = document.createElement('li');
             li.classList.add('notification-item'); // Add a class to the li for flexible styling if needed
 
-            // Create Date object from timestamp (e.g., "2025-07-05T21:12:00Z")
+            // Create Date object from timestamp (e.g., "2026-07-05T21:12:00Z")
             const noteTimestampAsDate = new Date(note.timestamp);
 
             // Format date as DD-MM-YYYY
@@ -224,13 +224,13 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             searchResultDiv.textContent = 'Could not find a unique record. Please refine your search or try the advanced search.';
             // Log this specific scenario for debugging/support
-            const queries = JSON.parse(localStorage.getItem('pget2025_queries') || '[]');
+            const queries = JSON.parse(localStorage.getItem('pget2026_queries') || '[]');
             queries.push({
                 type: 'Confirmation Mismatch',
                 details: `User selected name "${name}" but additional criteria (Father: ${father}, Gender: ${gender}, Programme: ${subject}) did not yield a unique match.`,
                 timestamp: new Date().toISOString()
             });
-            localStorage.setItem('pget2025_queries', JSON.stringify(queries));
+            localStorage.setItem('pget2026_queries', JSON.stringify(queries));
         }
     }
 
@@ -259,14 +259,14 @@ document.addEventListener('DOMContentLoaded', () => {
             mainWrapper.classList.add('layout-preview-active');
             document.getElementById('print-admit-card-btn').addEventListener('click', () => {
                 if (currentCandidate) {
-                    const printLogs = JSON.parse(localStorage.getItem('pget2025_print_logs') || '[]');
+                    const printLogs = JSON.parse(localStorage.getItem('pget2026_print_logs') || '[]');
                     printLogs.push({
                         timestamp: new Date().toISOString(),
                         rollNumber: currentCandidate['ROLL NUMBER'],
                         name: currentCandidate['NAME OF THE APPLICANT'],
                         programme: currentCandidate['PROGRAMME APPLIED'],
                     });
-                    localStorage.setItem('pget2025_print_logs', JSON.stringify(printLogs));
+                    localStorage.setItem('pget2026_print_logs', JSON.stringify(printLogs));
                 }
                 window.print();
             });
@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h1>BHATTADEV UNIVERSITY</h1>
                             <p>Pathsala, Bajali, 781325, Assam</p>
                             <h2>ADMIT CARD</h2>
-                            <h3>Bhattadev University Ph.D. Entrance Test (BUPET) - 2025</h3>
+                            <h3>Post Graduate Entrance Test (PGET) - 2026</h3>
                         </div>
                     </header>
                     <section class="ac-general-instructions-box">
@@ -511,13 +511,13 @@ document.addEventListener('DOMContentLoaded', () => {
         findRecordModal.querySelector('#modal-name-input').addEventListener('input', searchInModal);
         findRecordModal.querySelector('#modal-not-found-btn').addEventListener('click', () => {
             // Log the 'not found' query before closing modal
-            const queries = JSON.parse(localStorage.getItem('pget2025_queries') || '[]');
+            const queries = JSON.parse(localStorage.getItem('pget2026_queries') || '[]');
             queries.push({
                 type: 'Advanced Search Not Found',
                 details: `User clicked 'My name is not in this list' after searching for Programme: ${findRecordModal.querySelector('#modal-programme-select').value || 'N/A'}, Name Query: ${findRecordModal.querySelector('#modal-name-input').value || 'N/A'}.`,
                 timestamp: new Date().toISOString()
             });
-            localStorage.setItem('pget2025_queries', JSON.stringify(queries));
+            localStorage.setItem('pget2026_queries', JSON.stringify(queries));
 
             closeModal(findRecordModal);
             if (instructionModal) openModal(instructionModal);
@@ -544,4 +544,5 @@ document.addEventListener('DOMContentLoaded', () => {
             closeModal(instructionModal);
         }
     });
+
 });
