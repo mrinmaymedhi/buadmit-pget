@@ -1,3082 +1,7427 @@
 const allCandidates = [
     {
-        "ROLL NUMBER":"PhDASM25001",
-        "NAME OF THE APPLICANT":"ANAMIKA GOSWAMI",
-        "FATHER'S NAME":"LT. ANNADA CHARAN GOSWAMI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25002",
-        "NAME OF THE APPLICANT":"ANKITA KUMARI ",
-        "FATHER'S NAME":"SATYABAN KUMAR ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25003",
-        "NAME OF THE APPLICANT":"BANDITA GOGOI",
-        "FATHER'S NAME":"PRONOY KUMAR GOGOI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25004",
-        "NAME OF THE APPLICANT":"BEAUTY DAS",
-        "FATHER'S NAME":"KUMUD CHANDRA DAS",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25005",
-        "NAME OF THE APPLICANT":"BHABITA RAJBONGSHI",
-        "FATHER'S NAME":"CHANDI RAJBONGSHI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25006",
-        "NAME OF THE APPLICANT":"BIJAYLAKSHMI SAHARIAH",
-        "FATHER'S NAME":"DILIP KUMAR SAHARIAH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25007",
-        "NAME OF THE APPLICANT":"BIJIT KHATANIAR",
-        "FATHER'S NAME":"KARMESWAR KHATANIAR",
+        "ROLL NUMBER":"ASM26001",
+        "NAME OF THE APPLICANT":"ABDUL JALIL",
+        "FATHER'S NAME":"OMAR ALI",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25008",
-        "NAME OF THE APPLICANT":"BIRAJA RABHA",
-        "FATHER'S NAME":"CHAYA RAM RABHA",
+        "ROLL NUMBER":"ASM26002",
+        "NAME OF THE APPLICANT":"ANGKITA DAS",
+        "FATHER'S NAME":"AMIYA KUMAR DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25009",
-        "NAME OF THE APPLICANT":"CHINTAMANI DAS",
-        "FATHER'S NAME":"NANDESWAR DAS",
+        "ROLL NUMBER":"ASM26003",
+        "NAME OF THE APPLICANT":"ANJALI DEKA",
+        "FATHER'S NAME":"KIRAN DEKA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25010",
-        "NAME OF THE APPLICANT":"DIPJIT DAS",
-        "FATHER'S NAME":"SUDDHIRAM DAS",
+        "ROLL NUMBER":"ASM26004",
+        "NAME OF THE APPLICANT":"ANJUMANI",
+        "FATHER'S NAME":"MAFIJ UDDIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26005",
+        "NAME OF THE APPLICANT":"BARNISHA DAS",
+        "FATHER'S NAME":"CHABIN DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26006",
+        "NAME OF THE APPLICANT":"BHASWATI DAS",
+        "FATHER'S NAME":"BANI KANTA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26007",
+        "NAME OF THE APPLICANT":"BHASWATI SHIL",
+        "FATHER'S NAME":"SUNIL SHIL",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26008",
+        "NAME OF THE APPLICANT":"BHAYOLINA CHOUDHURY",
+        "FATHER'S NAME":"TARUN CH CHOUDHURY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26009",
+        "NAME OF THE APPLICANT":"BHUMONI DAS",
+        "FATHER'S NAME":"RAJU DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26010",
+        "NAME OF THE APPLICANT":"CHIRANJIT HAZARIKA ",
+        "FATHER'S NAME":"SUJIT HAZARIKA ",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25011",
-        "NAME OF THE APPLICANT":"DIPU GOGOI",
-        "FATHER'S NAME":"ATUL GOGOI",
+        "ROLL NUMBER":"ASM26011",
+        "NAME OF THE APPLICANT":"DHANMONI DAS",
+        "FATHER'S NAME":"DIPAK DAS",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25012",
-        "NAME OF THE APPLICANT":"GAYATREE BARUAH",
-        "FATHER'S NAME":"LATE BIPUL BARUAH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25013",
-        "NAME OF THE APPLICANT":"GEETA BALA DEVI",
-        "FATHER'S NAME":"DEBESWAR NATH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25014",
-        "NAME OF THE APPLICANT":"HEMASHREE PAWE ",
-        "FATHER'S NAME":"LALIT PAWE ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25015",
-        "NAME OF THE APPLICANT":"HIMASHRI DAS",
-        "FATHER'S NAME":"HARIHAR DAS",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25016",
-        "NAME OF THE APPLICANT":"JAYASHREE DUTTA",
-        "FATHER'S NAME":"HIRENDRA BALLAV DUTTA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25017",
-        "NAME OF THE APPLICANT":"JIMI KALITA",
-        "FATHER'S NAME":"RABEN KALITA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25018",
-        "NAME OF THE APPLICANT":"JURI BARMAN",
-        "FATHER'S NAME":"KANDARPA BARMAN",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25019",
-        "NAME OF THE APPLICANT":"JYOTILATA  SHARMA",
-        "FATHER'S NAME":"BIJOY SHARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25020",
-        "NAME OF THE APPLICANT":"KAKU DAS",
-        "FATHER'S NAME":"RAMCHARAN DAS",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25021",
-        "NAME OF THE APPLICANT":"KARABI DEVI",
-        "FATHER'S NAME":"KRISHNA KANTA SHARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25022",
-        "NAME OF THE APPLICANT":"KIRON MONI KRO",
-        "FATHER'S NAME":"DUTTA RAM KRO",
+        "ROLL NUMBER":"ASM26012",
+        "NAME OF THE APPLICANT":"DIMPAL DAS",
+        "FATHER'S NAME":"MANIRAM DAS",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25023",
-        "NAME OF THE APPLICANT":"MANMAYURI SAHARIA",
-        "FATHER'S NAME":"DHANESWAR SAHARIA",
+        "ROLL NUMBER":"ASM26013",
+        "NAME OF THE APPLICANT":"DIYA RANI BARO",
+        "FATHER'S NAME":"GANGADHAR BARO",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25024",
-        "NAME OF THE APPLICANT":"MEGHALEE MORANG ",
-        "FATHER'S NAME":"JIBESWAR MORANG",
+        "ROLL NUMBER":"ASM26014",
+        "NAME OF THE APPLICANT":"GITISHMITA DAS",
+        "FATHER'S NAME":"SUSHIL DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25025",
-        "NAME OF THE APPLICANT":"MEGHALI TALUKDAR",
-        "FATHER'S NAME":"RAMENDRA KR. TALUKDAR",
+        "ROLL NUMBER":"ASM26015",
+        "NAME OF THE APPLICANT":"HIYAMONI NATH",
+        "FATHER'S NAME":"NARENDRA NATH",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25026",
-        "NAME OF THE APPLICANT":"MINTU DEKA",
-        "FATHER'S NAME":"LATE SIKUN DEKA",
+        "ROLL NUMBER":"ASM26016",
+        "NAME OF THE APPLICANT":"HIYASRI SHIVAM",
+        "FATHER'S NAME":"JATINDRA NATH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26017",
+        "NAME OF THE APPLICANT":"JISHA DAS",
+        "FATHER'S NAME":"SANJAY KUMAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26018",
+        "NAME OF THE APPLICANT":"JUMI DEVI",
+        "FATHER'S NAME":"BANAMALI NATH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26019",
+        "NAME OF THE APPLICANT":"KAKALI DEVI",
+        "FATHER'S NAME":"AJAY SARMA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26020",
+        "NAME OF THE APPLICANT":"KARISHMA DAS",
+        "FATHER'S NAME":"GANAPATI DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26021",
+        "NAME OF THE APPLICANT":"KRISHNA MONI DAS",
+        "FATHER'S NAME":"HEMEN DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26022",
+        "NAME OF THE APPLICANT":"MADHUSMITA BHUYAN",
+        "FATHER'S NAME":"PABITRA KUMAR BHUYAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ASM26023",
+        "NAME OF THE APPLICANT":"MANASH UPAMANYU",
+        "FATHER'S NAME":"SAILENDRA NATH SARMA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25027",
-        "NAME OF THE APPLICANT":"MONMAYURI KALITA",
-        "FATHER'S NAME":"SUSHIL TALUKDAR",
+        "ROLL NUMBER":"ASM26024",
+        "NAME OF THE APPLICANT":"MANMITA DAS",
+        "FATHER'S NAME":"KRISHNA MOHAN DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25028",
-        "NAME OF THE APPLICANT":"MONOWER HUSSAIN LOSKER",
-        "FATHER'S NAME":"ESHARAT ALI KHAN",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25029",
-        "NAME OF THE APPLICANT":"NABAJITA HALOI",
-        "FATHER'S NAME":"SATISH HALOI",
+        "ROLL NUMBER":"ASM26025",
+        "NAME OF THE APPLICANT":"MOUSUMI CHOUDHURY",
+        "FATHER'S NAME":"KAMAL CHOUDHURY",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25030",
-        "NAME OF THE APPLICANT":"NABANITA SARMA ",
-        "FATHER'S NAME":"UDAY SARMA",
+        "ROLL NUMBER":"ASM26026",
+        "NAME OF THE APPLICANT":"NARGIS SULTANA PARBIN",
+        "FATHER'S NAME":"ABDUL JALIL",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25031",
-        "NAME OF THE APPLICANT":"NITU HALOI ",
-        "FATHER'S NAME":"RAMANI HALOI ",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25032",
-        "NAME OF THE APPLICANT":"PARAG DAS",
-        "FATHER'S NAME":"LT DHANANJAY DAS",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25033",
-        "NAME OF THE APPLICANT":"PARINITA KALITA",
-        "FATHER'S NAME":"BASANTA KUMAR KALITA",
+        "ROLL NUMBER":"ASM26027",
+        "NAME OF THE APPLICANT":"NIBEDITA DAS",
+        "FATHER'S NAME":"LOHIT DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25034",
-        "NAME OF THE APPLICANT":"PHULASREE BAROOWA",
-        "FATHER'S NAME":"PRAFULLA KUMAR BAROOWA",
+        "ROLL NUMBER":"ASM26028",
+        "NAME OF THE APPLICANT":"NIHALI BARMAN",
+        "FATHER'S NAME":"NARENDRA BARMAN",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25035",
-        "NAME OF THE APPLICANT":"PINKI KONWAR",
-        "FATHER'S NAME":"TULAN KONWAR",
+        "ROLL NUMBER":"ASM26029",
+        "NAME OF THE APPLICANT":"NIKITA KALITA ",
+        "FATHER'S NAME":"RANJIT KALITA ",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25036",
-        "NAME OF THE APPLICANT":"PRADIP KUMAR DEKA",
-        "FATHER'S NAME":"LABANYA KUMAR DEKA",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25037",
-        "NAME OF THE APPLICANT":"PRANJIT SARMA",
-        "FATHER'S NAME":"SACHIN SARMA",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25038",
-        "NAME OF THE APPLICANT":"SARZINARA AHMED",
-        "FATHER'S NAME":"NURMAHAMMAD ALI",
+        "ROLL NUMBER":"ASM26030",
+        "NAME OF THE APPLICANT":"NISHAMONI DAS",
+        "FATHER'S NAME":"JITEN DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25039",
-        "NAME OF THE APPLICANT":"SATABDI SARMA",
-        "FATHER'S NAME":"LATE ATUL SARMA",
+        "ROLL NUMBER":"ASM26031",
+        "NAME OF THE APPLICANT":"PARISHMITA DAS",
+        "FATHER'S NAME":"MANOJ KUMAR DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25040",
-        "NAME OF THE APPLICANT":"SEMIM JUBINA YASHMIN",
-        "FATHER'S NAME":"MOSTAFA HUSSAIN",
+        "ROLL NUMBER":"ASM26032",
+        "NAME OF THE APPLICANT":"POPI ROY",
+        "FATHER'S NAME":"CHABIRANJAN ROY",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25041",
-        "NAME OF THE APPLICANT":"SHIKHARANI BORA ",
-        "FATHER'S NAME":"BIREN BORA ",
+        "ROLL NUMBER":"ASM26033",
+        "NAME OF THE APPLICANT":"PRITISMITA DAS",
+        "FATHER'S NAME":"LATE HEMAN KUMAR DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25042",
-        "NAME OF THE APPLICANT":"SHORIF AHMED SHAH",
-        "FATHER'S NAME":"YAKUB HUSSAIN SHAH",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25043",
-        "NAME OF THE APPLICANT":"SMITA RABHA",
-        "FATHER'S NAME":"LACHIT RABHA",
+        "ROLL NUMBER":"ASM26034",
+        "NAME OF THE APPLICANT":"PUNAM BASFOR",
+        "FATHER'S NAME":"LT SANKAR BASFOR",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDASM25044",
-        "NAME OF THE APPLICANT":"SUPAM PAUL",
-        "FATHER'S NAME":"SURJYA KANTA PAUL",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDASM25045",
-        "NAME OF THE APPLICANT":"TANMOY KALITA",
-        "FATHER'S NAME":"RAMCHANDRA KALITA",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ASSAMESE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25001",
-        "NAME OF THE APPLICANT":"AJOY DAS",
-        "FATHER'S NAME":"HARE KRISHNA DAS",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25002",
-        "NAME OF THE APPLICANT":"APARNA BARMAN",
-        "FATHER'S NAME":"PRANJIT BARMAN",
+        "ROLL NUMBER":"ASM26035",
+        "NAME OF THE APPLICANT":"RASHMIREKHA DAS",
+        "FATHER'S NAME":"HEMKANTA DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDBOT25003",
-        "NAME OF THE APPLICANT":"ARUNDHATI SARMA",
-        "FATHER'S NAME":"DIPAK KUMAR SARMA",
+        "ROLL NUMBER":"ASM26036",
+        "NAME OF THE APPLICANT":"RASMI REKHA DAS ",
+        "FATHER'S NAME":"DHANANJAY DAS ",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDBOT25004",
-        "NAME OF THE APPLICANT":"BEAUTY DEKA",
-        "FATHER'S NAME":"RAJANI DEKA",
+        "ROLL NUMBER":"ASM26037",
+        "NAME OF THE APPLICANT":"REEMA DAS",
+        "FATHER'S NAME":"TIKENDRA NATH DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDBOT25005",
-        "NAME OF THE APPLICANT":"BENJIN SULTANA ",
-        "FATHER'S NAME":"NASER ALI",
+        "ROLL NUMBER":"ASM26038",
+        "NAME OF THE APPLICANT":"RITUSMITA DAS",
+        "FATHER'S NAME":"BIPLABA DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDBOT25006",
-        "NAME OF THE APPLICANT":"DAVID DAIMARY",
-        "FATHER'S NAME":"TARUN CHANDRA DAIMARY",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25007",
-        "NAME OF THE APPLICANT":"DEBASISH B KRISHNATREYA",
-        "FATHER'S NAME":"KALYAN BHATTACHARJEE",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25008",
-        "NAME OF THE APPLICANT":"DHRITASHRI DAS",
-        "FATHER'S NAME":"RAMESH CHANDRA DAS",
+        "ROLL NUMBER":"ASM26039",
+        "NAME OF THE APPLICANT":"ROSHMI RAY",
+        "FATHER'S NAME":"MADHAB RAY",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDBOT25009",
-        "NAME OF THE APPLICANT":"DISHA KAKATI",
-        "FATHER'S NAME":"MUKUL KUMAR KAKATI",
+        "ROLL NUMBER":"ASM26040",
+        "NAME OF THE APPLICANT":"RUKIA KHATUN",
+        "FATHER'S NAME":"NAWAB ALI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDBOT25010",
-        "NAME OF THE APPLICANT":"GUNJAN KASHYAP ",
-        "FATHER'S NAME":"PABAN KALITA ",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25011",
-        "NAME OF THE APPLICANT":"HIMASHRI DEKA",
-        "FATHER'S NAME":"GANESH DEKA",
+        "ROLL NUMBER":"ASM26041",
+        "NAME OF THE APPLICANT":"RUNUMI RAY ",
+        "FATHER'S NAME":"PABITRA RAY",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDBOT25012",
-        "NAME OF THE APPLICANT":"HIYA DUTTA",
-        "FATHER'S NAME":"MUNINDRA DYTTA",
+        "ROLL NUMBER":"ASM26042",
+        "NAME OF THE APPLICANT":"SADIYA SULTANA",
+        "FATHER'S NAME":"NUR ISLAM",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDBOT25013",
-        "NAME OF THE APPLICANT":"KALYANI DAS",
-        "FATHER'S NAME":"HEMANTA KUMAR DAS",
+        "ROLL NUMBER":"ASM26043",
+        "NAME OF THE APPLICANT":"SAGARIKA KALITA",
+        "FATHER'S NAME":"SIBENDRA KALITA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDBOT25014",
-        "NAME OF THE APPLICANT":"KHANDAKAR SHOAIB ",
-        "FATHER'S NAME":"KHANDAKAR RASHIDUN NABI",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25015",
-        "NAME OF THE APPLICANT":"LIPIPRAGYA DEVI ",
-        "FATHER'S NAME":"CHIDANANDA NATH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25016",
-        "NAME OF THE APPLICANT":"MANASH PRATIM BARUAH",
-        "FATHER'S NAME":"RAJENDRA BARUAH",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25017",
-        "NAME OF THE APPLICANT":"MANOJ GOYARI",
-        "FATHER'S NAME":"PRAFULLA GOYARI",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25018",
-        "NAME OF THE APPLICANT":"MONJIT DAS",
-        "FATHER'S NAME":"KAILASH DAS",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25019",
-        "NAME OF THE APPLICANT":"MORJINA PARVEEN",
-        "FATHER'S NAME":"JAHAN ALI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25020",
-        "NAME OF THE APPLICANT":"MRIGANKA SHEKHAR BARUAH",
-        "FATHER'S NAME":"PRADYUT BARUAH",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25021",
-        "NAME OF THE APPLICANT":"PRANAMI OZAH",
-        "FATHER'S NAME":"TULSHI NATH OZAH ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25022",
-        "NAME OF THE APPLICANT":"PRANITA MONDAL",
-        "FATHER'S NAME":"PRADIP MONDAL",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25023",
-        "NAME OF THE APPLICANT":"PRASTUTI KALITA",
-        "FATHER'S NAME":"BHUBAN CHANDRA KALITA ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25024",
-        "NAME OF THE APPLICANT":"PREETY PRIYAM SAIKIA ",
-        "FATHER'S NAME":"PULIN SAIKIA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25025",
-        "NAME OF THE APPLICANT":"PRIYANKA SARMA ",
-        "FATHER'S NAME":"BHABESH CHANDRA SARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25026",
-        "NAME OF THE APPLICANT":"RIMJHIM KACHARI",
-        "FATHER'S NAME":"PROMUD KACHARI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25027",
-        "NAME OF THE APPLICANT":"SAILENDRA KUMAR SARMA ",
-        "FATHER'S NAME":"HARAGOBINDA SARMA ",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25028",
-        "NAME OF THE APPLICANT":"SELIMA NASRIN",
-        "FATHER'S NAME":"ISMAT ALI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25029",
-        "NAME OF THE APPLICANT":"SWMDWN BRAHMA",
-        "FATHER'S NAME":"LATE DILIP BRAHMA",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDBOT25030",
-        "NAME OF THE APPLICANT":"UJJALDEEP KAKATI",
-        "FATHER'S NAME":"NABIN KAKATI",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in BOTANY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCHE25001",
-        "NAME OF THE APPLICANT":"ALOKA JOADDAR ",
-        "FATHER'S NAME":"BHANU JOADDAR ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in CHEMISTRY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCHE25002",
-        "NAME OF THE APPLICANT":"ANUSUYA DEY",
-        "FATHER'S NAME":"AJOY KUMAR DEY ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in CHEMISTRY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCHE25003",
-        "NAME OF THE APPLICANT":"DEBANGA KASHYAP BARMAN",
-        "FATHER'S NAME":"GUNAJIT BARMAN",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in CHEMISTRY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCHE25004",
-        "NAME OF THE APPLICANT":"DHANMANI RAMCHIARY",
-        "FATHER'S NAME":"DWIPEN RAMCHIARY",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in CHEMISTRY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCHE25005",
-        "NAME OF THE APPLICANT":"NAMRATA SARMA",
-        "FATHER'S NAME":"BHARAT SARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in CHEMISTRY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCHE25006",
-        "NAME OF THE APPLICANT":"SABNAM ISLAM ",
-        "FATHER'S NAME":"HAMIDOR RAHMAN ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in CHEMISTRY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCHE25007",
-        "NAME OF THE APPLICANT":"SAMAINA DAIMARI",
-        "FATHER'S NAME":"KULEN DAIMARI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in CHEMISTRY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCHE25008",
-        "NAME OF THE APPLICANT":"SAMAL BARO",
-        "FATHER'S NAME":"KAMALA BARO",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in CHEMISTRY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCHE25009",
-        "NAME OF THE APPLICANT":"SANJANA MAJUMDER",
-        "FATHER'S NAME":"PRABIR KUMAR MAJUMDER",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in CHEMISTRY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCHE25010",
-        "NAME OF THE APPLICANT":"SHRABANA CHAKRABARTY",
-        "FATHER'S NAME":"ARUN CHAKRABARTY",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in CHEMISTRY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCOM25001",
-        "NAME OF THE APPLICANT":"ARISHMA SULTANA",
-        "FATHER'S NAME":"AZIZUL HOQUE",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMMERCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCOM25002",
-        "NAME OF THE APPLICANT":"BIJU ACHARJEE ",
-        "FATHER'S NAME":"MADAN ACHARJEE ",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMMERCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCOM25003",
-        "NAME OF THE APPLICANT":"NIBITA MANDAL",
-        "FATHER'S NAME":"NIRANJAN MANDAL",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMMERCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCOM25004",
-        "NAME OF THE APPLICANT":"POMPY SAHA",
-        "FATHER'S NAME":"PHANINDRA MOHAN SAHA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMMERCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCOM25005",
-        "NAME OF THE APPLICANT":"KALLOL DAS",
-        "FATHER'S NAME":"SWAPAN DAS",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMMERCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCOM25006",
-        "NAME OF THE APPLICANT":"NISHAMANI SARMA",
+        "ROLL NUMBER":"ASM26044",
+        "NAME OF THE APPLICANT":"SANGJUKTA PARASHAR",
         "FATHER'S NAME":"NABA KUMAR SARMA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMMERCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDCOM25007",
-        "NAME OF THE APPLICANT":"RANGJALU OWARY",
-        "FATHER'S NAME":"DANDESWAR OWARY",
+        "ROLL NUMBER":"ASM26045",
+        "NAME OF THE APPLICANT":"SHOFIKUL ISLAM",
+        "FATHER'S NAME":"AZGOR ALI",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMMERCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDCSC25001",
-        "NAME OF THE APPLICANT":"ANUPRABHA NATH",
-        "FATHER'S NAME":"ASWINI KUMAR NATH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMPUTER SCIENCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCSC25002",
-        "NAME OF THE APPLICANT":"ARIJIT BARUAH",
-        "FATHER'S NAME":"DIPAK KUMAR BARUAH",
+        "ROLL NUMBER":"ASM26046",
+        "NAME OF THE APPLICANT":"SOFIKUL ISLAM",
+        "FATHER'S NAME":"ABDUL KHALEK",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMPUTER SCIENCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDCSC25003",
-        "NAME OF THE APPLICANT":"CHAYAMANI CHOUDHURY",
-        "FATHER'S NAME":"LABANYA KUMAR CHOUDHURY",
+        "ROLL NUMBER":"ASM26047",
+        "NAME OF THE APPLICANT":"TRISA PAUL ",
+        "FATHER'S NAME":"PRAHLAD PAUL",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMPUTER SCIENCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDCSC25004",
-        "NAME OF THE APPLICANT":"NITUL KALITA",
-        "FATHER'S NAME":"DIGANTA KALITA",
+        "ROLL NUMBER":"ASM26048",
+        "NAME OF THE APPLICANT":"UPASHANA DAS",
+        "FATHER'S NAME":"JAGABANDHHU DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ASSAMESE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26001",
+        "NAME OF THE APPLICANT":"ABDUR REZZAK AHMED",
+        "FATHER'S NAME":"CHAND MAHMUD",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMPUTER SCIENCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDCSC25005",
-        "NAME OF THE APPLICANT":"PARISMITA DAS",
-        "FATHER'S NAME":"HANGSHA DHAR DAS",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMPUTER SCIENCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDCSC25006",
-        "NAME OF THE APPLICANT":"TRISHNA CHOUDHURY",
-        "FATHER'S NAME":"BIREN CHOUDHURY",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in COMPUTER SCIENCE",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25001",
-        "NAME OF THE APPLICANT":"AFLUJA KHATUN",
-        "FATHER'S NAME":"AMIR HUSSAIN",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25002",
-        "NAME OF THE APPLICANT":"ANSUMAI BRAHMA",
-        "FATHER'S NAME":"DILIP KR. BRAHMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25003",
-        "NAME OF THE APPLICANT":"BANDANA DAS ",
-        "FATHER'S NAME":"TIKEN DAS",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25004",
-        "NAME OF THE APPLICANT":"BARNALI KALITA",
-        "FATHER'S NAME":"BANAMALI KALITA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25005",
-        "NAME OF THE APPLICANT":"BHAYOLINA BARUAH",
-        "FATHER'S NAME":"RAMENDRA MALLA BARUAH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25006",
-        "NAME OF THE APPLICANT":"BIKASH MASRONG",
-        "FATHER'S NAME":"KUSUMBAR MASRONG",
+        "ROLL NUMBER":"BOT26002",
+        "NAME OF THE APPLICANT":"ABINASH KALITA",
+        "FATHER'S NAME":"KHAGEN KALITA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25007",
-        "NAME OF THE APPLICANT":"BIKASHITA BORAH",
-        "FATHER'S NAME":"MR. BUBUL BORAH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25008",
-        "NAME OF THE APPLICANT":"BISWAJYOTI DEVI",
-        "FATHER'S NAME":"BIPUL SARMAH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25009",
-        "NAME OF THE APPLICANT":"GARGI DATTA",
-        "FATHER'S NAME":"GAUTAM DATTA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25010",
-        "NAME OF THE APPLICANT":"HAINA ISWARY",
-        "FATHER'S NAME":"RATNESWAR ISWARY",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25011",
-        "NAME OF THE APPLICANT":"HIMADRI CHETIA",
-        "FATHER'S NAME":"MR DWIJEN CHETIA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25012",
-        "NAME OF THE APPLICANT":"HIMANGSHU DAS",
-        "FATHER'S NAME":"NRIPEN DAS",
+        "ROLL NUMBER":"BOT26003",
+        "NAME OF THE APPLICANT":"ABINASH RABHA",
+        "FATHER'S NAME":"MILAN CHANDRA RABHA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25013",
-        "NAME OF THE APPLICANT":"HIMASHREE SARMAH",
-        "FATHER'S NAME":"UPENDRA CH SARMAH",
+        "ROLL NUMBER":"BOT26004",
+        "NAME OF THE APPLICANT":"ANGSIKHA THAKURIA",
+        "FATHER'S NAME":"NRIPEN THAKURIA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25014",
-        "NAME OF THE APPLICANT":"JAHNABI DEKA",
-        "FATHER'S NAME":"SRI NILKANTA DEKA",
+        "ROLL NUMBER":"BOT26005",
+        "NAME OF THE APPLICANT":"ANKITA KALITA",
+        "FATHER'S NAME":"DINESH KALITA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25015",
-        "NAME OF THE APPLICANT":"KAKALI KANGKANA DEKA",
-        "FATHER'S NAME":"LATE KHAGENDRA DEKA",
+        "ROLL NUMBER":"BOT26006",
+        "NAME OF THE APPLICANT":"ANUSHMITA DEKA",
+        "FATHER'S NAME":"RANJIT DEKA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25016",
-        "NAME OF THE APPLICANT":"KANNAKI BORA",
-        "FATHER'S NAME":"LAKHI RAM BORA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25017",
-        "NAME OF THE APPLICANT":"MAMANI TALUKDAR",
-        "FATHER'S NAME":"ABAN TALUKDAR",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25018",
-        "NAME OF THE APPLICANT":"MANALISHA TUMUNG ",
-        "FATHER'S NAME":"MR. DHARMESWAR TUMUNG ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25019",
-        "NAME OF THE APPLICANT":"MANJISTHA MEDHI",
-        "FATHER'S NAME":"GOLAP MEDHI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25020",
-        "NAME OF THE APPLICANT":"MARZINA AHMED",
-        "FATHER'S NAME":"MUKADDES ALI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25021",
-        "NAME OF THE APPLICANT":"MD TAJBIR ALI MEER ",
-        "FATHER'S NAME":"MD ARASH ALI MEER ",
+        "ROLL NUMBER":"BOT26007",
+        "NAME OF THE APPLICANT":"APURBA KUMAR BARMAN",
+        "FATHER'S NAME":"PABITRA BARMAN",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25022",
-        "NAME OF THE APPLICANT":"MILI BORAH",
-        "FATHER'S NAME":"ROBIN BORAH",
+        "ROLL NUMBER":"BOT26008",
+        "NAME OF THE APPLICANT":"ARISHMITA BARMAN ",
+        "FATHER'S NAME":"GARGARAM BARMAN ",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25023",
-        "NAME OF THE APPLICANT":"MOUSHUMI PATHAK ",
-        "FATHER'S NAME":"AMRIT CHANDRA PATHAK",
+        "ROLL NUMBER":"BOT26009",
+        "NAME OF THE APPLICANT":"AZMINA KHATUN",
+        "FATHER'S NAME":"SHAHAR ALI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25024",
-        "NAME OF THE APPLICANT":"MRIDULIKA DEKA",
-        "FATHER'S NAME":"KUMUD CHANDRA DEKA",
+        "ROLL NUMBER":"BOT26010",
+        "NAME OF THE APPLICANT":"BANASHREE DAS ",
+        "FATHER'S NAME":"NAREN CHANDRA DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25025",
-        "NAME OF THE APPLICANT":"NARZINA KHANAM",
-        "FATHER'S NAME":"JAWAHER ALI KHAN",
+        "ROLL NUMBER":"BOT26011",
+        "NAME OF THE APPLICANT":"BARNALI BASUMATARY ",
+        "FATHER'S NAME":"MAHIRAM BASUMATARY ",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25026",
-        "NAME OF THE APPLICANT":"OLIMPIYA BARMAN",
-        "FATHER'S NAME":"BADAN CH BARMAN",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25027",
-        "NAME OF THE APPLICANT":"PALLABI GOSWAMI ",
-        "FATHER'S NAME":"PRAFULLA GOSWAMI ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25028",
-        "NAME OF THE APPLICANT":"PRABIN BRAHMA",
-        "FATHER'S NAME":"BINANDA BRAHMA",
+        "ROLL NUMBER":"BOT26012",
+        "NAME OF THE APPLICANT":"BHABEN RAMCHIARY ",
+        "FATHER'S NAME":"LAKHI RAMCHIARY ",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25029",
-        "NAME OF THE APPLICANT":"PRAGYAN DEV ROY",
-        "FATHER'S NAME":"PRABIN DEV ROY",
+        "ROLL NUMBER":"BOT26013",
+        "NAME OF THE APPLICANT":"BHRIGU KALITA",
+        "FATHER'S NAME":"HARISH KALITA ",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25030",
-        "NAME OF THE APPLICANT":"RIMA DAS",
-        "FATHER'S NAME":"LT. JITEN DAS",
+        "ROLL NUMBER":"BOT26014",
+        "NAME OF THE APPLICANT":"BHRINKU MANI THAKURIA",
+        "FATHER'S NAME":"NARAKANTA THAKURIA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25031",
-        "NAME OF THE APPLICANT":"SAGORIKA NEOG",
-        "FATHER'S NAME":"MUKTA NATH NEOG",
+        "ROLL NUMBER":"BOT26015",
+        "NAME OF THE APPLICANT":"BIPASHA HALOI ",
+        "FATHER'S NAME":"LT. KUMUD HALOI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25032",
-        "NAME OF THE APPLICANT":"SAMPA TALUKDER",
-        "FATHER'S NAME":"AJIT TALUKDER",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25033",
-        "NAME OF THE APPLICANT":"SANGITA HALOI ",
-        "FATHER'S NAME":"KALPA NATH HALOI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25034",
-        "NAME OF THE APPLICANT":"SANGMIR TERANGPI ",
-        "FATHER'S NAME":"DILIP SING TERANG ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDEDU25035",
-        "NAME OF THE APPLICANT":"SAYAN SARKAR",
-        "FATHER'S NAME":"BIJAY SARKAR",
+        "ROLL NUMBER":"BOT26016",
+        "NAME OF THE APPLICANT":"DEBASHIS MALLIK",
+        "FATHER'S NAME":"DURGESH MALLIK",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25036",
-        "NAME OF THE APPLICANT":"SAYANIKA DAS",
-        "FATHER'S NAME":"DHIRAJ MOHAN DAS",
+        "ROLL NUMBER":"BOT26017",
+        "NAME OF THE APPLICANT":"DEBASMITA DEKA ",
+        "FATHER'S NAME":"ASWINI KUMAR DEKA ",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25037",
-        "NAME OF THE APPLICANT":"SHAHELA BEGUM",
-        "FATHER'S NAME":"SHAMSUL HAQUE",
+        "ROLL NUMBER":"BOT26018",
+        "NAME OF THE APPLICANT":"DIPANDITA DAS",
+        "FATHER'S NAME":"RANJIT DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDEDU25038",
-        "NAME OF THE APPLICANT":"SOMA SAHA",
-        "FATHER'S NAME":"LUTAN SAHA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in EDUCATION",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25001",
-        "NAME OF THE APPLICANT":"ANIRUDDHA MEDHI",
-        "FATHER'S NAME":"LATE DILIP CHANDRA MEDHI",
+        "ROLL NUMBER":"BOT26019",
+        "NAME OF THE APPLICANT":"DRISHTI PRATIM PATHAK ",
+        "FATHER'S NAME":"SANKAR PATHAK ",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25002",
-        "NAME OF THE APPLICANT":"ANKITA CHETRY ",
-        "FATHER'S NAME":"KSHEMRAJ CHETRY ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25003",
-        "NAME OF THE APPLICANT":"BARNALI DEVI",
-        "FATHER'S NAME":"NILA KUMAR SARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25004",
-        "NAME OF THE APPLICANT":"BHABANA SARMA",
-        "FATHER'S NAME":"RAMESH CHANDRA SARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25005",
-        "NAME OF THE APPLICANT":"BHASWATEE DAS",
-        "FATHER'S NAME":"PRAHLAD CHANDRA DAS",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25006",
-        "NAME OF THE APPLICANT":"CHAOLIN BORGOHAIN ",
-        "FATHER'S NAME":"ASHIM BORGOHAIN ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25007",
-        "NAME OF THE APPLICANT":"DEEPTI BARO",
-        "FATHER'S NAME":"ACHYUT CH BARO",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25008",
-        "NAME OF THE APPLICANT":"DRISTI DUTTA",
-        "FATHER'S NAME":"DULAL DUTTA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25009",
-        "NAME OF THE APPLICANT":"GAUTAM NATH",
-        "FATHER'S NAME":"PRAFULLA NATH",
+        "ROLL NUMBER":"BOT26020",
+        "NAME OF THE APPLICANT":"EMAMUL HOQUE",
+        "FATHER'S NAME":"ALI AKBAR",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25010",
-        "NAME OF THE APPLICANT":"IFTISAM RASUL",
-        "FATHER'S NAME":"HANNAN ALI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25011",
-        "NAME OF THE APPLICANT":"JAHIDUL ISLAM KHAN",
-        "FATHER'S NAME":"LT. ANSER ALI KHAN",
+        "ROLL NUMBER":"BOT26021",
+        "NAME OF THE APPLICANT":"FARHAD JEMIL",
+        "FATHER'S NAME":"JAKIR HUSSAIN",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25012",
-        "NAME OF THE APPLICANT":"JUBIN NAHAR",
-        "FATHER'S NAME":"ABDUL KADER MONDAL",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25013",
-        "NAME OF THE APPLICANT":"JUGABRAT CHOUDHURY",
-        "FATHER'S NAME":"PABITRA CHOUDHURY ",
+        "ROLL NUMBER":"BOT26022",
+        "NAME OF THE APPLICANT":"GUNJAN KALITA",
+        "FATHER'S NAME":"UPENDRA KALITA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25014",
-        "NAME OF THE APPLICANT":"KAIF KARIM ",
-        "FATHER'S NAME":"REJAUL KARIM ",
+        "ROLL NUMBER":"BOT26023",
+        "NAME OF THE APPLICANT":"HARIS ALAM JAKARIA ",
+        "FATHER'S NAME":"OSMAN ALI",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25015",
-        "NAME OF THE APPLICANT":"LATU BORA",
-        "FATHER'S NAME":"GOPAL BORA",
+        "ROLL NUMBER":"BOT26024",
+        "NAME OF THE APPLICANT":"HIYASHRI DAS",
+        "FATHER'S NAME":"DIPAK DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26025",
+        "NAME OF THE APPLICANT":"HUSNIARA KHANAM",
+        "FATHER'S NAME":"HELAL KHAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26026",
+        "NAME OF THE APPLICANT":"JARNA BARMAN",
+        "FATHER'S NAME":"BHABEN BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26027",
+        "NAME OF THE APPLICANT":"JESHMIN RAMCHIARY",
+        "FATHER'S NAME":"MADHU RAMCHIARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26028",
+        "NAME OF THE APPLICANT":"JYOTISHMITA DAS ",
+        "FATHER'S NAME":"MANHARI DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26029",
+        "NAME OF THE APPLICANT":"KABYASHREE MEDHI",
+        "FATHER'S NAME":"DEBEN MEDHI ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26030",
+        "NAME OF THE APPLICANT":"KARABI SARMA",
+        "FATHER'S NAME":"SUSHIL SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26031",
+        "NAME OF THE APPLICANT":"KARAN BORA",
+        "FATHER'S NAME":"RIJU KUMAR BORA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25016",
-        "NAME OF THE APPLICANT":"MADHURIMA BORUAH ",
-        "FATHER'S NAME":"LATE SUSHIL BORUAH ",
+        "ROLL NUMBER":"BOT26032",
+        "NAME OF THE APPLICANT":"KARISHMA RAMCHIARY",
+        "FATHER'S NAME":"PANCHA RAMCHIARY",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25017",
-        "NAME OF THE APPLICANT":"MD ABDUL WAKIL",
-        "FATHER'S NAME":"ABDUL WAHAB",
+        "ROLL NUMBER":"BOT26033",
+        "NAME OF THE APPLICANT":"KRISHNA RABHA",
+        "FATHER'S NAME":"LATE NAGESWAR RABHA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26034",
+        "NAME OF THE APPLICANT":"KULJEET DAS",
+        "FATHER'S NAME":"DINESH DAS",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25018",
-        "NAME OF THE APPLICANT":"MD SAMSUL HOQUE",
-        "FATHER'S NAME":"AMJAD ALI",
+        "ROLL NUMBER":"BOT26035",
+        "NAME OF THE APPLICANT":"LAKSHINANDAN KALITA",
+        "FATHER'S NAME":"LATE SAMUDRA KALITA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25019",
-        "NAME OF THE APPLICANT":"NAMRATA PARASHAR",
-        "FATHER'S NAME":"NARAYAN GOSWAMI",
+        "ROLL NUMBER":"BOT26036",
+        "NAME OF THE APPLICANT":"LUTIKA BORO",
+        "FATHER'S NAME":"AJIT BORO",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25020",
-        "NAME OF THE APPLICANT":"NARGISH KHANAM",
-        "FATHER'S NAME":"HAIDAR ALI KHAN",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25021",
-        "NAME OF THE APPLICANT":"PRIYANKA  BHARALI",
-        "FATHER'S NAME":"GOPAL BHARALI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25022",
-        "NAME OF THE APPLICANT":"RIMLI DEKA",
-        "FATHER'S NAME":"THIRMAL CH DEKA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25023",
-        "NAME OF THE APPLICANT":"ROHINI NATH",
-        "FATHER'S NAME":"SUBRATA NATH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25024",
-        "NAME OF THE APPLICANT":"RUPANKANA SARMA",
-        "FATHER'S NAME":"HIRENDRA NATH SARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25025",
-        "NAME OF THE APPLICANT":"SEMIM YASMIN AKHTER",
-        "FATHER'S NAME":"SAFIT ALI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDENG25026",
-        "NAME OF THE APPLICANT":"SIDDHARTHA DEV GOYARI",
-        "FATHER'S NAME":"RUTH DEV GOYARI",
+        "ROLL NUMBER":"BOT26037",
+        "NAME OF THE APPLICANT":"MAMINUL ISLAM",
+        "FATHER'S NAME":"JABED ALI",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25027",
-        "NAME OF THE APPLICANT":"SOFIUZ ZAMAN",
-        "FATHER'S NAME":"MAHAR ALI AHMED",
+        "ROLL NUMBER":"BOT26038",
+        "NAME OF THE APPLICANT":"MARAMI BAISHYA",
+        "FATHER'S NAME":"BIREN BAISHYA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26039",
+        "NAME OF THE APPLICANT":"MISS MANIARA KHATOON",
+        "FATHER'S NAME":"MAINUL HOQUE",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26040",
+        "NAME OF THE APPLICANT":"NAFIYA NACHRIN",
+        "FATHER'S NAME":"NIZAM UDDIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26041",
+        "NAME OF THE APPLICANT":"NAZMIN NEHAR ",
+        "FATHER'S NAME":"NURUL ISLAM AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26042",
+        "NAME OF THE APPLICANT":"NIKUMANI KALITA",
+        "FATHER'S NAME":"KALINDRA KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26043",
+        "NAME OF THE APPLICANT":"NISHITA BARMAN",
+        "FATHER'S NAME":"HITESWAR BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26044",
+        "NAME OF THE APPLICANT":"NIYOR DEKA",
+        "FATHER'S NAME":"SUBAL DEKA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25028",
-        "NAME OF THE APPLICANT":"SUDIPA DEKA",
-        "FATHER'S NAME":"LT. BIPIN DEKA",
+        "ROLL NUMBER":"BOT26045",
+        "NAME OF THE APPLICANT":"NUR HUSNIARA AKHTAR",
+        "FATHER'S NAME":"SULEMAN ALI AHMED",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDENG25029",
-        "NAME OF THE APPLICANT":"TITIKSHYA DAS",
-        "FATHER'S NAME":"KISHOR RANJAN DAS",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ENGLISH",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDGGY25001",
-        "NAME OF THE APPLICANT":"BABUL DEKA",
-        "FATHER'S NAME":"LATE CHABEN DEKA",
+        "ROLL NUMBER":"BOT26046",
+        "NAME OF THE APPLICANT":"PALASHJYOTI TALUKDAR",
+        "FATHER'S NAME":"DILIP TALUKDAR",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25002",
-        "NAME OF THE APPLICANT":"BHAGYASHREE PATHAK",
-        "FATHER'S NAME":"BHABESH PATHAK",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDGGY25003",
-        "NAME OF THE APPLICANT":"BHAGYASRI BORAH",
-        "FATHER'S NAME":"GANESH BORAH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDGGY25004",
-        "NAME OF THE APPLICANT":"BOBY SHARMA",
-        "FATHER'S NAME":"NARENDRA SHARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDGGY25005",
-        "NAME OF THE APPLICANT":"BRINDABAN SARMA",
-        "FATHER'S NAME":"PADMASHREE SARMA ",
+        "ROLL NUMBER":"BOT26047",
+        "NAME OF THE APPLICANT":"PRANJAL BAISHYA",
+        "FATHER'S NAME":"DHANJIT BAISHYA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25006",
-        "NAME OF THE APPLICANT":"DEVADIKSHA ROY",
-        "FATHER'S NAME":"NARAYAN ROY",
+        "ROLL NUMBER":"BOT26048",
+        "NAME OF THE APPLICANT":"PRARTHANA TALUKDAR",
+        "FATHER'S NAME":"HEMANTA TALUKDAR",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25007",
-        "NAME OF THE APPLICANT":"DIKSHITA SAIKIA",
-        "FATHER'S NAME":"PARAG SAIKIA",
+        "ROLL NUMBER":"BOT26049",
+        "NAME OF THE APPLICANT":"PREETI REKHA DEKA",
+        "FATHER'S NAME":"BROJEN CHANDRA DEKA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25008",
-        "NAME OF THE APPLICANT":"DILIP CHANDRA HALOI",
-        "FATHER'S NAME":"LT. TARUN CHANDRA HALOI",
+        "ROLL NUMBER":"BOT26050",
+        "NAME OF THE APPLICANT":"PRITIKSHA DAS",
+        "FATHER'S NAME":"DILIP KR. DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26051",
+        "NAME OF THE APPLICANT":"PRIYANGSHI GHOSH",
+        "FATHER'S NAME":"BIREN CH GHOSH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26052",
+        "NAME OF THE APPLICANT":"PULIN NATH",
+        "FATHER'S NAME":"KARMESWAR NATH",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25009",
-        "NAME OF THE APPLICANT":"GAYATRI BORGOHAIN",
-        "FATHER'S NAME":"GHANA KANTA BORGOHAIN",
+        "ROLL NUMBER":"BOT26053",
+        "NAME OF THE APPLICANT":"RAJIYA SULTANA",
+        "FATHER'S NAME":"ABDUR RAZZAQUE",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25010",
-        "NAME OF THE APPLICANT":"HIMASHRI DAS",
-        "FATHER'S NAME":"UMESH CHANDRA DAS",
+        "ROLL NUMBER":"BOT26054",
+        "NAME OF THE APPLICANT":"RAJSHREE HALOI",
+        "FATHER'S NAME":"UDHAB HALOI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25011",
-        "NAME OF THE APPLICANT":"INU KATHAR",
-        "FATHER'S NAME":"PRAFULLA KATHAR",
+        "ROLL NUMBER":"BOT26055",
+        "NAME OF THE APPLICANT":"RASMI NAHAR SULTANA",
+        "FATHER'S NAME":"HARUN ALI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25012",
-        "NAME OF THE APPLICANT":"JAHNABI BORA",
-        "FATHER'S NAME":"LT. GOLOK CHANDRA BORA",
+        "ROLL NUMBER":"BOT26056",
+        "NAME OF THE APPLICANT":"REHANA PARBIN",
+        "FATHER'S NAME":"SAIDUR RAHMAN",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25013",
-        "NAME OF THE APPLICANT":"JARYUM PEGU",
-        "FATHER'S NAME":"BIJU KUMAR PEGU",
+        "ROLL NUMBER":"BOT26057",
+        "NAME OF THE APPLICANT":"RINKI B BHAGAWATI",
+        "FATHER'S NAME":"H K BHAGAWATI ",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25014",
-        "NAME OF THE APPLICANT":"MANIMA BARO",
-        "FATHER'S NAME":"SURJYA KANTA BARO",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDGGY25015",
-        "NAME OF THE APPLICANT":"MD MATIUR RAHMAN",
-        "FATHER'S NAME":"TAJER ALI",
+        "ROLL NUMBER":"BOT26058",
+        "NAME OF THE APPLICANT":"RITUPARNA KASHYAP",
+        "FATHER'S NAME":"ATUL CHANDRA KALITA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25016",
-        "NAME OF THE APPLICANT":"NAVANITA DEVI CHOUDHURY",
-        "FATHER'S NAME":"KHANINDRA DEV CHOUDHURY",
+        "ROLL NUMBER":"BOT26059",
+        "NAME OF THE APPLICANT":"ROFIKA EASMIN ",
+        "FATHER'S NAME":"RAMESH ALI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25017",
-        "NAME OF THE APPLICANT":"PAKHEE MAHANTA",
-        "FATHER'S NAME":"SAGAR MAHANTA",
+        "ROLL NUMBER":"BOT26060",
+        "NAME OF THE APPLICANT":"ROSE GULZAR ",
+        "FATHER'S NAME":"GULZAR ANSARI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25018",
-        "NAME OF THE APPLICANT":"PALLAVI DUTTA",
-        "FATHER'S NAME":"PARAMESH DUTTA",
+        "ROLL NUMBER":"BOT26061",
+        "NAME OF THE APPLICANT":"RUCHEE BARMAN",
+        "FATHER'S NAME":"NAKUL CH. BARMAN",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25019",
-        "NAME OF THE APPLICANT":"PRASASTI CHOUDHURY",
-        "FATHER'S NAME":"BIPUL CHOUDHURY",
+        "ROLL NUMBER":"BOT26062",
+        "NAME OF THE APPLICANT":"RUKSANA KHATUN",
+        "FATHER'S NAME":"ANOWAR HUSSAIN",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25020",
-        "NAME OF THE APPLICANT":"PRIYANKA DEBNATH ",
-        "FATHER'S NAME":"NIRMAL DEBNATH ",
+        "ROLL NUMBER":"BOT26063",
+        "NAME OF THE APPLICANT":"SABMINA BEGUM ",
+        "FATHER'S NAME":"SAMAD ALI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25021",
-        "NAME OF THE APPLICANT":"RAJIB HAZARI",
-        "FATHER'S NAME":"KAMALA HAZARI ",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDGGY25022",
-        "NAME OF THE APPLICANT":"RIKI DEURI BHARALI",
-        "FATHER'S NAME":"LATE NARESH CH BHARALI",
+        "ROLL NUMBER":"BOT26064",
+        "NAME OF THE APPLICANT":"SANIA AHMED",
+        "FATHER'S NAME":"TAMIZUDDIN AHMED",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDGGY25023",
-        "NAME OF THE APPLICANT":"SHANKAR JYOTI SARKAR ",
-        "FATHER'S NAME":"BIBHUTI SARKAR ",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDGGY25024",
-        "NAME OF THE APPLICANT":"SRI ARUP KUMAR SARMA.",
-        "FATHER'S NAME":"LATE NAGEN CH. SARMA.",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDGGY25025",
-        "NAME OF THE APPLICANT":"UPASHANA SARMA ",
-        "FATHER'S NAME":"DR DILIP KUMAR SARMA",
+        "ROLL NUMBER":"BOT26065",
+        "NAME OF THE APPLICANT":"SANIWARA AKTAR",
+        "FATHER'S NAME":"SABIRUL ISLAM",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in GEOGRAPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25001",
-        "NAME OF THE APPLICANT":"AJAHAR ALI",
-        "FATHER'S NAME":"EYAR ALI",
+        "ROLL NUMBER":"BOT26066",
+        "NAME OF THE APPLICANT":"SANJIBAN THAKURIA",
+        "FATHER'S NAME":"BIPUL THAKURIA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25002",
-        "NAME OF THE APPLICANT":"AMAR JYOTI BARMAN",
-        "FATHER'S NAME":"GIRIN BARMAN",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDMAT25003",
-        "NAME OF THE APPLICANT":"ANIMESH TALUKDAR ",
-        "FATHER'S NAME":"HAREN TALUKDAR ",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDMAT25004",
-        "NAME OF THE APPLICANT":"ANTARIPA KASHYAP",
-        "FATHER'S NAME":"LATE PRAMOD KALITA",
+        "ROLL NUMBER":"BOT26067",
+        "NAME OF THE APPLICANT":"SHABNAM JUBAIDA",
+        "FATHER'S NAME":"GOLAM MODABBIR AKAND",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25005",
-        "NAME OF THE APPLICANT":"ARPAN BHUYAN",
-        "FATHER'S NAME":"ACHYUT BHUYAN",
+        "ROLL NUMBER":"BOT26068",
+        "NAME OF THE APPLICANT":"SHAHADAT ALI",
+        "FATHER'S NAME":"SHAMSHUL ALOM",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25006",
-        "NAME OF THE APPLICANT":"AZHARUL ISLAM TALUKDAR",
-        "FATHER'S NAME":"AMIR HAMZA TALUKDAR",
+        "ROLL NUMBER":"BOT26069",
+        "NAME OF THE APPLICANT":"SHAHIN AFRIDYE",
+        "FATHER'S NAME":"SHAMESH UDDIN",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25007",
-        "NAME OF THE APPLICANT":"BILKIS AHMED ",
-        "FATHER'S NAME":"BAHADUR ALI AHMED ",
+        "ROLL NUMBER":"BOT26070",
+        "NAME OF THE APPLICANT":"SHREYASHI CHAKRABORTY ",
+        "FATHER'S NAME":"SAJAL CHAKRABORTY ",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25008",
-        "NAME OF THE APPLICANT":"DEBDUT SENGUPTA",
-        "FATHER'S NAME":"DEBASISH SENGUPTA",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDMAT25009",
-        "NAME OF THE APPLICANT":"DEEPJYOTI SARMA ",
-        "FATHER'S NAME":"PANKAJ LOCHAN SARMA ",
-        "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDMAT25010",
-        "NAME OF THE APPLICANT":"DHRITI MANDAL ",
-        "FATHER'S NAME":"SAHADEV MANDAL ",
+        "ROLL NUMBER":"BOT26071",
+        "NAME OF THE APPLICANT":"SHREYSHI BASNET",
+        "FATHER'S NAME":"GOKUL BASNET",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25011",
-        "NAME OF THE APPLICANT":"HIRAN KALITA",
-        "FATHER'S NAME":"MR RANJIT KALITA",
+        "ROLL NUMBER":"BOT26072",
+        "NAME OF THE APPLICANT":"SHRUTI SARMA ",
+        "FATHER'S NAME":"HEM CHANDRA SARMA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25012",
-        "NAME OF THE APPLICANT":"JEMIN SAJID IKBAL",
-        "FATHER'S NAME":"JOYNUR ALI",
+        "ROLL NUMBER":"BOT26073",
+        "NAME OF THE APPLICANT":"SIMANTA KAKATI",
+        "FATHER'S NAME":"AKSHAY KAKATI",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25013",
-        "NAME OF THE APPLICANT":"JURISMITA KASHYAP",
+        "ROLL NUMBER":"BOT26074",
+        "NAME OF THE APPLICANT":"SK MARJUKA RAZZAQUE",
+        "FATHER'S NAME":"SK AHMED HASSAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26075",
+        "NAME OF THE APPLICANT":"SM SALMA EYASMIN ",
+        "FATHER'S NAME":"ABDUL HALIM ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26076",
+        "NAME OF THE APPLICANT":"SOURAV KUMAR RABHA",
+        "FATHER'S NAME":"PRABIN KUMAR RABHA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26077",
+        "NAME OF THE APPLICANT":"SUYELA PARBIN",
+        "FATHER'S NAME":"TAIB ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26078",
+        "NAME OF THE APPLICANT":"SWAGATA KAPIL ",
+        "FATHER'S NAME":"JOGESH SARMA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26079",
+        "NAME OF THE APPLICANT":"THASARI BASUMATARY",
+        "FATHER'S NAME":"PABITRA BASUMATARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26080",
+        "NAME OF THE APPLICANT":"TINA DEKA",
+        "FATHER'S NAME":"HITRAM DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26081",
+        "NAME OF THE APPLICANT":"UMMA KULSUM",
+        "FATHER'S NAME":"ABDUL BASAR AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26082",
+        "NAME OF THE APPLICANT":"UMME SALAMA AHMED",
+        "FATHER'S NAME":"ABDUL KHALEK",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"BOT26083",
+        "NAME OF THE APPLICANT":"ZISHNAMANI DAS ",
+        "FATHER'S NAME":"LATE GUNAJIT DAS ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In BOTANY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"CHE26001",
+        "NAME OF THE APPLICANT":"ABINASH BARMAN ",
+        "FATHER'S NAME":"NITYANANDA BARMAN ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26002",
+        "NAME OF THE APPLICANT":"AMINA KHATUN ",
+        "FATHER'S NAME":"ROSUL MAHMUD",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26003",
+        "NAME OF THE APPLICANT":"ANJUMA KHATUN",
+        "FATHER'S NAME":"ANSER ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26004",
+        "NAME OF THE APPLICANT":"ARINDAM CHOUDHURY ",
+        "FATHER'S NAME":"ARUP CHOUDHURY ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26005",
+        "NAME OF THE APPLICANT":"ARNAB BHATTACHARJYA",
+        "FATHER'S NAME":"KAMAL BHATTACHARJYA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26006",
+        "NAME OF THE APPLICANT":"ASMA KHATUN",
+        "FATHER'S NAME":"ABDUL RAHIM",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26007",
+        "NAME OF THE APPLICANT":"BAHARUL ISLAM AHMED",
+        "FATHER'S NAME":"MOHAMMAD ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26008",
+        "NAME OF THE APPLICANT":"BANAJIT PATHAK",
+        "FATHER'S NAME":"KAILASH PATHAK",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26009",
+        "NAME OF THE APPLICANT":"BHASKAR SHIL",
+        "FATHER'S NAME":"PARESH SIL",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26010",
+        "NAME OF THE APPLICANT":"BITOPAN DAS",
+        "FATHER'S NAME":"BUBUL DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26011",
+        "NAME OF THE APPLICANT":"CHIMPI TALUKDAR",
+        "FATHER'S NAME":"AKHIL TALUKDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26012",
+        "NAME OF THE APPLICANT":"DIBYA JYOTI BAISHYA",
+        "FATHER'S NAME":"TARANI BAISHYA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26013",
+        "NAME OF THE APPLICANT":"DIBYA JYOTI BAISHYA ",
+        "FATHER'S NAME":"TARANI BAISHYA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26014",
+        "NAME OF THE APPLICANT":"DIMPAL BHUYAN",
+        "FATHER'S NAME":"TAPAN CH BHUYAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26015",
+        "NAME OF THE APPLICANT":"DURBASRI RAY",
+        "FATHER'S NAME":"KARNA KANTA RAY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26016",
+        "NAME OF THE APPLICANT":"ENAMUL HOQUE",
+        "FATHER'S NAME":"AMINUL HOQUE",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26017",
+        "NAME OF THE APPLICANT":"EYASMINA BITIKA",
+        "FATHER'S NAME":"ABDUL HOQUE",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26018",
+        "NAME OF THE APPLICANT":"FAJAL HOQUE",
+        "FATHER'S NAME":"KADDUS ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26019",
+        "NAME OF THE APPLICANT":"FARHANA EASMIN",
+        "FATHER'S NAME":"JULFIKER ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26020",
+        "NAME OF THE APPLICANT":"FIZA BEGUM",
+        "FATHER'S NAME":"RUSTAM AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26021",
+        "NAME OF THE APPLICANT":"HASINA PARBIN",
+        "FATHER'S NAME":"RAHIZ UDDIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26022",
+        "NAME OF THE APPLICANT":"HIMJYOTI BARMAN",
+        "FATHER'S NAME":"KAMALA KANTA BARMAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26023",
+        "NAME OF THE APPLICANT":"HIRAK JYOTI KASHYAP",
+        "FATHER'S NAME":"DHIRAJ KUMAR DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26024",
+        "NAME OF THE APPLICANT":"HRISHIKESH GOSWAMI",
+        "FATHER'S NAME":"ABINASH GOSWAMI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26025",
+        "NAME OF THE APPLICANT":"HRISHIKESH KALITA",
+        "FATHER'S NAME":"RAMEN KALITA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26026",
+        "NAME OF THE APPLICANT":"INJAMUL HAQUE ",
+        "FATHER'S NAME":"MANJUR KADER ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26027",
+        "NAME OF THE APPLICANT":"JABIN RAY",
+        "FATHER'S NAME":"PRAMODEI KUMAR RAY",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26028",
+        "NAME OF THE APPLICANT":"JITUL MEDHI",
+        "FATHER'S NAME":"PANKAJ MEDHI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26029",
+        "NAME OF THE APPLICANT":"JUGABRAT HAZARIKA",
+        "FATHER'S NAME":"SAMINDRA HAZARIKA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26030",
+        "NAME OF THE APPLICANT":"JYOTIRMOY KALITA ",
+        "FATHER'S NAME":"LATE BHABEN KALITA ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26031",
+        "NAME OF THE APPLICANT":"KABIR KUMAR DAS",
+        "FATHER'S NAME":"DILIP CHANDRA DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26032",
+        "NAME OF THE APPLICANT":"KARISMA CHOUDHURY",
+        "FATHER'S NAME":"SUSHIL CHOUDHURY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26033",
+        "NAME OF THE APPLICANT":"KASHIKA MEDHI",
+        "FATHER'S NAME":"BHAGYESWAR MEDHI ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26034",
+        "NAME OF THE APPLICANT":"KHAJA DILHABIB AHMED",
+        "FATHER'S NAME":"KHAJA ABUTALEB AHMED",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26035",
+        "NAME OF THE APPLICANT":"KISHAN JYOTI DAS ",
+        "FATHER'S NAME":"MANABENDRA DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26036",
+        "NAME OF THE APPLICANT":"LEENA RABHA",
+        "FATHER'S NAME":"LAHIT RABHA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26037",
+        "NAME OF THE APPLICANT":"MANASHI BARUAH ",
+        "FATHER'S NAME":"BABUL BARUAH ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26038",
+        "NAME OF THE APPLICANT":"MIZANUR RAHMAN ",
+        "FATHER'S NAME":"ABUL HOQUE ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26039",
+        "NAME OF THE APPLICANT":"MOMIN ALI ",
+        "FATHER'S NAME":"ROMJAN ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26040",
+        "NAME OF THE APPLICANT":"MOSHFIWARA AHMED",
+        "FATHER'S NAME":"ABDUL MAZED AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26041",
+        "NAME OF THE APPLICANT":"NARGIS PARBIN ",
+        "FATHER'S NAME":"JAHANGIR ALOM ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26042",
+        "NAME OF THE APPLICANT":"NILOTPAL SARMA",
+        "FATHER'S NAME":"DWIJENDRA NATH SARMA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26043",
+        "NAME OF THE APPLICANT":"NILOY KALITA ",
+        "FATHER'S NAME":"DHANESWAR KALITA ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26044",
+        "NAME OF THE APPLICANT":"PARTHA PRATIM SARMA ",
+        "FATHER'S NAME":"PULEN SARMA ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26045",
+        "NAME OF THE APPLICANT":"PRERANA KALITA ",
+        "FATHER'S NAME":"PRABIN KUMAR KALITA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26046",
+        "NAME OF THE APPLICANT":"PRIYANKA GOSWAMI ",
+        "FATHER'S NAME":"NRIPENDRA NATH GOSWAMI ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26047",
+        "NAME OF THE APPLICANT":"PRIYANKA PATGIRI",
+        "FATHER'S NAME":"MANMATH PATGIRI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26048",
+        "NAME OF THE APPLICANT":"PRIYANKA SWARGIARY",
+        "FATHER'S NAME":"DALIM KR SWARGIARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26049",
+        "NAME OF THE APPLICANT":"RAHUL BASAK",
+        "FATHER'S NAME":"RAM CHANDRA BASAK",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26050",
+        "NAME OF THE APPLICANT":"RAKESH SARMA",
+        "FATHER'S NAME":"SUREN SARMA ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26051",
+        "NAME OF THE APPLICANT":"RAZZAK ALI",
+        "FATHER'S NAME":"ABDUL MOTLEB",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26052",
+        "NAME OF THE APPLICANT":"RESHMINA KHTUN",
+        "FATHER'S NAME":"ABDUR RAHMAN KHAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26053",
+        "NAME OF THE APPLICANT":"ROFIQUL ISLAM",
+        "FATHER'S NAME":"AKBOR ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26054",
+        "NAME OF THE APPLICANT":"SAQIL MASOOD AHSAN",
+        "FATHER'S NAME":"ASIR UDDIN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26055",
+        "NAME OF THE APPLICANT":"SHABNAM SAHINA",
+        "FATHER'S NAME":"UNUSHAR RAHMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26056",
+        "NAME OF THE APPLICANT":"SONALIKA GHOSH",
+        "FATHER'S NAME":"PHANINDRA GHOSH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26057",
+        "NAME OF THE APPLICANT":"SUSMITA LAHKAR",
+        "FATHER'S NAME":"KAMALA KANTA LAHKAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26058",
+        "NAME OF THE APPLICANT":"SWAPNA SAHA",
+        "FATHER'S NAME":"BHAGIRATH SAHA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26059",
+        "NAME OF THE APPLICANT":"SYED ABDUR RAZZAK",
+        "FATHER'S NAME":"SYED MAKBUL HUSSAIN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26060",
+        "NAME OF THE APPLICANT":"UZZWAL SARMA",
+        "FATHER'S NAME":"SUBHASH SARMA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"CHE26061",
+        "NAME OF THE APPLICANT":"ZINAT FATIMA AHMED",
+        "FATHER'S NAME":"FAZAR ALI AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"COM26001",
+        "NAME OF THE APPLICANT":"ABU FARAK EKBAL HASSAN ",
+        "FATHER'S NAME":"AKHIRUZ ZAMAN ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26002",
+        "NAME OF THE APPLICANT":"ADITYA MANDAL",
+        "FATHER'S NAME":"ARUP KUMAR MANDAL",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26003",
+        "NAME OF THE APPLICANT":"AKUITY GHOSH",
+        "FATHER'S NAME":"RAMPADO GHOSH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26004",
+        "NAME OF THE APPLICANT":"ANITA GUPTA",
+        "FATHER'S NAME":"PAWAN GUPTA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26005",
+        "NAME OF THE APPLICANT":"ARBAZ KHANDAKAR ",
+        "FATHER'S NAME":"ABDUL HAMMAD KHANDAKAR ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26006",
+        "NAME OF THE APPLICANT":"ASHRAFUL HOQUE",
+        "FATHER'S NAME":"SHAHJAMAL",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26007",
+        "NAME OF THE APPLICANT":"AZMINA KHATUN",
+        "FATHER'S NAME":"BAHAZ UDDIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26008",
+        "NAME OF THE APPLICANT":"BEAUTY AKTAR",
+        "FATHER'S NAME":"ABDUR RAHMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26009",
+        "NAME OF THE APPLICANT":"BHUMI MANDAL",
+        "FATHER'S NAME":"MANTU MANDAL",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26010",
+        "NAME OF THE APPLICANT":"DEEPJYOTI SARKAR",
+        "FATHER'S NAME":"DULAL CHANDRA SARKAR",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26011",
+        "NAME OF THE APPLICANT":"DHRITISMITA DEKA",
+        "FATHER'S NAME":"DIPAK DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26012",
+        "NAME OF THE APPLICANT":"DIBYA REGMI",
+        "FATHER'S NAME":"UDDHAB KR REGMI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26013",
+        "NAME OF THE APPLICANT":"GARIMA DAS",
+        "FATHER'S NAME":"LATE  BHAGIRATH DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26014",
+        "NAME OF THE APPLICANT":"HAFIZUR RAHMAN",
+        "FATHER'S NAME":"AMIR ALI AHMED",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26015",
+        "NAME OF THE APPLICANT":"HIMADRI TALUKDAR",
+        "FATHER'S NAME":"MUNINDRA TALUKDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26016",
+        "NAME OF THE APPLICANT":"JAKIR HUSSAIN",
+        "FATHER'S NAME":"TAIJ UDDIN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26017",
+        "NAME OF THE APPLICANT":"JANNAT AHMED",
+        "FATHER'S NAME":"ABDUS SATTAR AHMED ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26018",
+        "NAME OF THE APPLICANT":"JANNAT JAMIA KHATUN",
+        "FATHER'S NAME":"JAMAL UDDIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26019",
+        "NAME OF THE APPLICANT":"JARJINA RONGPI ",
+        "FATHER'S NAME":"SAMIN RONGPI ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26020",
+        "NAME OF THE APPLICANT":"JINI BORO",
+        "FATHER'S NAME":"PURNO RAM BORO",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26021",
+        "NAME OF THE APPLICANT":"JYOTISHMAN BARMAN",
+        "FATHER'S NAME":"BUDDHA DEV BARMAN ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26022",
+        "NAME OF THE APPLICANT":"KANGKANA DAS",
+        "FATHER'S NAME":"BHABENDRA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26023",
+        "NAME OF THE APPLICANT":"KANJU RANI BASUMATARY",
+        "FATHER'S NAME":"DARENDRA BASUMATARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26024",
+        "NAME OF THE APPLICANT":"KARIMA BARO",
+        "FATHER'S NAME":"KAMAL KUMAR BARO ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26025",
+        "NAME OF THE APPLICANT":"KISHALAY PARASHAR",
+        "FATHER'S NAME":"CHINMAYA NANDA DEV SARMA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26026",
+        "NAME OF THE APPLICANT":"KISHANU DEKA",
+        "FATHER'S NAME":"GHAMESHWAR DEKA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26027",
+        "NAME OF THE APPLICANT":"KUSHAL BASAK",
+        "FATHER'S NAME":"KRISHNA BASAK",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26028",
+        "NAME OF THE APPLICANT":"LAHARJYOTI BHARALI",
+        "FATHER'S NAME":"LATE NABAJYOTI BHARALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26029",
+        "NAME OF THE APPLICANT":"LIPI SAHA",
+        "FATHER'S NAME":"NILKAMAL SAHA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26030",
+        "NAME OF THE APPLICANT":"MANASH BARO",
+        "FATHER'S NAME":"PURNA BARO",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26031",
+        "NAME OF THE APPLICANT":"MD FIROZ ZAMAN ",
+        "FATHER'S NAME":"AMIN ALI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26032",
+        "NAME OF THE APPLICANT":"MD MOHIB AHMED ",
+        "FATHER'S NAME":"GIYAS UDDIN AHMED ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26033",
+        "NAME OF THE APPLICANT":"MD. ASHRAFUL HASSAN KHAN",
+        "FATHER'S NAME":"AHADULLA KHAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26034",
+        "NAME OF THE APPLICANT":"MEHBUBA SULTANA",
+        "FATHER'S NAME":"AFSAR ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26035",
+        "NAME OF THE APPLICANT":"MIR NISHAD AHMED ",
+        "FATHER'S NAME":"MIR ABDUL KARIM ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26036",
+        "NAME OF THE APPLICANT":"MRIDUSMITA CHOUDHURY",
+        "FATHER'S NAME":"DILIP KUMAR CHOUDHURY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26037",
+        "NAME OF THE APPLICANT":"NAAHIN SULTANA",
+        "FATHER'S NAME":"NABUL ISLAM",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26038",
+        "NAME OF THE APPLICANT":"NAMRATA BARMAN",
+        "FATHER'S NAME":"BANAMALI BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26039",
+        "NAME OF THE APPLICANT":"NAYON BORO",
+        "FATHER'S NAME":"PRAFULLA BORO ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26040",
+        "NAME OF THE APPLICANT":"NIKITA DAS",
+        "FATHER'S NAME":"TARANI DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26041",
+        "NAME OF THE APPLICANT":"NITIN DEURY",
+        "FATHER'S NAME":"NAKUL CHANDRA DEURY",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26042",
+        "NAME OF THE APPLICANT":"NUR AMIN",
+        "FATHER'S NAME":"RAHMAT ALI AHMED",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26043",
+        "NAME OF THE APPLICANT":"PADDU BORO",
+        "FATHER'S NAME":"LELARAM BORO",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26044",
+        "NAME OF THE APPLICANT":"PAMPI KALITA",
+        "FATHER'S NAME":"KESHAB CHANDRA KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26045",
+        "NAME OF THE APPLICANT":"PINKY KRI RAY",
+        "FATHER'S NAME":"BIKRAM RAY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26046",
+        "NAME OF THE APPLICANT":"POOJA DEVI BAISHYA",
+        "FATHER'S NAME":"LATE RAJU BAISHYA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26047",
+        "NAME OF THE APPLICANT":"PRIYANKA BANIK",
+        "FATHER'S NAME":"BIJOY BANIK",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26048",
+        "NAME OF THE APPLICANT":"PUJA BASFOR",
+        "FATHER'S NAME":"RABINDRA BASFOR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26049",
+        "NAME OF THE APPLICANT":"RAHUL AMIN ",
+        "FATHER'S NAME":"AKKEL ALI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26050",
+        "NAME OF THE APPLICANT":"RAHUL DAS",
+        "FATHER'S NAME":"DHIREN DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26051",
+        "NAME OF THE APPLICANT":"REJABUL ISLAM ",
+        "FATHER'S NAME":"SHAHIDUL ISLAM ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26052",
+        "NAME OF THE APPLICANT":"RISHI SARMA",
+        "FATHER'S NAME":"MUNINDRA SARMA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26053",
+        "NAME OF THE APPLICANT":"RIYA MAHATO",
+        "FATHER'S NAME":"RAJESH MAHATO",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26054",
+        "NAME OF THE APPLICANT":"RUKMANI CHETRY",
+        "FATHER'S NAME":"RAJ KUMAR CHETRY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26055",
+        "NAME OF THE APPLICANT":"RUKSHAR ALAM",
+        "FATHER'S NAME":"RAFIQUL ISLAM",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26056",
+        "NAME OF THE APPLICANT":"SAGAR THAKURIA",
+        "FATHER'S NAME":"DINESH THAKURIA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26057",
+        "NAME OF THE APPLICANT":"SAHADAT ALI ",
+        "FATHER'S NAME":"EUSUF ALI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26058",
+        "NAME OF THE APPLICANT":"SAHIL SAHA",
+        "FATHER'S NAME":"SHRIBAS SAHA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26059",
+        "NAME OF THE APPLICANT":"SANIDUL ISLAM",
+        "FATHER'S NAME":"TABIBAR RAHMAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26060",
+        "NAME OF THE APPLICANT":"SANIDUL ISLAM",
+        "FATHER'S NAME":"MOTIUR RAHMAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26061",
+        "NAME OF THE APPLICANT":"SELIMA NASRIN",
+        "FATHER'S NAME":"MD SHAHADAT ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26062",
+        "NAME OF THE APPLICANT":"SHAIN ALI",
+        "FATHER'S NAME":"HASMAT ALI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26063",
+        "NAME OF THE APPLICANT":"SHAIN ALI ",
+        "FATHER'S NAME":"HASMAT ALI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26064",
+        "NAME OF THE APPLICANT":"SUVAM SHAW",
+        "FATHER'S NAME":"SIB LAL SHAW",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26065",
+        "NAME OF THE APPLICANT":"THOMAS KALITA",
+        "FATHER'S NAME":"LANKESWAR KALITA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26066",
+        "NAME OF THE APPLICANT":"TOWFEKA AHMED ",
+        "FATHER'S NAME":"ABDUS SALAM AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26067",
+        "NAME OF THE APPLICANT":"URJITA KASHYAP ",
+        "FATHER'S NAME":"RAMEN SARMA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26068",
+        "NAME OF THE APPLICANT":"YASMINA PARBIN",
+        "FATHER'S NAME":"DULAL HUSSAIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26069",
+        "NAME OF THE APPLICANT":"ZINTISHREE BARMAN",
+        "FATHER'S NAME":"DILIP BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26070",
+        "NAME OF THE APPLICANT":"ZUL FUKKAR ",
+        "FATHER'S NAME":"ABDUR RAHMAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"COM26071",
+        "NAME OF THE APPLICANT":"ZULFIKKAR KHAN",
+        "FATHER'S NAME":"ABDUR RAHMAN ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26001",
+        "NAME OF THE APPLICANT":"ALINDITA KALITA",
+        "FATHER'S NAME":"ANIL KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26002",
+        "NAME OF THE APPLICANT":"ANJOLI MASHAHARY",
+        "FATHER'S NAME":"MENLA MASHAHARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26003",
+        "NAME OF THE APPLICANT":"ANKITA MALAKAR",
+        "FATHER'S NAME":"NITYA NANDA MALAKAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26004",
+        "NAME OF THE APPLICANT":"BARASHA DEVI",
+        "FATHER'S NAME":"DILIP SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26005",
+        "NAME OF THE APPLICANT":"BARBEE NARZARY",
+        "FATHER'S NAME":"LT. JAYANTA NARZARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26006",
+        "NAME OF THE APPLICANT":"BHASWATI DAS ",
+        "FATHER'S NAME":"CHAKRAPANI DAS ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26007",
+        "NAME OF THE APPLICANT":"BHUMIKA POKHREL ",
+        "FATHER'S NAME":"BASUDEV POKHREL ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26008",
+        "NAME OF THE APPLICANT":"BHUPASHRI TALUKDAR",
+        "FATHER'S NAME":"SADANANDA TALUKDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26009",
+        "NAME OF THE APPLICANT":"BIRAJ KARMAKAR ",
+        "FATHER'S NAME":"DIPAK CH KARMAKAR ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26010",
+        "NAME OF THE APPLICANT":"BRISHNI LAHKAR",
+        "FATHER'S NAME":"DAMBARU DHAR LAHKAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26011",
+        "NAME OF THE APPLICANT":"BRITISHA SARMA",
+        "FATHER'S NAME":"KANAK SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26012",
+        "NAME OF THE APPLICANT":"BWHWISHREE BASUMATARY ",
+        "FATHER'S NAME":"SUREN BASUMATARY ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26013",
+        "NAME OF THE APPLICANT":"DEBANGSHU DAS",
+        "FATHER'S NAME":"PABITRA KURMAR DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26014",
+        "NAME OF THE APPLICANT":"DEBASISH DAS ",
+        "FATHER'S NAME":"BAKUL CHANDRA DAS ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26015",
+        "NAME OF THE APPLICANT":"DHIVAN PATGIRI",
+        "FATHER'S NAME":"GIRISH PATGIRI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26016",
+        "NAME OF THE APPLICANT":"DHRITISMITA DAS",
+        "FATHER'S NAME":"BIREN DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26017",
+        "NAME OF THE APPLICANT":"DHYANAM DEKA",
+        "FATHER'S NAME":"PRANAB DEKA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26018",
+        "NAME OF THE APPLICANT":"DIPANKAR TALUKDAR ",
+        "FATHER'S NAME":"BHASKAR TALUKDAR",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26019",
+        "NAME OF THE APPLICANT":"DOLON BASAK",
+        "FATHER'S NAME":"LATE ARUP KUMAR BASAK",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26020",
+        "NAME OF THE APPLICANT":"ESHA NANDI BASAK",
+        "FATHER'S NAME":"UTTAM NANDI BASAK",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26021",
+        "NAME OF THE APPLICANT":"GARIMA BAISHYA",
+        "FATHER'S NAME":"PARESH BAISHYA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26022",
+        "NAME OF THE APPLICANT":"GITIMA DAS",
+        "FATHER'S NAME":"KAMALESWAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26023",
+        "NAME OF THE APPLICANT":"HIMAKHI BARO",
+        "FATHER'S NAME":"SAMIN BARO",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26024",
+        "NAME OF THE APPLICANT":"HIMAKSHI KALITA ",
+        "FATHER'S NAME":"LATE ACHYUT KALITA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26025",
+        "NAME OF THE APPLICANT":"HIMASHRI BARMAN",
+        "FATHER'S NAME":"KANAK BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26026",
+        "NAME OF THE APPLICANT":"HIRAK JYOTI SAIKIA",
+        "FATHER'S NAME":"JADAB SAIKIA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26027",
+        "NAME OF THE APPLICANT":"ISLAM UDDIN",
+        "FATHER'S NAME":"MUSABBAR ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26028",
+        "NAME OF THE APPLICANT":"JAHNABI BARMAN",
+        "FATHER'S NAME":"KHANINDRA BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26029",
+        "NAME OF THE APPLICANT":"KANGKANA DAS",
+        "FATHER'S NAME":"PRAKASH DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26030",
+        "NAME OF THE APPLICANT":"KARISHMA SARMA",
         "FATHER'S NAME":"BABUL SARMA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25014",
-        "NAME OF THE APPLICANT":"MANASHI SARMA",
-        "FATHER'S NAME":"JATINDRA SARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDMAT25015",
-        "NAME OF THE APPLICANT":"MANJIMA SARMA ",
-        "FATHER'S NAME":"RATUL KUMAR SARMA ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDMAT25016",
-        "NAME OF THE APPLICANT":"MANOJ KUMAR DAS",
-        "FATHER'S NAME":"ATUL CHANDRA DAS",
+        "ROLL NUMBER":"ECO26031",
+        "NAME OF THE APPLICANT":"KIRTIRANJAN PARASHAR",
+        "FATHER'S NAME":"GUNARANJAN CHAKRAVARTY",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25017",
-        "NAME OF THE APPLICANT":"PRANAMI DAS",
-        "FATHER'S NAME":"PHANIDHAR DAS",
+        "ROLL NUMBER":"ECO26032",
+        "NAME OF THE APPLICANT":"LINKI NATH",
+        "FATHER'S NAME":"NARAYAN NATH",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25018",
-        "NAME OF THE APPLICANT":"PRITY KALITA ",
-        "FATHER'S NAME":"KRISHNA KANTA KALITA ",
+        "ROLL NUMBER":"ECO26033",
+        "NAME OF THE APPLICANT":"MANISHA DAS",
+        "FATHER'S NAME":"BHUMIDHAR DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25019",
-        "NAME OF THE APPLICANT":"SOURAV JYOTI TALUKDAR",
-        "FATHER'S NAME":"SATYA NATH TALUKDAR",
+        "ROLL NUMBER":"ECO26034",
+        "NAME OF THE APPLICANT":"MUKHLIDA KHATUN",
+        "FATHER'S NAME":"ABDUL MANNAN KHAN ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26035",
+        "NAME OF THE APPLICANT":"NAYANJYOTI DEKA",
+        "FATHER'S NAME":"JAGADISH DEKA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25020",
-        "NAME OF THE APPLICANT":"SRIMANTA THENGAL",
-        "FATHER'S NAME":"SUREN THENGAL",
+        "ROLL NUMBER":"ECO26036",
+        "NAME OF THE APPLICANT":"NEEHARIKA KASHYAP",
+        "FATHER'S NAME":"HIRANYA KUMAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26037",
+        "NAME OF THE APPLICANT":"NEELAKSHI PATHAK",
+        "FATHER'S NAME":"MANOHAR PATHAK",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26038",
+        "NAME OF THE APPLICANT":"NIBEDITA PAUL",
+        "FATHER'S NAME":"BIPUL PAUL",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26039",
+        "NAME OF THE APPLICANT":"NIKHITA SARMA",
+        "FATHER'S NAME":"DIPAK KUMAR SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26040",
+        "NAME OF THE APPLICANT":"NISHA DEVI",
+        "FATHER'S NAME":"SUNIL SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26041",
+        "NAME OF THE APPLICANT":"NISHITA HAZARIKA",
+        "FATHER'S NAME":"JAYANTA HAZARIKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26042",
+        "NAME OF THE APPLICANT":"PRANJANA SARMA",
+        "FATHER'S NAME":"DILIP KUMAR SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26043",
+        "NAME OF THE APPLICANT":"PRITIREKHA BARMAN",
+        "FATHER'S NAME":"KRISHNAKANTA BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26044",
+        "NAME OF THE APPLICANT":"PRITIREKHA BARMAN ",
+        "FATHER'S NAME":"KRISHNAKANTA BARMAN ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26045",
+        "NAME OF THE APPLICANT":"PRIYANGSHI SAUD",
+        "FATHER'S NAME":"SURAJIT KUMAR SAUD ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26046",
+        "NAME OF THE APPLICANT":"PUJA MACHAHARY",
+        "FATHER'S NAME":"MADHU MACHAHARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26047",
+        "NAME OF THE APPLICANT":"RAJIB DAS",
+        "FATHER'S NAME":"BANI KANTA DAS",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25021",
-        "NAME OF THE APPLICANT":"SUSWAGATA DAS",
-        "FATHER'S NAME":"SAJAL KUMAR DAS",
+        "ROLL NUMBER":"ECO26048",
+        "NAME OF THE APPLICANT":"RISHA TALUKDAR",
+        "FATHER'S NAME":"HEMEN TALUKDAR",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDMAT25022",
-        "NAME OF THE APPLICANT":"VIKASH GUPTA",
-        "FATHER'S NAME":"LATE ANIL GUPTA",
+        "ROLL NUMBER":"ECO26049",
+        "NAME OF THE APPLICANT":"RITA SARKAR",
+        "FATHER'S NAME":"SANJIB SARKAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26050",
+        "NAME OF THE APPLICANT":"SAMIM BEGUM",
+        "FATHER'S NAME":"MAINUL HAQUE CHOUDHURY ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26051",
+        "NAME OF THE APPLICANT":"SIBANI KALITA",
+        "FATHER'S NAME":"LT MADAN KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ECO26052",
+        "NAME OF THE APPLICANT":"TARALI KACHARI",
+        "FATHER'S NAME":"SURENDRA KACHARI ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ECONOMICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"EDU26001",
+        "NAME OF THE APPLICANT":"AKASH ROY",
+        "FATHER'S NAME":"ANGARAJ ROY",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in MATHEMATICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDPHI25001",
-        "NAME OF THE APPLICANT":"AIJANI BORO ",
-        "FATHER'S NAME":"BASUDEV BORO",
+        "ROLL NUMBER":"EDU26002",
+        "NAME OF THE APPLICANT":"ALMINA KHATUN",
+        "FATHER'S NAME":"ALAUDDIN AHMED",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDPHI25002",
-        "NAME OF THE APPLICANT":"ALISIKHA ROHANG ",
-        "FATHER'S NAME":"KULESWAR ROHANG ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25003",
-        "NAME OF THE APPLICANT":"ANKITA BARUAH",
-        "FATHER'S NAME":"BIKASH BARUAH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25004",
-        "NAME OF THE APPLICANT":"BANASRI DEVI",
-        "FATHER'S NAME":"KAMAL CHANDRA SARMAH",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25005",
-        "NAME OF THE APPLICANT":"BIDISHA HAZARIKA",
-        "FATHER'S NAME":"LATE PULAK HAZARIKA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25006",
-        "NAME OF THE APPLICANT":"BISWAJIT RABHA",
-        "FATHER'S NAME":"NILKANTA RABHA ",
+        "ROLL NUMBER":"EDU26003",
+        "NAME OF THE APPLICANT":"BABIDUL HOQUE",
+        "FATHER'S NAME":"JAKIR HUSSAIN",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDPHI25007",
-        "NAME OF THE APPLICANT":"CHANDINI BAISHYA",
-        "FATHER'S NAME":"TILAK BAISHYA",
+        "ROLL NUMBER":"EDU26004",
+        "NAME OF THE APPLICANT":"BIDISHA DAS",
+        "FATHER'S NAME":"TIKEN DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDPHI25008",
-        "NAME OF THE APPLICANT":"DEEPIKA RAMCHIARY",
-        "FATHER'S NAME":"TWINSING RAMCHIARY",
+        "ROLL NUMBER":"EDU26005",
+        "NAME OF THE APPLICANT":"CHAYANIKA DAS",
+        "FATHER'S NAME":"NAREN CHANDRA DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDPHI25009",
-        "NAME OF THE APPLICANT":"GOUTOM PHUKAN",
-        "FATHER'S NAME":"DHANIRAM PHUKAN",
+        "ROLL NUMBER":"EDU26006",
+        "NAME OF THE APPLICANT":"GOURANGA DAS ",
+        "FATHER'S NAME":"PADMALOCHAN DAS ",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDPHI25010",
-        "NAME OF THE APPLICANT":"KAJAL MAGAR ",
-        "FATHER'S NAME":"KUMAR MAGAR ",
+        "ROLL NUMBER":"EDU26007",
+        "NAME OF THE APPLICANT":"HAMIDA YEASMIN ",
+        "FATHER'S NAME":"FIRUZ ALI AHMED",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDPHI25011",
-        "NAME OF THE APPLICANT":"KARISHMA DEKA",
-        "FATHER'S NAME":"PRANAB DEKA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25012",
-        "NAME OF THE APPLICANT":"NABAMI BASUMATARY ",
-        "FATHER'S NAME":"PHATE BASUMATARY ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25013",
-        "NAME OF THE APPLICANT":"NIKUMONI DEKA ",
-        "FATHER'S NAME":"DEBEN DEKA ",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25014",
-        "NAME OF THE APPLICANT":"PAPARI DAS ",
-        "FATHER'S NAME":"DHARMESWAR DAS",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25015",
-        "NAME OF THE APPLICANT":"PRATIBHA DEVI",
-        "FATHER'S NAME":"LT SATISH SARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25016",
-        "NAME OF THE APPLICANT":"PURABI SARMA",
-        "FATHER'S NAME":"TILAK SARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25017",
-        "NAME OF THE APPLICANT":"RANGJALI  BARO",
-        "FATHER'S NAME":"NRIPEN CHANDRA BARO",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25018",
-        "NAME OF THE APPLICANT":"ROOPCHANDA SARMA",
-        "FATHER'S NAME":"DEEPAK SARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25019",
-        "NAME OF THE APPLICANT":"SNEHA SAHU",
-        "FATHER'S NAME":"JOY NARAYAN SAHU",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDPHI25020",
-        "NAME OF THE APPLICANT":"SONY DAS",
-        "FATHER'S NAME":"DHARMENDRA DAS",
+        "ROLL NUMBER":"EDU26008",
+        "NAME OF THE APPLICANT":"ISMAIL HUSSAIN",
+        "FATHER'S NAME":"HANIF ALI",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D in PHILOSOPHY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25001",
-        "NAME OF THE APPLICANT":"ANUPAM DEKA",
-        "FATHER'S NAME":"BIJEN DEKA",
+        "ROLL NUMBER":"EDU26009",
+        "NAME OF THE APPLICANT":"KRISHNA SAHA",
+        "FATHER'S NAME":"NIMAI SAHA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26010",
+        "NAME OF THE APPLICANT":"MAHIMA TALUKDAR ",
+        "FATHER'S NAME":"KUMUD TALUKDAR ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26011",
+        "NAME OF THE APPLICANT":"MANIKA BHUYAN",
+        "FATHER'S NAME":"KARIM BHUYAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26012",
+        "NAME OF THE APPLICANT":"MISTU GHOSH",
+        "FATHER'S NAME":"BIMAL CHANDRA GHOSH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26013",
+        "NAME OF THE APPLICANT":"MUSKAN SAHA",
+        "FATHER'S NAME":"MONORANJAN SAHA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26014",
+        "NAME OF THE APPLICANT":"NARZIMA PARBIN",
+        "FATHER'S NAME":"NAZRUL ISLAM",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26015",
+        "NAME OF THE APPLICANT":"NIKITA SEN",
+        "FATHER'S NAME":"PRADIP SEN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26016",
+        "NAME OF THE APPLICANT":"NITU MAZUMDAR",
+        "FATHER'S NAME":"KANAI CHANDRA MAZUMDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26017",
+        "NAME OF THE APPLICANT":"PRATYUSHA SAHA",
+        "FATHER'S NAME":"PRABASH SAHA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26018",
+        "NAME OF THE APPLICANT":"PRITEREKHA DAS",
+        "FATHER'S NAME":"HAREN DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26019",
+        "NAME OF THE APPLICANT":"PRITIMA DEKA",
+        "FATHER'S NAME":"RANJIT DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26020",
+        "NAME OF THE APPLICANT":"RIMA DAS",
+        "FATHER'S NAME":"HARIDEV DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26021",
+        "NAME OF THE APPLICANT":"RIYA OJAH",
+        "FATHER'S NAME":"ANIRUDDHA OJAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26022",
+        "NAME OF THE APPLICANT":"SAMIMA AFROZ",
+        "FATHER'S NAME":"ANOWAR HUSSAIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26023",
+        "NAME OF THE APPLICANT":"SEFALI BASAK",
+        "FATHER'S NAME":"TARUN CHANDRA BASAK",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26024",
+        "NAME OF THE APPLICANT":"SHAHIB AKHTAR",
+        "FATHER'S NAME":"IMAN ALI",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25002",
-        "NAME OF THE APPLICANT":"JUTISMITA DAS",
-        "FATHER'S NAME":"LATE PRAMOD DAS",
+        "ROLL NUMBER":"EDU26025",
+        "NAME OF THE APPLICANT":"SHAMIMA AKTAR",
+        "FATHER'S NAME":"SHAHJAHAN SK",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25003",
-        "NAME OF THE APPLICANT":"KANKAN BAISHYA",
-        "FATHER'S NAME":"SUREN BAISHYA",
+        "ROLL NUMBER":"EDU26026",
+        "NAME OF THE APPLICANT":"SHEKH HALIDA",
+        "FATHER'S NAME":"HAZARAT ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26027",
+        "NAME OF THE APPLICANT":"SIKDER EIAKUB AHMED",
+        "FATHER'S NAME":"ABDUL KHALEQUE MIAH",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25004",
-        "NAME OF THE APPLICANT":"LIPON KUMAR SAHA ",
-        "FATHER'S NAME":"LAKSHMAN KUMAR SAHA ",
+        "ROLL NUMBER":"EDU26028",
+        "NAME OF THE APPLICANT":"SIMA DAS",
+        "FATHER'S NAME":"GOLAP DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26029",
+        "NAME OF THE APPLICANT":"SONAMUNI BASUMATARY ",
+        "FATHER'S NAME":"MATILAL BASUMATARY ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26030",
+        "NAME OF THE APPLICANT":"SUSHMITA SARKAR",
+        "FATHER'S NAME":"GOPAL CHANDRA SARKAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26031",
+        "NAME OF THE APPLICANT":"TARALI DAS",
+        "FATHER'S NAME":"LABANYA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"EDU26032",
+        "NAME OF THE APPLICANT":"TINA PATGIRI",
+        "FATHER'S NAME":"APURBA PATGIRI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M. A. in EDUCATION",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ENG26001",
+        "NAME OF THE APPLICANT":"ADHISA ROY",
+        "FATHER'S NAME":"BIKASH ROY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26002",
+        "NAME OF THE APPLICANT":"ADRIJA GOSWAMI",
+        "FATHER'S NAME":"SIDDHARTHA NARAYAN GOSWAMI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26003",
+        "NAME OF THE APPLICANT":"ALFUZA KHATUN",
+        "FATHER'S NAME":"BASER ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26004",
+        "NAME OF THE APPLICANT":"ANINDITA MEDHI",
+        "FATHER'S NAME":"SAILEN MEDHI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26005",
+        "NAME OF THE APPLICANT":"ANJALI BASUMATARY",
+        "FATHER'S NAME":"ARABINDA BASUMATARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26006",
+        "NAME OF THE APPLICANT":"ANKITA BARMAN",
+        "FATHER'S NAME":"GOBINDA BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26007",
+        "NAME OF THE APPLICANT":"ANZUMA AHMED",
+        "FATHER'S NAME":"AHSAN ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26008",
+        "NAME OF THE APPLICANT":"ASHMA REHMAN",
+        "FATHER'S NAME":"SAFIK ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26009",
+        "NAME OF THE APPLICANT":"ASHRAFUL",
+        "FATHER'S NAME":"KUTUB ALI",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25005",
-        "NAME OF THE APPLICANT":"MANOMATI BARMAN",
-        "FATHER'S NAME":"LT. JOGEN CH BARMAN",
+        "ROLL NUMBER":"ENG26010",
+        "NAME OF THE APPLICANT":"AYUB KHAN",
+        "FATHER'S NAME":"ALEF KHAN ",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25006",
-        "NAME OF THE APPLICANT":"MONJOWARA KHATUN",
-        "FATHER'S NAME":"MOKBUL HUSSAIN",
+        "ROLL NUMBER":"ENG26011",
+        "NAME OF THE APPLICANT":"AZMINA SULTANA",
+        "FATHER'S NAME":"ABDUL ALI AHMED",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25007",
-        "NAME OF THE APPLICANT":"NITUL SARMAH",
-        "FATHER'S NAME":"NRIPEN SARMAH",
+        "ROLL NUMBER":"ENG26012",
+        "NAME OF THE APPLICANT":"BHABANI SARKAR",
+        "FATHER'S NAME":"ARUN SARKAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26013",
+        "NAME OF THE APPLICANT":"BHANISMITA KALITA",
+        "FATHER'S NAME":"BHABESH KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26014",
+        "NAME OF THE APPLICANT":"BRISTI BARASHA BARUAH",
+        "FATHER'S NAME":"KANJIT BARUAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26015",
+        "NAME OF THE APPLICANT":"CHIMPI SARMA",
+        "FATHER'S NAME":"PHULEN SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26016",
+        "NAME OF THE APPLICANT":"CHIRANJIB BORAH",
+        "FATHER'S NAME":"RANJIT BORAH",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25008",
-        "NAME OF THE APPLICANT":"PRASANTA KUMAR NATH",
-        "FATHER'S NAME":"PHULENDRA KUMAR NATH",
+        "ROLL NUMBER":"ENG26017",
+        "NAME OF THE APPLICANT":"DHRITI TALUKDAR ",
+        "FATHER'S NAME":"MONMOHAN TALUKDAR ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26018",
+        "NAME OF THE APPLICANT":"DHRUBANANDA THAKURIA",
+        "FATHER'S NAME":"SANATAN THAKURIA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26019",
+        "NAME OF THE APPLICANT":"DIKSHA TALUKDAR",
+        "FATHER'S NAME":"TIKENDRA TALUKDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26020",
+        "NAME OF THE APPLICANT":"DIKSHITA SHARMA ",
+        "FATHER'S NAME":"BIRENDRA NATH SARMA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26021",
+        "NAME OF THE APPLICANT":"DIMPI BORO",
+        "FATHER'S NAME":"CHANDRA KANTA BORO",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26022",
+        "NAME OF THE APPLICANT":"DISHA DEKA ",
+        "FATHER'S NAME":"BHUPEN CH. DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26023",
+        "NAME OF THE APPLICANT":"HIMA SHRUTI DEVI",
+        "FATHER'S NAME":"BIPUL SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26024",
+        "NAME OF THE APPLICANT":"HIMADRI HARIJAN",
+        "FATHER'S NAME":"DILIP HARIJAN ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26025",
+        "NAME OF THE APPLICANT":"HIYAMONI DUTTA",
+        "FATHER'S NAME":"LAKSHINDRA CHANDRA DUTTA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26026",
+        "NAME OF THE APPLICANT":"JANNAT FIRDDAUS",
+        "FATHER'S NAME":"ABDUL JALIL",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26027",
+        "NAME OF THE APPLICANT":"JIMONI DAS",
+        "FATHER'S NAME":"MANORANJAN DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26028",
+        "NAME OF THE APPLICANT":"JIMPI MAZUMDAR",
+        "FATHER'S NAME":"BIPUL MAZUMDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26029",
+        "NAME OF THE APPLICANT":"JINAMANI DAS",
+        "FATHER'S NAME":"BALEN CHANDRA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26030",
+        "NAME OF THE APPLICANT":"JUBAIDA RUBAMA",
+        "FATHER'S NAME":"SHAIZUDDIN AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26031",
+        "NAME OF THE APPLICANT":"JUBLEE SARMA",
+        "FATHER'S NAME":"KISHORI MOHAN SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26032",
+        "NAME OF THE APPLICANT":"JUPITARA DAS",
+        "FATHER'S NAME":"RAMENDRA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26033",
+        "NAME OF THE APPLICANT":"JUPITARA RAY",
+        "FATHER'S NAME":"SONA RAM RAY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26034",
+        "NAME OF THE APPLICANT":"KANGKANA DAS",
+        "FATHER'S NAME":"MANO KUMAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26035",
+        "NAME OF THE APPLICANT":"KARABI BARUAH",
+        "FATHER'S NAME":"UTPAL BARUAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26036",
+        "NAME OF THE APPLICANT":"KASTURI TALUKDAR ",
+        "FATHER'S NAME":"MANOJ KUMAR TALUKDAR ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26037",
+        "NAME OF THE APPLICANT":"KOWSHIKA PATHAK",
+        "FATHER'S NAME":"NEHAR RANJAN PATHAK ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26038",
+        "NAME OF THE APPLICANT":"KRISHNABH BARMAN",
+        "FATHER'S NAME":"BINOY CH BARMAN",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25009",
-        "NAME OF THE APPLICANT":"RAJU DAS",
-        "FATHER'S NAME":"NAKUL DAS",
+        "ROLL NUMBER":"ENG26039",
+        "NAME OF THE APPLICANT":"LAKSHYANA KASHYAP KALITA",
+        "FATHER'S NAME":"NAGENDRA KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26040",
+        "NAME OF THE APPLICANT":"LONA BAISHYA",
+        "FATHER'S NAME":"JIBAN CHANDRA BAISHYA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26041",
+        "NAME OF THE APPLICANT":"MAHFUZA CHOUDHURY ",
+        "FATHER'S NAME":"MAHBUBAR RAHMAN CHOUDHURY ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26042",
+        "NAME OF THE APPLICANT":"MAINUARA BEGUM",
+        "FATHER'S NAME":"MANJUL ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26043",
+        "NAME OF THE APPLICANT":"MANJIT DEKA",
+        "FATHER'S NAME":"LT SADA DEKA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25010",
-        "NAME OF THE APPLICANT":"SAJIDA BEGUM",
-        "FATHER'S NAME":"MD KHALIL UDDIN",
+        "ROLL NUMBER":"ENG26044",
+        "NAME OF THE APPLICANT":"MOUCHUMI SARKAR ",
+        "FATHER'S NAME":"SUBRATA KUMAR SARKAR ",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25011",
-        "NAME OF THE APPLICANT":"SOMIR ALI",
-        "FATHER'S NAME":"ANOWAR HOSEN",
+        "ROLL NUMBER":"ENG26045",
+        "NAME OF THE APPLICANT":"MRIDUSMITA SUTRADHAR",
+        "FATHER'S NAME":"SALENDRA SUTRADHAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26046",
+        "NAME OF THE APPLICANT":"NAIRIT NIKI KASHYAP ",
+        "FATHER'S NAME":"HITESH DAS ",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDPHY25012",
-        "NAME OF THE APPLICANT":"TANAY KHATANIAR ",
-        "FATHER'S NAME":"MAKUNDA KHATANIAR ",
+        "ROLL NUMBER":"ENG26047",
+        "NAME OF THE APPLICANT":"NASRIN SULTANA",
+        "FATHER'S NAME":"ABDUR ROUF",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26048",
+        "NAME OF THE APPLICANT":"NIHARIKA DAS",
+        "FATHER'S NAME":"DR SUDARSHAN DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26049",
+        "NAME OF THE APPLICANT":"NIHARIKA HALOI",
+        "FATHER'S NAME":"LOCHAN HALOI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26050",
+        "NAME OF THE APPLICANT":"NIKITA DAS",
+        "FATHER'S NAME":"PRABHAKAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26051",
+        "NAME OF THE APPLICANT":"NIKITA TALUKDAR",
+        "FATHER'S NAME":"JITEN TALUKDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26052",
+        "NAME OF THE APPLICANT":"NILAKSHI KALITA ",
+        "FATHER'S NAME":"AJIT KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26053",
+        "NAME OF THE APPLICANT":"NISHITA OJAH",
+        "FATHER'S NAME":"DHANANJOY OJAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26054",
+        "NAME OF THE APPLICANT":"NISITA DAS",
+        "FATHER'S NAME":"DEBEN DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26055",
+        "NAME OF THE APPLICANT":"PALLABI TALUKDAR",
+        "FATHER'S NAME":"MADHAB TALUKDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26056",
+        "NAME OF THE APPLICANT":"PRAGYANJYOTI DEB NATH",
+        "FATHER'S NAME":"KANDARPA KUMAR DEB NATH",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25001",
-        "NAME OF THE APPLICANT":"BANASRI DEKA",
-        "FATHER'S NAME":"CHANDRA KANTA DEKA",
+        "ROLL NUMBER":"ENG26057",
+        "NAME OF THE APPLICANT":"PRAYASHI TALUKDAR",
+        "FATHER'S NAME":"GAURI SANKAR TALUKDAR",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25002",
-        "NAME OF THE APPLICANT":"DEEPSIKHA DEKA",
-        "FATHER'S NAME":"SUBAL DEKA",
+        "ROLL NUMBER":"ENG26058",
+        "NAME OF THE APPLICANT":"PRERANA BAISHYA",
+        "FATHER'S NAME":"BRAJEN BAISHYA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25003",
-        "NAME OF THE APPLICANT":"DHRITISMITA KALITA",
-        "FATHER'S NAME":"RATAN KISHOR DAS",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSKT25004",
-        "NAME OF THE APPLICANT":"DIMPAL SARMA",
-        "FATHER'S NAME":"GOPAL SARMA",
+        "ROLL NUMBER":"ENG26059",
+        "NAME OF THE APPLICANT":"RANAJ CHOUDHURY",
+        "FATHER'S NAME":"SANKAR CHANDRA CHOUDHURY",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25005",
-        "NAME OF THE APPLICANT":"GAGEN KAKATI",
-        "FATHER'S NAME":"HARESWAR KAKATI",
+        "ROLL NUMBER":"ENG26060",
+        "NAME OF THE APPLICANT":"RITAM BAISHYA",
+        "FATHER'S NAME":"GIRISH CHANDRA BAISHYA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25006",
-        "NAME OF THE APPLICANT":"GARGI KAUSHIK",
-        "FATHER'S NAME":"LT. PRAKASH SARMA",
+        "ROLL NUMBER":"ENG26061",
+        "NAME OF THE APPLICANT":"RITUSMITA NATH",
+        "FATHER'S NAME":"GHANA KANTA NATH",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25007",
-        "NAME OF THE APPLICANT":"GARIMA SARMA",
-        "FATHER'S NAME":"DINESH SARMA",
+        "ROLL NUMBER":"ENG26062",
+        "NAME OF THE APPLICANT":"ROSE DAS",
+        "FATHER'S NAME":"MUNINDRA CH DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25008",
-        "NAME OF THE APPLICANT":"JOLI DEVI ",
-        "FATHER'S NAME":"GAUTAM SARMA ",
+        "ROLL NUMBER":"ENG26063",
+        "NAME OF THE APPLICANT":"RUPSIKHA MAZUMDAR",
+        "FATHER'S NAME":"GUNAJIT MAZUMDAR",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25009",
-        "NAME OF THE APPLICANT":"KUKILA RAJKHOWA",
-        "FATHER'S NAME":"LALIT RAJKHOWA",
+        "ROLL NUMBER":"ENG26064",
+        "NAME OF THE APPLICANT":"SABREENA RAHMAN",
+        "FATHER'S NAME":"SADIQUR RAHMAN",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25010",
-        "NAME OF THE APPLICANT":"MANALISHA RAJBONGSHI",
-        "FATHER'S NAME":"GHANAKANTA RAJBONGSHI",
+        "ROLL NUMBER":"ENG26065",
+        "NAME OF THE APPLICANT":"SASWATI MEDHI",
+        "FATHER'S NAME":"DIMBESWAR MEDHI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25011",
-        "NAME OF THE APPLICANT":"MANASHI SARMA",
-        "FATHER'S NAME":"MANORANJAN SARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSKT25012",
-        "NAME OF THE APPLICANT":"NAYAN JYOTI SINGH",
-        "FATHER'S NAME":"MONUJ RAJPUT",
+        "ROLL NUMBER":"ENG26066",
+        "NAME OF THE APPLICANT":"SAURAV JYOTI KALITA",
+        "FATHER'S NAME":"RABEN KALITA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25013",
-        "NAME OF THE APPLICANT":"PAPARI SARMA",
-        "FATHER'S NAME":"AJIT KUMAR SARMA",
+        "ROLL NUMBER":"ENG26067",
+        "NAME OF THE APPLICANT":"SHAFIKA AHMED",
+        "FATHER'S NAME":"HANNAN ALI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25014",
-        "NAME OF THE APPLICANT":"PINKI PAUL",
-        "FATHER'S NAME":"PARITOSH PAUL",
+        "ROLL NUMBER":"ENG26068",
+        "NAME OF THE APPLICANT":"SHAHANAZ PARBIN",
+        "FATHER'S NAME":"ADBUS SOBAN",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSKT25015",
-        "NAME OF THE APPLICANT":"PRITISMITA KALITA ",
-        "FATHER'S NAME":"SHIBEN KALITA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSKT25016",
-        "NAME OF THE APPLICANT":"PRIYANKA GOSWAMI",
-        "FATHER'S NAME":"PRADIP GOSWAMI",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSKT25017",
-        "NAME OF THE APPLICANT":"RUKMINI DAS",
-        "FATHER'S NAME":"TARINI DAS",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SANSKRIT",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSOC25001",
-        "NAME OF THE APPLICANT":"AKANGSHA SAHA",
-        "FATHER'S NAME":"LT ASHISH KUMAR SAHA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SOCIOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSOC25002",
-        "NAME OF THE APPLICANT":"ANANYA KALITA",
-        "FATHER'S NAME":"DWIPENDRA NATH KALITA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SOCIOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSOC25003",
-        "NAME OF THE APPLICANT":"ANKUR TALUKDAR",
-        "FATHER'S NAME":"NAARAYAN TALUKDAR",
+        "ROLL NUMBER":"ENG26069",
+        "NAME OF THE APPLICANT":"SHAHIR ANOWAR ",
+        "FATHER'S NAME":"AHMED ALI",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SOCIOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSOC25004",
-        "NAME OF THE APPLICANT":"BHUSHITA SHARMA ",
-        "FATHER'S NAME":"NRIPENDRA SARMA",
+        "ROLL NUMBER":"ENG26070",
+        "NAME OF THE APPLICANT":"SHASWATI DAS",
+        "FATHER'S NAME":"PRABIN CHANDRA DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SOCIOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSOC25005",
-        "NAME OF THE APPLICANT":"NILAKSHI CHAKRABORTY",
-        "FATHER'S NAME":"BIPIN CHANDRA CHAKRAVARTY",
+        "ROLL NUMBER":"ENG26071",
+        "NAME OF THE APPLICANT":"SHIVAM BHOWMIK",
+        "FATHER'S NAME":"DILIP BHOWMICK",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"ENG26072",
+        "NAME OF THE APPLICANT":"SULTANA NASRIN",
+        "FATHER'S NAME":"ABU BAKKAR SIDDIQUE ",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SOCIOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSOC25006",
-        "NAME OF THE APPLICANT":"RIYA BHARADWAZ",
-        "FATHER'S NAME":"SUBRATA CHOUDHURY",
+        "ROLL NUMBER":"ENG26073",
+        "NAME OF THE APPLICANT":"TANMAYEE DAS",
+        "FATHER'S NAME":"DHANANJOY DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SOCIOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDSOC25007",
-        "NAME OF THE APPLICANT":"SEHNAS SULTANA",
+        "ROLL NUMBER":"ENG26074",
+        "NAME OF THE APPLICANT":"TAPASHI KALITA ",
+        "FATHER'S NAME":"GIRISH CHANDRA KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in ENGLISH",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"GGY26001",
+        "NAME OF THE APPLICANT":"AKBAR BADSHA ",
+        "FATHER'S NAME":"JAYNAL HOQUE ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26002",
+        "NAME OF THE APPLICANT":"AMLAN JIT GOGOI",
+        "FATHER'S NAME":"PRABHAT GOGOI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26003",
+        "NAME OF THE APPLICANT":"ANGSHULEKHA THAKURIYA",
+        "FATHER'S NAME":"LATE DEBENDRA NATH KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26004",
+        "NAME OF THE APPLICANT":"BIDISHA ROY",
+        "FATHER'S NAME":"SADANANDA ROY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26005",
+        "NAME OF THE APPLICANT":"BRISHMITA BARMAN",
+        "FATHER'S NAME":"PRANAB KUMAR BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26006",
+        "NAME OF THE APPLICANT":"DAIJI RANI BARO",
+        "FATHER'S NAME":"KAMESHWAR BARO",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26007",
+        "NAME OF THE APPLICANT":"DEVI SARKAR",
+        "FATHER'S NAME":"PABITRA KR SARKAR ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26008",
+        "NAME OF THE APPLICANT":"DHANJITA DAS",
+        "FATHER'S NAME":"CHANDAN BASFORE",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26009",
+        "NAME OF THE APPLICANT":"DIKSHITA BHATTA",
+        "FATHER'S NAME":"JITU MANI BHATTA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26010",
+        "NAME OF THE APPLICANT":"DIPSIKHA GOSWAMI",
+        "FATHER'S NAME":"BHUPENDRA GOSWAMI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26011",
+        "NAME OF THE APPLICANT":"DRISTI KALITA ",
+        "FATHER'S NAME":"LAKHESWAR KALITA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26012",
+        "NAME OF THE APPLICANT":"FARZAN SIDDIKA",
+        "FATHER'S NAME":"IKRAM HUSSAIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26013",
+        "NAME OF THE APPLICANT":"HRIDDITA SARMA ",
+        "FATHER'S NAME":"JNANENDRA SARMA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26014",
+        "NAME OF THE APPLICANT":"JUGAPRIYA DEVI",
+        "FATHER'S NAME":"JIBAN CHANDRA NATH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26015",
+        "NAME OF THE APPLICANT":"KABERI DEKA ",
+        "FATHER'S NAME":"MUNINDRA DEKA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26016",
+        "NAME OF THE APPLICANT":"KABYASHRI DUTTA ",
+        "FATHER'S NAME":"NABA KUMAR DUTTA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26017",
+        "NAME OF THE APPLICANT":"KAKALI DAS",
+        "FATHER'S NAME":"RANJIT DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26018",
+        "NAME OF THE APPLICANT":"KANKITA GOSWAMI",
+        "FATHER'S NAME":"AJAY GOSWAMI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26019",
+        "NAME OF THE APPLICANT":"MADHABI RABHA",
+        "FATHER'S NAME":"LATE KANU RAM RABHA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26020",
+        "NAME OF THE APPLICANT":"MADHUSMITA HAZARIKA",
+        "FATHER'S NAME":"DILIP HAZARIKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26021",
+        "NAME OF THE APPLICANT":"MALABIKA PATHAK",
+        "FATHER'S NAME":"DHANESWAR PATHAK",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26022",
+        "NAME OF THE APPLICANT":"MOZAFAR HUSSAIN",
+        "FATHER'S NAME":"HAREZ ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26023",
+        "NAME OF THE APPLICANT":"MRIGAKSHI MAJUMDER ",
+        "FATHER'S NAME":"BHAIRAB MAJUMDAR ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26024",
+        "NAME OF THE APPLICANT":"NIBEDITA DAS",
+        "FATHER'S NAME":"DINABANDHU DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26025",
+        "NAME OF THE APPLICANT":"NIBIR SAHARIA",
+        "FATHER'S NAME":"BHUPEN CHANDRA SAHARIA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26026",
+        "NAME OF THE APPLICANT":"NIKHITA DAS",
+        "FATHER'S NAME":"DUKHU RAM DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26027",
+        "NAME OF THE APPLICANT":"NIKHITA DAS ",
+        "FATHER'S NAME":"DUKHU RAM DAS ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26028",
+        "NAME OF THE APPLICANT":"NIKI KUMARI",
+        "FATHER'S NAME":"PARESH KUMAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26029",
+        "NAME OF THE APPLICANT":"NISHA MONI KALITA",
+        "FATHER'S NAME":"DILIP KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26030",
+        "NAME OF THE APPLICANT":"NIYAR DAS",
+        "FATHER'S NAME":"GOPEN KUMAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26031",
+        "NAME OF THE APPLICANT":"PRANAY KUMAR BISWAS",
+        "FATHER'S NAME":"LATE PRAN BALLAV BISWAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26032",
+        "NAME OF THE APPLICANT":"PUJA PRIYA DAS",
+        "FATHER'S NAME":"MADHAB CHANDRA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26033",
+        "NAME OF THE APPLICANT":"RITUMONI DEKA",
+        "FATHER'S NAME":"JAGADISH DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26034",
+        "NAME OF THE APPLICANT":"SAMIRAN DEKA",
+        "FATHER'S NAME":"TARUN AZAD DEKA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26035",
+        "NAME OF THE APPLICANT":"SMITA NATH",
+        "FATHER'S NAME":"GOLAK CHANDRA NATH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26036",
+        "NAME OF THE APPLICANT":"SUSHMITA BHATTACHARYYA",
+        "FATHER'S NAME":"BRAJEN BHATTACHARYYA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26037",
+        "NAME OF THE APPLICANT":"TAPASHREE DAS",
+        "FATHER'S NAME":"LANKESWAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26038",
+        "NAME OF THE APPLICANT":"TARJUMA PARBIN",
+        "FATHER'S NAME":"MOFIZ UDDIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26039",
+        "NAME OF THE APPLICANT":"TRISHNA DEVI",
+        "FATHER'S NAME":"BIPUL SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26040",
+        "NAME OF THE APPLICANT":"TRISHNA MONI DEKA",
+        "FATHER'S NAME":"LATE PARESH DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26041",
+        "NAME OF THE APPLICANT":"UDESHNA RAY MEDHI",
+        "FATHER'S NAME":"AMAL SING RAY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"GGY26042",
+        "NAME OF THE APPLICANT":"UPASHANA BARMAN ",
+        "FATHER'S NAME":"DWIPEN BARMAN ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26001",
+        "NAME OF THE APPLICANT":"ANKITA NATH",
+        "FATHER'S NAME":"TRAILAKYA NATH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26002",
+        "NAME OF THE APPLICANT":"BARNALI BARMAN",
+        "FATHER'S NAME":"TARINI BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26003",
+        "NAME OF THE APPLICANT":"BEDASHRUTI GAYAN",
+        "FATHER'S NAME":"GUNADHAR GAYAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26004",
+        "NAME OF THE APPLICANT":"BIDISHA MAHANTA",
+        "FATHER'S NAME":"DIGANTA PRAKASH MAHANTA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26005",
+        "NAME OF THE APPLICANT":"DEEPSHIKHA DAS",
+        "FATHER'S NAME":"TRAYLAKYA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26006",
+        "NAME OF THE APPLICANT":"DIMPI CHOUDHURY",
+        "FATHER'S NAME":"DULAL CHOUDHURY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26007",
+        "NAME OF THE APPLICANT":"DIMPIMANI KALITA",
+        "FATHER'S NAME":"DIMBESWAR KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26008",
+        "NAME OF THE APPLICANT":"HIMASHREE DEVI",
+        "FATHER'S NAME":"MAHENDRA SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26009",
+        "NAME OF THE APPLICANT":"HIYASMITA TALUKDAR",
+        "FATHER'S NAME":"GOBINDA CHANDRA TALUKDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26010",
+        "NAME OF THE APPLICANT":"JAHIDA KHATUN",
+        "FATHER'S NAME":"JAHIDUL ISLAM",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26011",
+        "NAME OF THE APPLICANT":"JANKI RAHMAN",
+        "FATHER'S NAME":"MATIAR RAHMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26012",
+        "NAME OF THE APPLICANT":"KRITANJALI DAS",
+        "FATHER'S NAME":"NANDESWAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26013",
+        "NAME OF THE APPLICANT":"MADHUSMITA BORO",
+        "FATHER'S NAME":"KAMALESWAR BORO",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26014",
+        "NAME OF THE APPLICANT":"MANALISHA DAS",
+        "FATHER'S NAME":"BHABESH CHANDRA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26015",
+        "NAME OF THE APPLICANT":"MANIMA BEGUM",
+        "FATHER'S NAME":"RAKBUL ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26016",
+        "NAME OF THE APPLICANT":"MOUSUMI DAS ",
+        "FATHER'S NAME":"ANJAN DAS ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26017",
+        "NAME OF THE APPLICANT":"MRIDULA DAS",
+        "FATHER'S NAME":"RANJIT DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26018",
+        "NAME OF THE APPLICANT":"NARAYAN ROY",
+        "FATHER'S NAME":"DILIP ROY",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26019",
+        "NAME OF THE APPLICANT":"NARZIMA AHMED",
+        "FATHER'S NAME":"NAIM UDDIN AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26020",
+        "NAME OF THE APPLICANT":"NIKITA NATH",
+        "FATHER'S NAME":"GHANASHYAM NATH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26021",
+        "NAME OF THE APPLICANT":"RASHMIREKHA DAS",
+        "FATHER'S NAME":"HRIDAYA NANDA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26022",
+        "NAME OF THE APPLICANT":"REEMA BAISHYA",
+        "FATHER'S NAME":"UMESH BAISHYA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26023",
+        "NAME OF THE APPLICANT":"REZAUL KARIM KHAN",
+        "FATHER'S NAME":"ABDUL AZIZ KHAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26024",
+        "NAME OF THE APPLICANT":"RICHITA KALITA",
+        "FATHER'S NAME":"PRATUL KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26025",
+        "NAME OF THE APPLICANT":"RIMI KALITA",
+        "FATHER'S NAME":"JAGADISH KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26026",
+        "NAME OF THE APPLICANT":"RITU BARMAN",
+        "FATHER'S NAME":"HARIHAR BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26027",
+        "NAME OF THE APPLICANT":"RITURAJ BHUYAN",
+        "FATHER'S NAME":"HIRANYA KUMAR BHUYAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26028",
+        "NAME OF THE APPLICANT":"SANGITA DAS",
+        "FATHER'S NAME":"RANJIT DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26029",
+        "NAME OF THE APPLICANT":"SANIDUL ISLAM",
+        "FATHER'S NAME":"HAYBAR RAHMAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26030",
+        "NAME OF THE APPLICANT":"SOURABH NATH",
+        "FATHER'S NAME":"NABAJYOTI NATH",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26031",
+        "NAME OF THE APPLICANT":"SUCHIBRATA GOSWAMI",
+        "FATHER'S NAME":"GOPAL GOSWAMI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26032",
+        "NAME OF THE APPLICANT":"TRISHNA NATH",
+        "FATHER'S NAME":"PRABHAT NATH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26033",
+        "NAME OF THE APPLICANT":"UPASONA DAS",
+        "FATHER'S NAME":"DIGANTA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26034",
+        "NAME OF THE APPLICANT":"VITTIKISHOR ROY",
+        "FATHER'S NAME":"KHITISH CHANDRA ROY",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"HIS26035",
+        "NAME OF THE APPLICANT":"YUBARAJ TALUKDAR",
+        "FATHER'S NAME":"KARTIK TALUKDAR",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in HISTORY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26001",
+        "NAME OF THE APPLICANT":"ABIDUR RAHMAN",
+        "FATHER'S NAME":"ABRAHAM ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26002",
+        "NAME OF THE APPLICANT":"AFSINA HOSSAIN ",
+        "FATHER'S NAME":"MD AMZAD HOSSAIN ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26003",
+        "NAME OF THE APPLICANT":"AKKAS ALI",
+        "FATHER'S NAME":"ANUAR HUSSAIN ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26004",
+        "NAME OF THE APPLICANT":"ANKUR KALITA",
+        "FATHER'S NAME":"BIPIN KALITA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26005",
+        "NAME OF THE APPLICANT":"ASHRAFUL SHAKINUR ",
+        "FATHER'S NAME":"ANUAR HUSSAIN ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26006",
+        "NAME OF THE APPLICANT":"BHASWATI DAS",
+        "FATHER'S NAME":"BASANTA KUMAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26007",
+        "NAME OF THE APPLICANT":"BIBHAB KUMAR DAS",
+        "FATHER'S NAME":"APURBANANDA DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26008",
+        "NAME OF THE APPLICANT":"CHIRANJITA DAS",
+        "FATHER'S NAME":"DHIRESWAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26009",
+        "NAME OF THE APPLICANT":"DHRITISHA KAKATI",
+        "FATHER'S NAME":"PRAKASH KAKATI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26010",
+        "NAME OF THE APPLICANT":"DHRUBA PRASAD BARUAH",
+        "FATHER'S NAME":"CHANDRA KANTA BARUAH",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26011",
+        "NAME OF THE APPLICANT":"DIPANKAR KALITA",
+        "FATHER'S NAME":"DILIP KALITA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26012",
+        "NAME OF THE APPLICANT":"DOLI RANI BARO",
+        "FATHER'S NAME":"KHAGEN CHANDRA BARO ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26013",
+        "NAME OF THE APPLICANT":"FARIDUL KHAN ",
+        "FATHER'S NAME":"HUSSAIN KHAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26014",
+        "NAME OF THE APPLICANT":"HIMANGSHU KALITA",
+        "FATHER'S NAME":"KHAGEN CHANDRA KALITA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26015",
+        "NAME OF THE APPLICANT":"HIMASREE DAS",
+        "FATHER'S NAME":"JADAB DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26016",
+        "NAME OF THE APPLICANT":"HRISHIKESH SARMA",
+        "FATHER'S NAME":"BHUPEN SARMA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26017",
+        "NAME OF THE APPLICANT":"JAMINUR ALI",
+        "FATHER'S NAME":"SULEMAN ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26018",
+        "NAME OF THE APPLICANT":"JUMAN NATH",
+        "FATHER'S NAME":"KAMAKHYA NATH",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26019",
+        "NAME OF THE APPLICANT":"MAFIZUR RAHMAN",
+        "FATHER'S NAME":"MUKSED ALI AHMED",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26020",
+        "NAME OF THE APPLICANT":"MRINMOY BEZBARUAH ",
+        "FATHER'S NAME":"BHABESH BEZBARUAH ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26021",
+        "NAME OF THE APPLICANT":"NEELABH DEKA",
+        "FATHER'S NAME":"UTCHAB DEKA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26022",
+        "NAME OF THE APPLICANT":"PRANAB PRAJJAL DEVANATH",
+        "FATHER'S NAME":"KAILASH KUMAR NATH",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26023",
+        "NAME OF THE APPLICANT":"PRAPTI PATHAK",
+        "FATHER'S NAME":"BIRINCHI PATHAK",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26024",
+        "NAME OF THE APPLICANT":"PRIYA DAS",
+        "FATHER'S NAME":"RAJNATH DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26025",
+        "NAME OF THE APPLICANT":"PRIYANSHU SARMAH",
+        "FATHER'S NAME":"SARADINDU SARMAH ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26026",
+        "NAME OF THE APPLICANT":"RESMINA KHANAM",
+        "FATHER'S NAME":"ABDUL GAFUR KHAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26027",
+        "NAME OF THE APPLICANT":"RITIKA KARMAKAR",
+        "FATHER'S NAME":"BIRENDRA KARMAKAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26028",
+        "NAME OF THE APPLICANT":"RUMEE NATH ",
+        "FATHER'S NAME":"KUSHAL NATH ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26029",
+        "NAME OF THE APPLICANT":"SANGITA DEKA",
+        "FATHER'S NAME":"AJIT DEKA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26030",
+        "NAME OF THE APPLICANT":"SHAHANUR SIKDAR",
+        "FATHER'S NAME":"ABDUL HAI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26031",
+        "NAME OF THE APPLICANT":"SHAYEM UDDIN",
+        "FATHER'S NAME":"KALIM UDDIN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26032",
+        "NAME OF THE APPLICANT":"SHIRAJUL HOQUE",
+        "FATHER'S NAME":"SOLEMAN ALI TALUKDAR",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26033",
+        "NAME OF THE APPLICANT":"SILPI BHUYAN ",
+        "FATHER'S NAME":"ACHYUT KR BHUYAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26034",
+        "NAME OF THE APPLICANT":"SMRITI DEKA",
+        "FATHER'S NAME":"KHARGESWAR DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26035",
+        "NAME OF THE APPLICANT":"SUBITRA SARKAR ",
+        "FATHER'S NAME":"NIRANJAN SARKAR ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26036",
+        "NAME OF THE APPLICANT":"SUSHMITA SAHA",
+        "FATHER'S NAME":"SANJIT SAHA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26037",
+        "NAME OF THE APPLICANT":"TANAYA BRAHMA",
+        "FATHER'S NAME":"PADMA BRAHMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26038",
+        "NAME OF THE APPLICANT":"TASLIMA NASRIN",
+        "FATHER'S NAME":"HASHEM ALI AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"MAT26039",
+        "NAME OF THE APPLICANT":"UJJAL DEKA",
+        "FATHER'S NAME":"LAKSHYA DHAR DEKA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in MATHEMATICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 3.00 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26001",
+        "NAME OF THE APPLICANT":"ANITA NARZARY",
+        "FATHER'S NAME":"HEMANTA NARZARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26002",
+        "NAME OF THE APPLICANT":"ANJIMA BORO",
+        "FATHER'S NAME":"SARMA BORO ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26003",
+        "NAME OF THE APPLICANT":"BANDANA KALITA",
+        "FATHER'S NAME":"KHAGEN KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26004",
+        "NAME OF THE APPLICANT":"CHIMA NASRIN",
+        "FATHER'S NAME":"AZMAL HUSSAIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26005",
+        "NAME OF THE APPLICANT":"DAVID BARO",
+        "FATHER'S NAME":"DIPAK BARO",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26006",
+        "NAME OF THE APPLICANT":"DHANADA DAS",
+        "FATHER'S NAME":"SOMESWAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26007",
+        "NAME OF THE APPLICANT":"DIMPIMONI DAS",
+        "FATHER'S NAME":"KHAGENDRA CHANDRA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26008",
+        "NAME OF THE APPLICANT":"DIPANNITA NATH",
+        "FATHER'S NAME":"DEBAJIT NATH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26009",
+        "NAME OF THE APPLICANT":"GULZAR HUSSAIN",
+        "FATHER'S NAME":"KURFAN ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26010",
+        "NAME OF THE APPLICANT":"GUNESWARI GAYARI ",
+        "FATHER'S NAME":"KAKILO GAYARI ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26011",
+        "NAME OF THE APPLICANT":"KANGKANA MASAHARY",
+        "FATHER'S NAME":"KIRAN MASAHARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26012",
+        "NAME OF THE APPLICANT":"MEHAQUE SULTANA AHMED",
+        "FATHER'S NAME":"HURMUJ AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26013",
+        "NAME OF THE APPLICANT":"NANDINI DEURY",
+        "FATHER'S NAME":"GOPAL DEURY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26014",
+        "NAME OF THE APPLICANT":"RAKESH BORO",
+        "FATHER'S NAME":"ANANDA BORO",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26015",
+        "NAME OF THE APPLICANT":"RESHMINA PARBIN",
         "FATHER'S NAME":"HABIBAR RAHMAN",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SOCIOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDSOC25008",
-        "NAME OF THE APPLICANT":"SUMPI KALITA",
-        "FATHER'S NAME":"PRAFULLA KALITA",
+        "ROLL NUMBER":"PHI26016",
+        "NAME OF THE APPLICANT":"RIMJIM BASUMATARY",
+        "FATHER'S NAME":"ACHYUT BASUMATARY",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SOCIOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDSOC25009",
-        "NAME OF THE APPLICANT":"TORALI DEKA",
-        "FATHER'S NAME":"BIREN DEKA",
+        "ROLL NUMBER":"PHI26017",
+        "NAME OF THE APPLICANT":"SALMA BEGUM",
+        "FATHER'S NAME":"MAINUL HAQUE",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in SOCIOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDSTA25001",
-        "NAME OF THE APPLICANT":"ADITYA KUMAR DEKA",
-        "FATHER'S NAME":"RAMESWAR DEKA",
+        "ROLL NUMBER":"PHI26018",
+        "NAME OF THE APPLICANT":"SARAJU KALITA",
+        "FATHER'S NAME":"KALPA RAM KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26019",
+        "NAME OF THE APPLICANT":"SILIMA PARBIN",
+        "FATHER'S NAME":"FAZER ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHI26020",
+        "NAME OF THE APPLICANT":"TANUJA RAMCHIARY",
+        "FATHER'S NAME":"SUBHA RAMCHIARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in PHILOSOPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26001",
+        "NAME OF THE APPLICANT":"ABINASH KALITA",
+        "FATHER'S NAME":"GHANASHYAM KALITA",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in STATISTICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDSTA25002",
-        "NAME OF THE APPLICANT":"BARNALI DEKA",
-        "FATHER'S NAME":"SARU RAM DEKA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in STATISTICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSTA25003",
-        "NAME OF THE APPLICANT":"BIJETA ROY",
-        "FATHER'S NAME":"MRIGENDRA ROY",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in STATISTICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSTA25004",
-        "NAME OF THE APPLICANT":"FLORINA THAKURIA",
-        "FATHER'S NAME":"DIMBESWAR THAKURIA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in STATISTICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSTA25005",
-        "NAME OF THE APPLICANT":"MADHURJYAA KASHYAP PATOWARY",
-        "FATHER'S NAME":"MUKUL PATOWARY",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in STATISTICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSTA25006",
-        "NAME OF THE APPLICANT":"PRIYANKA DAS",
-        "FATHER'S NAME":"UMESH DAS",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in STATISTICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDSTA25007",
-        "NAME OF THE APPLICANT":"SANIDUL ISLAM",
-        "FATHER'S NAME":"OSIM UDDIN SHEIKH ",
+        "ROLL NUMBER":"PHY26002",
+        "NAME OF THE APPLICANT":"ABU MUKARIM ",
+        "FATHER'S NAME":"ABU SAYED ",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in STATISTICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDSTA25008",
-        "NAME OF THE APPLICANT":"SNEHA CHANDA ",
-        "FATHER'S NAME":"BALAI KUMAR CHANDA ",
+        "ROLL NUMBER":"PHY26003",
+        "NAME OF THE APPLICANT":"AFSANA PARBIN",
+        "FATHER'S NAME":"USOB ALI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in STATISTICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDSTA25009",
-        "NAME OF THE APPLICANT":"SHAINEE SAHA",
-        "FATHER'S NAME":"ARUP KUMAR SAHA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in STATISTICS",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDZOO25001",
-        "NAME OF THE APPLICANT":"ANWESHA DAS",
-        "FATHER'S NAME":"HEMANTA ROY",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDZOO25002",
-        "NAME OF THE APPLICANT":"ARNABJAN GK KASHYAP",
-        "FATHER'S NAME":"GAUTAM DAS",
+        "ROLL NUMBER":"PHY26004",
+        "NAME OF THE APPLICANT":"AJIT KARMAKAR",
+        "FATHER'S NAME":"MUKUL KARMAKAR",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25003",
-        "NAME OF THE APPLICANT":"ASHWARYA KUMARI SIHAG",
-        "FATHER'S NAME":"BALRAJ SINGH SIHAG",
+        "ROLL NUMBER":"PHY26005",
+        "NAME OF THE APPLICANT":"APARNA RABHA",
+        "FATHER'S NAME":"LAHIT RABHA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25004",
-        "NAME OF THE APPLICANT":"BANASHREE SARMA",
-        "FATHER'S NAME":"KANAK CH SARMA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDZOO25005",
-        "NAME OF THE APPLICANT":"BITOPAN SARMA",
-        "FATHER'S NAME":"SIRISH KR SARMA",
+        "ROLL NUMBER":"PHY26006",
+        "NAME OF THE APPLICANT":"ASISH RAJKASHYAAP",
+        "FATHER'S NAME":"HITESH PATHAK",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25006",
-        "NAME OF THE APPLICANT":"DARSHANA DUTTA",
-        "FATHER'S NAME":"NIRMAL DUTTA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDZOO25007",
-        "NAME OF THE APPLICANT":"DIMAN KALITA",
-        "FATHER'S NAME":"MUNINDRA KALITA",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDZOO25008",
-        "NAME OF THE APPLICANT":"FLORA NAYAK",
-        "FATHER'S NAME":"KHARGESWAR NAYAK",
-        "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
-    },
-    {
-        "ROLL NUMBER":"PhDZOO25009",
-        "NAME OF THE APPLICANT":"HRISHIKESH DAS",
-        "FATHER'S NAME":"SARAT CHANDRA DAS",
+        "ROLL NUMBER":"PHY26007",
+        "NAME OF THE APPLICANT":"ASRAFUL TALUKDAR",
+        "FATHER'S NAME":"SULTAN TALUKDAR",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25010",
-        "NAME OF THE APPLICANT":"JEET SARMA",
-        "FATHER'S NAME":"PARESH SARMA",
+        "ROLL NUMBER":"PHY26008",
+        "NAME OF THE APPLICANT":"BODIUZ ZAMAN ",
+        "FATHER'S NAME":"DABIR UDDIN AHMED ",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25011",
-        "NAME OF THE APPLICANT":"JIJNYASHA BAYAN",
-        "FATHER'S NAME":"MUNINDRA BAYAN",
+        "ROLL NUMBER":"PHY26009",
+        "NAME OF THE APPLICANT":"DAISY MISRA",
+        "FATHER'S NAME":"DIPAK MISRA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25012",
-        "NAME OF THE APPLICANT":"JUBLEE TALUKDAR ",
-        "FATHER'S NAME":"KUSHAL KUMAR TALUKDAR ",
+        "ROLL NUMBER":"PHY26010",
+        "NAME OF THE APPLICANT":"DEBAJIT KAKATI ",
+        "FATHER'S NAME":"NRIPEN KAKATI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26011",
+        "NAME OF THE APPLICANT":"DEVID DAS",
+        "FATHER'S NAME":"SANATANA DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26012",
+        "NAME OF THE APPLICANT":"DHRITIRAJ KAKATI ",
+        "FATHER'S NAME":"HIREN CH KAKATI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26013",
+        "NAME OF THE APPLICANT":"DIGBALAY SARMA",
+        "FATHER'S NAME":"NIKHIL SARMAH",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26014",
+        "NAME OF THE APPLICANT":"DIJUSMAN KALITA",
+        "FATHER'S NAME":"DR HOMESWAR KALITA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26015",
+        "NAME OF THE APPLICANT":"EKRAMUL HOQUE",
+        "FATHER'S NAME":"ABDUS SALAM AHMED",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26016",
+        "NAME OF THE APPLICANT":"ESMINA PARBEN",
+        "FATHER'S NAME":"SABIBAR RAHMAN",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25013",
-        "NAME OF THE APPLICANT":"JUPIKA CHAKRAVARTY",
-        "FATHER'S NAME":"AMULYA CHAKRAVARTY",
+        "ROLL NUMBER":"PHY26017",
+        "NAME OF THE APPLICANT":"HABIBUL HASSAN",
+        "FATHER'S NAME":"SOROWAR HUSSAIN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26018",
+        "NAME OF THE APPLICANT":"HALIDA KHATUN ",
+        "FATHER'S NAME":"ABIR CHAND ",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25014",
-        "NAME OF THE APPLICANT":"LIKIMANI DEKA",
+        "ROLL NUMBER":"PHY26019",
+        "NAME OF THE APPLICANT":"IFTIKAR HUSSAIN ",
+        "FATHER'S NAME":"AKBAR ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26020",
+        "NAME OF THE APPLICANT":"JAKIR HUSSAIN",
+        "FATHER'S NAME":"MOHON ALI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26021",
+        "NAME OF THE APPLICANT":"JUBINA PARVIN",
+        "FATHER'S NAME":"JAWAHER ALI SHEIKH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26022",
+        "NAME OF THE APPLICANT":"JUGASMITA SAHA",
+        "FATHER'S NAME":"ANUP KUMAR SAHA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26023",
+        "NAME OF THE APPLICANT":"JYOTIRMOY SARMA",
+        "FATHER'S NAME":"DIPUMONI SARMA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26024",
+        "NAME OF THE APPLICANT":"KASTURI BAYAN",
+        "FATHER'S NAME":"JITEN BAYAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26025",
+        "NAME OF THE APPLICANT":"KHAIRUL ISLAM ",
+        "FATHER'S NAME":"SHALIM ALI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26026",
+        "NAME OF THE APPLICANT":"KRIDIP DEKA",
+        "FATHER'S NAME":"ASWINI DEKA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26027",
+        "NAME OF THE APPLICANT":"MAHIBUL ISLAM ",
+        "FATHER'S NAME":"BASIR UDDIN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26028",
+        "NAME OF THE APPLICANT":"MANDEEP BARUAH ",
+        "FATHER'S NAME":"DILIP KUMAR SARKAR ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26029",
+        "NAME OF THE APPLICANT":"MIFTAHUL ISLAM",
+        "FATHER'S NAME":"NURUL  ISLAM ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26030",
+        "NAME OF THE APPLICANT":"MOKLESINA PARBIN",
+        "FATHER'S NAME":"ABUWAL MAZID SHEIKH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26031",
+        "NAME OF THE APPLICANT":"MOMINUL ISLAM MONDAL",
+        "FATHER'S NAME":"BORHAN UDDIN MONDAL",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26032",
+        "NAME OF THE APPLICANT":"MORJINA KHATUN ",
+        "FATHER'S NAME":"ABDUL MOMIN ALI ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26033",
+        "NAME OF THE APPLICANT":"MOSTAFIZUR RAHMAN",
+        "FATHER'S NAME":"AZAHAR ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26034",
+        "NAME OF THE APPLICANT":"MOUSUMI DAS ",
+        "FATHER'S NAME":"RANJIT DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26035",
+        "NAME OF THE APPLICANT":"PRAGYAN CHOUDHURY",
+        "FATHER'S NAME":"KAMAKHYA CHOUDHURY",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26036",
+        "NAME OF THE APPLICANT":"PRATYUSHA TALUKDAR",
+        "FATHER'S NAME":"BHABENDRA TALUKDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26037",
+        "NAME OF THE APPLICANT":"RAISHAMOYEE BASUMATARY",
+        "FATHER'S NAME":"JAYANTA BASUMATARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26038",
+        "NAME OF THE APPLICANT":"RASHIDUL ISLAM ",
+        "FATHER'S NAME":"HABIBOR RAHMAN ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26039",
+        "NAME OF THE APPLICANT":"SABINA YASMIN",
+        "FATHER'S NAME":"GOLAP HUSSAIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26040",
+        "NAME OF THE APPLICANT":"SAIFUL ISLAM AHMED",
+        "FATHER'S NAME":"AZAHAR UDDIN AHMED ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26041",
+        "NAME OF THE APPLICANT":"SALMA SULTANA ",
+        "FATHER'S NAME":"GOLAP HUSSAIN ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26042",
+        "NAME OF THE APPLICANT":"SANITA BASUMATARY",
+        "FATHER'S NAME":"LT SOMAL BASUMATARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26043",
+        "NAME OF THE APPLICANT":"SHOHIDUR ALOM",
+        "FATHER'S NAME":"RUHUL AMIN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26044",
+        "NAME OF THE APPLICANT":"SNIGDHA GHOSH",
+        "FATHER'S NAME":"ANANDA CHANDRA GHOSH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26045",
+        "NAME OF THE APPLICANT":"SUDARSHANA KALITA ",
+        "FATHER'S NAME":"RABEN KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"POL26001",
+        "NAME OF THE APPLICANT":"AKHI KALITA",
+        "FATHER'S NAME":"SUBHASH KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26002",
+        "NAME OF THE APPLICANT":"ALAKESH NATH ",
+        "FATHER'S NAME":"RANJIT NATH ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26003",
+        "NAME OF THE APPLICANT":"ALEKJAN NESSA",
+        "FATHER'S NAME":"MOTALEB",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26004",
+        "NAME OF THE APPLICANT":"ANGKITA BAISHYA",
+        "FATHER'S NAME":"NRIPENDRA NATH BAISHYA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26005",
+        "NAME OF THE APPLICANT":"ANKITA DAS",
+        "FATHER'S NAME":"MRIDUL DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26006",
+        "NAME OF THE APPLICANT":"ANKUR PATHAK ",
+        "FATHER'S NAME":"PRADIP PATHAK ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26007",
+        "NAME OF THE APPLICANT":"ANNASUIYA KUMARI",
+        "FATHER'S NAME":"UMAKANTA PRASAD",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26008",
+        "NAME OF THE APPLICANT":"ANURAG BHARADWAJ",
+        "FATHER'S NAME":"UTPAL SARMA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26009",
+        "NAME OF THE APPLICANT":"BARASHA DAS",
+        "FATHER'S NAME":"SUREN CHANDRA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26010",
+        "NAME OF THE APPLICANT":"BARASHA SAUD",
+        "FATHER'S NAME":"BHAGABAN SAUD",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26011",
+        "NAME OF THE APPLICANT":"BIPA ROY",
+        "FATHER'S NAME":"BIPUL CHANDAR ROY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26012",
+        "NAME OF THE APPLICANT":"CHAITANYA KUMAR MEDHI",
+        "FATHER'S NAME":"TARANI KANTA MEDHI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26013",
+        "NAME OF THE APPLICANT":"CHAYANIKA BARUAH",
+        "FATHER'S NAME":"DILIP BEZBARUAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26014",
+        "NAME OF THE APPLICANT":"CHINMOY DAS ",
+        "FATHER'S NAME":"MANOJ DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26015",
+        "NAME OF THE APPLICANT":"DIKSHITA BAYAN",
+        "FATHER'S NAME":"HARAJIT BAYAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26016",
+        "NAME OF THE APPLICANT":"DIPSIKHA DAS",
+        "FATHER'S NAME":"PRADIP DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26017",
+        "NAME OF THE APPLICANT":"DULANMANI OJAH",
+        "FATHER'S NAME":"KUNJA LAL OJAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26018",
+        "NAME OF THE APPLICANT":"FARIDA KHATUN ",
+        "FATHER'S NAME":"NURUL ISLAM",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26019",
+        "NAME OF THE APPLICANT":"GITARTHEE BHARADWAJ",
+        "FATHER'S NAME":"LATE PRASEN CHANDRA SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26020",
+        "NAME OF THE APPLICANT":"HABIBA MEHMUD",
+        "FATHER'S NAME":"MD HAFIZUR RAHMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26021",
+        "NAME OF THE APPLICANT":"JUPITORA BORAH",
+        "FATHER'S NAME":"JITENDRANATH BORAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26022",
+        "NAME OF THE APPLICANT":"JUTIPRABHA DAS",
+        "FATHER'S NAME":"SIDHESWAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26023",
+        "NAME OF THE APPLICANT":"KABITA KHANDWAL",
+        "FATHER'S NAME":"RUGESWAR KHANDWAL",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26024",
+        "NAME OF THE APPLICANT":"KAKALI DAS",
+        "FATHER'S NAME":"DINESH DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26025",
+        "NAME OF THE APPLICANT":"KANJANAV DAS",
+        "FATHER'S NAME":"ANIL DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26026",
+        "NAME OF THE APPLICANT":"KANNAKI BHARADWAJ",
+        "FATHER'S NAME":"CHANDAN SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26027",
+        "NAME OF THE APPLICANT":"KASMIRI KHERKATARY",
+        "FATHER'S NAME":"RAHESWAR KHERKATARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26028",
+        "NAME OF THE APPLICANT":"KASTURI DAS",
+        "FATHER'S NAME":"LOHIT DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26029",
+        "NAME OF THE APPLICANT":"KHANJAN KASHYAP ",
+        "FATHER'S NAME":"KHAGEN DAS ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26030",
+        "NAME OF THE APPLICANT":"KHUDEJA PARBIN ",
+        "FATHER'S NAME":"ANOWAR HOSSAIN ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26031",
+        "NAME OF THE APPLICANT":"LOPAMUDRA CHOUDHURY",
+        "FATHER'S NAME":"MANOJ KUMAR CHOUDHURY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26032",
+        "NAME OF THE APPLICANT":"LOTUS BASUMATARY",
+        "FATHER'S NAME":"LAHARAM BASUMATARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26033",
+        "NAME OF THE APPLICANT":"LUCKI PARBIN",
+        "FATHER'S NAME":"KADER ALI AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26034",
+        "NAME OF THE APPLICANT":"LUCKY KHATUN",
+        "FATHER'S NAME":"MONIR UDDIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26035",
+        "NAME OF THE APPLICANT":"LUTFA KHANAM",
+        "FATHER'S NAME":"HAREZ ALI KHAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26036",
+        "NAME OF THE APPLICANT":"MAHMUDA AHMED",
+        "FATHER'S NAME":"MOTALEB UDDIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26037",
+        "NAME OF THE APPLICANT":"MALEKA KHATUN",
+        "FATHER'S NAME":"MOTALEB MOLLAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26038",
+        "NAME OF THE APPLICANT":"MASUMA YESMIN",
+        "FATHER'S NAME":"NURUL ISLAM",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26039",
+        "NAME OF THE APPLICANT":"MD ABDUR RAHMAN BHUYAN",
+        "FATHER'S NAME":"MD HAZRAT ALI BHUYAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26040",
+        "NAME OF THE APPLICANT":"MD RAJIB MIAH",
+        "FATHER'S NAME":"ABDUL KARIM",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26041",
+        "NAME OF THE APPLICANT":"MRIDUL SINGHA",
+        "FATHER'S NAME":"JAYANTA SINGHA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26042",
+        "NAME OF THE APPLICANT":"MRIGANGKA MAYUR NATH ",
+        "FATHER'S NAME":"DILIP NATH",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26043",
+        "NAME OF THE APPLICANT":"NAHIDA YESMIN ",
+        "FATHER'S NAME":"BAJLUR RAHMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26044",
+        "NAME OF THE APPLICANT":"NAJIMA YASMIN ",
+        "FATHER'S NAME":"NURUL ISLAM ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26045",
+        "NAME OF THE APPLICANT":"NAZIRUL ISLAM",
+        "FATHER'S NAME":"JAHAR ALI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26046",
+        "NAME OF THE APPLICANT":"NAZIRUL ISLAM ",
+        "FATHER'S NAME":"JAHAR ALI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26047",
+        "NAME OF THE APPLICANT":"NEETISHRESTHA DEKA",
         "FATHER'S NAME":"BIPUL DEKA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25015",
-        "NAME OF THE APPLICANT":"LIZA DAS",
-        "FATHER'S NAME":"DURGESWAR DAS ",
+        "ROLL NUMBER":"POL26048",
+        "NAME OF THE APPLICANT":"NIHA ROY",
+        "FATHER'S NAME":"JOGEN ROY",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25016",
-        "NAME OF THE APPLICANT":"MAIDANG BORO",
-        "FATHER'S NAME":"TULSHI RAM BARO",
+        "ROLL NUMBER":"POL26049",
+        "NAME OF THE APPLICANT":"NIJARA RAMCHIARY",
+        "FATHER'S NAME":"BISHNU RAMCHIARY",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25017",
-        "NAME OF THE APPLICANT":"MANASI MAZUMDAR ",
-        "FATHER'S NAME":"ABANI MAZUMDAR ",
+        "ROLL NUMBER":"POL26050",
+        "NAME OF THE APPLICANT":"NILIMA KHATUN",
+        "FATHER'S NAME":"RAHAM ALI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25018",
-        "NAME OF THE APPLICANT":"MANISHA DEKA",
-        "FATHER'S NAME":"KARUNA KANTA DEKA",
+        "ROLL NUMBER":"POL26051",
+        "NAME OF THE APPLICANT":"PADMINI BRAHMA",
+        "FATHER'S NAME":"ANANTA BRAHMA",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25019",
-        "NAME OF THE APPLICANT":"MANISHA NATH",
-        "FATHER'S NAME":"LATE NAGEN CH NATH",
+        "ROLL NUMBER":"POL26052",
+        "NAME OF THE APPLICANT":"PALLABI BAISHYA ",
+        "FATHER'S NAME":"DILIP BAISHYA ",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25020",
-        "NAME OF THE APPLICANT":"MOMITA BORO",
-        "FATHER'S NAME":"DINESH",
+        "ROLL NUMBER":"POL26053",
+        "NAME OF THE APPLICANT":"PAMPI DAS",
+        "FATHER'S NAME":"MANURAM DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25021",
-        "NAME OF THE APPLICANT":"NAYANA BARUAH",
-        "FATHER'S NAME":"RAMENDRA MALLA BARUAH",
+        "ROLL NUMBER":"POL26054",
+        "NAME OF THE APPLICANT":"PINAKI PRIYAM PATHAK",
+        "FATHER'S NAME":"AMARJIT KUMAR PATHAK",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25022",
-        "NAME OF THE APPLICANT":"NILOTPAL DEKA",
-        "FATHER'S NAME":"PRATUL CHANDRA DEKA",
+        "ROLL NUMBER":"POL26055",
+        "NAME OF THE APPLICANT":"PINAKI PRIYAM PATHAK ",
+        "FATHER'S NAME":"AMARJIT KUMAR PATHAK ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26056",
+        "NAME OF THE APPLICANT":"PRIYAM KASHYAP DAS",
+        "FATHER'S NAME":"TILAK DAS",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25023",
-        "NAME OF THE APPLICANT":"PARASH JYOTI PATHAK",
-        "FATHER'S NAME":"AJIT KUMAR PATHAK",
+        "ROLL NUMBER":"POL26057",
+        "NAME OF THE APPLICANT":"PRIYANKA DAS",
+        "FATHER'S NAME":"KRISHNA KANTA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26058",
+        "NAME OF THE APPLICANT":"RAKTIM DAS ",
+        "FATHER'S NAME":"HEMKANTA DAS",
         "GENDER":"Male",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25024",
-        "NAME OF THE APPLICANT":"PRAKRITI SHARMA",
-        "FATHER'S NAME":"NAGENDRA KUMAR SHARMA",
+        "ROLL NUMBER":"POL26059",
+        "NAME OF THE APPLICANT":"RAMENA KHATUN",
+        "FATHER'S NAME":"SUKUR ALI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25025",
-        "NAME OF THE APPLICANT":"SADHANA SARMA ",
-        "FATHER'S NAME":"JITEN SARMA ",
+        "ROLL NUMBER":"POL26060",
+        "NAME OF THE APPLICANT":"RITIKA YEASMIN",
+        "FATHER'S NAME":"ABDUL ROSID",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25026",
-        "NAME OF THE APPLICANT":"SHREYASI BARMAN",
-        "FATHER'S NAME":"UPEN BARMAN",
+        "ROLL NUMBER":"POL26061",
+        "NAME OF THE APPLICANT":"RITUMANI DAS",
+        "FATHER'S NAME":"BALLAV CHANDRA DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25027",
-        "NAME OF THE APPLICANT":"SUSHMITA MALAKAR",
-        "FATHER'S NAME":"NAGEN CHANDRA MALAKAR ",
+        "ROLL NUMBER":"POL26062",
+        "NAME OF THE APPLICANT":"RUMI DAS",
+        "FATHER'S NAME":"DHRUBA DAS",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25028",
-        "NAME OF THE APPLICANT":"TINA BASHISTHA ",
-        "FATHER'S NAME":"LABA KUMAR SARMAH",
+        "ROLL NUMBER":"POL26063",
+        "NAME OF THE APPLICANT":"RUNU NATH",
+        "FATHER'S NAME":"HIRACHARAN NATH",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
     },
     {
-        "ROLL NUMBER":"PhDZOO25029",
-        "NAME OF THE APPLICANT":"TUNUJA BORO",
-        "FATHER'S NAME":"JOGEN KACHARY",
+        "ROLL NUMBER":"POL26064",
+        "NAME OF THE APPLICANT":"SAUMYADEEP SARKAR",
+        "FATHER'S NAME":"LATE PARIMAL SARKAR",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26065",
+        "NAME OF THE APPLICANT":"SEMIM REHENA",
+        "FATHER'S NAME":"AMIR ALI",
         "GENDER":"Female",
-        "HALL NO":null,
-        "PROGRAMME APPLIED":"Ph.D. in ZOOLOGY",
-        "DATE OF ENTRANCE TEST":"20-08-2025",
-        "TIME OF ENTRANCE TEST":"2.00 PM \u2013 4.00 PM"
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26066",
+        "NAME OF THE APPLICANT":"SHIMASREE THAKURIA ",
+        "FATHER'S NAME":"KIRAN THAKURIA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26067",
+        "NAME OF THE APPLICANT":"SIMA DAS",
+        "FATHER'S NAME":"BHABEN DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26068",
+        "NAME OF THE APPLICANT":"SIMI AHMED",
+        "FATHER'S NAME":"SAIFUDDIN AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26069",
+        "NAME OF THE APPLICANT":"SNEHA DAS",
+        "FATHER'S NAME":"SWAPAN KUMAR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26070",
+        "NAME OF THE APPLICANT":"SORIFA BEGUM",
+        "FATHER'S NAME":"SAHALOM SHEIKH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26071",
+        "NAME OF THE APPLICANT":"SUDIPTA SINGHA",
+        "FATHER'S NAME":"RAGHUNATH SINGHA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26072",
+        "NAME OF THE APPLICANT":"SUNIYA SULTANA",
+        "FATHER'S NAME":"SAIDUL ISLAM",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26073",
+        "NAME OF THE APPLICANT":"SUPRITAM KALITA ",
+        "FATHER'S NAME":"BHASKAR KALITA ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26074",
+        "NAME OF THE APPLICANT":"TAPASHI NATH",
+        "FATHER'S NAME":"NARENDRA KUMAR NATH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26075",
+        "NAME OF THE APPLICANT":"TINA BARUAH",
+        "FATHER'S NAME":"SABIN BEZBARUAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26076",
+        "NAME OF THE APPLICANT":"TOSLIMA NASRIN",
+        "FATHER'S NAME":"ABDUR ROSID AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26077",
+        "NAME OF THE APPLICANT":"TRISHNA MONI DEKA",
+        "FATHER'S NAME":"CHITRARANJAN DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26078",
+        "NAME OF THE APPLICANT":"UDANG KUNGWR DAIMARY",
+        "FATHER'S NAME":"MAHENDRA DAIMARY ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"POL26079",
+        "NAME OF THE APPLICANT":"WAHIDA KHANAM",
+        "FATHER'S NAME":"HANIF KHAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in POLITICAL SCIENCE",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"SKT26001",
+        "NAME OF THE APPLICANT":"LEENA KALITA",
+        "FATHER'S NAME":"DURGESWAR KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in SANSKRIT",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"SKT26002",
+        "NAME OF THE APPLICANT":"SUSMITA BORAH ",
+        "FATHER'S NAME":"RAJEN BORAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.A. in SANSKRIT",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26001",
+        "NAME OF THE APPLICANT":"ADITYA SANDILYA ",
+        "FATHER'S NAME":"KAMAL PRASAD SARMAH",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26002",
+        "NAME OF THE APPLICANT":"AKASH DEEP KAUSHIK",
+        "FATHER'S NAME":"PRAMOD CH SARMA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26003",
+        "NAME OF THE APPLICANT":"JASHASWEE BORA ",
+        "FATHER'S NAME":"BOLIN CHANDRA BORAH ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26004",
+        "NAME OF THE APPLICANT":"JENISHA BASUMATARY ",
+        "FATHER'S NAME":"NILA KANTA BASUMATARY ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26005",
+        "NAME OF THE APPLICANT":"KRITTIKA KASHYAP ",
+        "FATHER'S NAME":"DEEPAK KUMAR DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26006",
+        "NAME OF THE APPLICANT":"MAHNUR TANZINA",
+        "FATHER'S NAME":"MOMIT HUSSAIN ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26007",
+        "NAME OF THE APPLICANT":"NISHA RANI BASUMATARY ",
+        "FATHER'S NAME":"DULAL BASUMATARY ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26008",
+        "NAME OF THE APPLICANT":"RITURAJ SARMA",
+        "FATHER'S NAME":"SUREN SARMA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26009",
+        "NAME OF THE APPLICANT":"SUBODH MALAKAR",
+        "FATHER'S NAME":"MATIRAM MALAKAR",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26010",
+        "NAME OF THE APPLICANT":"SUMI BASUMATARY",
+        "FATHER'S NAME":"BILAM BASUMATARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26011",
+        "NAME OF THE APPLICANT":"SUSMITA LAHAN",
+        "FATHER'S NAME":"JYOTI PRASAD LAHAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"STA26012",
+        "NAME OF THE APPLICANT":"WAZIB HUSSAIN CHOWDHURY ",
+        "FATHER'S NAME":"NUR ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in STATISTICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26001",
+        "NAME OF THE APPLICANT":"ABDULLAH AL AMIN ",
+        "FATHER'S NAME":"AYNAL HOQUE ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26002",
+        "NAME OF THE APPLICANT":"ADITYABAYAN ",
+        "FATHER'S NAME":"BRAJENDRA NATH DAS ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26003",
+        "NAME OF THE APPLICANT":"AKIBUL AHMED ",
+        "FATHER'S NAME":"ABDUS SAMAD AHMED ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26004",
+        "NAME OF THE APPLICANT":"ALIMPIKA KAKATI ",
+        "FATHER'S NAME":"KULADHAR KAKATI ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26005",
+        "NAME OF THE APPLICANT":"ANGKITA DAS",
+        "FATHER'S NAME":"ANIL CHANDRA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26006",
+        "NAME OF THE APPLICANT":"ANGKITA DEKA",
+        "FATHER'S NAME":"JYOTISH DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26007",
+        "NAME OF THE APPLICANT":"ANISHA BORA ",
+        "FATHER'S NAME":"DIPAK BORA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26008",
+        "NAME OF THE APPLICANT":"ANKITA MEDHI",
+        "FATHER'S NAME":"BHASKAR JYOTI MEDHI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26009",
+        "NAME OF THE APPLICANT":"ANUSHKA BORPATRA GOHAIN",
+        "FATHER'S NAME":"RAJIB KUMAR BORPATRA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26010",
+        "NAME OF THE APPLICANT":"ARIFA YEASMIN ",
+        "FATHER'S NAME":"SAFIUR RAHMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26011",
+        "NAME OF THE APPLICANT":"ASHIM ROY",
+        "FATHER'S NAME":"UMESH ROY",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26012",
+        "NAME OF THE APPLICANT":"AVILA LAKRA",
+        "FATHER'S NAME":"BENSENT LAKRA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26013",
+        "NAME OF THE APPLICANT":"AYON KUMAR DAS",
+        "FATHER'S NAME":"ANUP KUMAR DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26014",
+        "NAME OF THE APPLICANT":"AZMA HUSNIARA AKTAR",
+        "FATHER'S NAME":"AKSER ALI AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26015",
+        "NAME OF THE APPLICANT":"BAISHALI CHOUDHURY ",
+        "FATHER'S NAME":"SUKLAL CHOUDHURY ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26016",
+        "NAME OF THE APPLICANT":"BHANUSHRI DAS",
+        "FATHER'S NAME":"BHABENDRA KR DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26017",
+        "NAME OF THE APPLICANT":"BHARASA KUMAR",
+        "FATHER'S NAME":"UTTAM CHANDRA KUMAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26018",
+        "NAME OF THE APPLICANT":"BHASWATI KALITA",
+        "FATHER'S NAME":"NARAYAN KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26019",
+        "NAME OF THE APPLICANT":"BIDISHA BARMAN",
+        "FATHER'S NAME":"NRIPEN BARMAN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26020",
+        "NAME OF THE APPLICANT":"BITUMONI TALUKDAR",
+        "FATHER'S NAME":"DIMBESWAR TALUKDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26021",
+        "NAME OF THE APPLICANT":"CHAIKI SARMA",
+        "FATHER'S NAME":"BHUPEN SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26022",
+        "NAME OF THE APPLICANT":"CHANDITA TALUKDAR ",
+        "FATHER'S NAME":"PRAFULLA TALUKDAR ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26023",
+        "NAME OF THE APPLICANT":"DARIYALI MAHANTA",
+        "FATHER'S NAME":"DINESH MAHANTA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26024",
+        "NAME OF THE APPLICANT":"DEBAJIT RAJBANGSHI ",
+        "FATHER'S NAME":"MANOMOHAN ROY ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26025",
+        "NAME OF THE APPLICANT":"DEBASHISH DUTTA",
+        "FATHER'S NAME":"SAILEN DUTTA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26026",
+        "NAME OF THE APPLICANT":"DHIRAMONI KACHARI",
+        "FATHER'S NAME":"KASHI NATH KACHARI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26027",
+        "NAME OF THE APPLICANT":"DHRITASHRI DAS",
+        "FATHER'S NAME":"PARSHURAM DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26028",
+        "NAME OF THE APPLICANT":"DIKSHITA DAS",
+        "FATHER'S NAME":"KHAGEN DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26029",
+        "NAME OF THE APPLICANT":"DIKSHITA SAKIA",
+        "FATHER'S NAME":"RAJ KUMAR SAIKIA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26030",
+        "NAME OF THE APPLICANT":"DIPANNITA CHOUDHURY",
+        "FATHER'S NAME":"PRANJIT CHOUDHURY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26031",
+        "NAME OF THE APPLICANT":"GARIMA NATH",
+        "FATHER'S NAME":"PRAMOD NATH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26032",
+        "NAME OF THE APPLICANT":"GOKUL ROY",
+        "FATHER'S NAME":"DEBENDRA ROY",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26033",
+        "NAME OF THE APPLICANT":"HAJRAT ALI",
+        "FATHER'S NAME":"BARHAN ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26034",
+        "NAME OF THE APPLICANT":"HIMA DEKA ",
+        "FATHER'S NAME":"BHAGI RAM DEKA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26035",
+        "NAME OF THE APPLICANT":"HIMASHREE KALITA",
+        "FATHER'S NAME":"PARESH CHANDRA KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26036",
+        "NAME OF THE APPLICANT":"HIYA BORAH",
+        "FATHER'S NAME":"HEMANTA BORAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26037",
+        "NAME OF THE APPLICANT":"HIYASHREE SHIVAM ",
+        "FATHER'S NAME":"BHAIRAB CHANDRA BORA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26038",
+        "NAME OF THE APPLICANT":"HIYASREE TALUKDAR",
+        "FATHER'S NAME":"CHITTARANJAN TALUKDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26039",
+        "NAME OF THE APPLICANT":"HRIDANGA RAJ SARMA",
+        "FATHER'S NAME":"JAYANTA SARMA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26040",
+        "NAME OF THE APPLICANT":"HRISHIKESH DEKA",
+        "FATHER'S NAME":"DR. HEM CHANDRA DEKA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26041",
+        "NAME OF THE APPLICANT":"INDRANI BARUAH",
+        "FATHER'S NAME":"ACHYUT KUMAR BARUAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26042",
+        "NAME OF THE APPLICANT":"JAGRITI DEVI",
+        "FATHER'S NAME":"BHARAT NATH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26043",
+        "NAME OF THE APPLICANT":"JASMINA AKHTAR",
+        "FATHER'S NAME":"JAMAL UDDIN ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26044",
+        "NAME OF THE APPLICANT":"JESMIN SULTANA",
+        "FATHER'S NAME":"NURFAN ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26045",
+        "NAME OF THE APPLICANT":"JINKI SMITA DAS",
+        "FATHER'S NAME":"BANAMALI DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26046",
+        "NAME OF THE APPLICANT":"JOISRI BORKAKATI",
+        "FATHER'S NAME":"MONI BORKAKATI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26047",
+        "NAME OF THE APPLICANT":"JUMI ROY",
+        "FATHER'S NAME":"ANIL CHANDRA ROY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26048",
+        "NAME OF THE APPLICANT":"JUWMAN RAMCHIARY",
+        "FATHER'S NAME":"PANCHA RAMCHIARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26049",
+        "NAME OF THE APPLICANT":"JYOTI YADAV",
+        "FATHER'S NAME":"DINANATH YADAV ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26050",
+        "NAME OF THE APPLICANT":"JYOTISHIKHA DAS",
+        "FATHER'S NAME":"PARAMANANDA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26051",
+        "NAME OF THE APPLICANT":"JYOTISHMITA RABHA",
+        "FATHER'S NAME":"HARESWAR RABHA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26052",
+        "NAME OF THE APPLICANT":"JYOTISIKHA SARMAH ",
+        "FATHER'S NAME":"MUKUL SARMAH ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26053",
+        "NAME OF THE APPLICANT":"KAKALI BAISHYA ",
+        "FATHER'S NAME":"GHANASHYAM BAISHYA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26054",
+        "NAME OF THE APPLICANT":"KALGACHIA",
+        "FATHER'S NAME":"MAHER ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26055",
+        "NAME OF THE APPLICANT":"KANCHAN BARO",
+        "FATHER'S NAME":"KHAGEN BARO",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26056",
+        "NAME OF THE APPLICANT":"KARANJYOTI RAY",
+        "FATHER'S NAME":"AKSHAY KUMAR RAY",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26057",
+        "NAME OF THE APPLICANT":"KARBHILINA KASHYAP",
+        "FATHER'S NAME":"TAPAN KUMAR MEDHI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26058",
+        "NAME OF THE APPLICANT":"KAUSHIK KUMAR NATH",
+        "FATHER'S NAME":"MANOJ KUMAR NATH",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26059",
+        "NAME OF THE APPLICANT":"KHADIMON HASINA",
+        "FATHER'S NAME":"MUKUR UDDIN AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26060",
+        "NAME OF THE APPLICANT":"KHAIRUL ALAM ",
+        "FATHER'S NAME":"MD SHAMEZ UDDIN ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26061",
+        "NAME OF THE APPLICANT":"KOUSHIK THAKUR ",
+        "FATHER'S NAME":"MANGAL THAKUR ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26062",
+        "NAME OF THE APPLICANT":"KRISHNA DEVI RAY",
+        "FATHER'S NAME":"TARUN CHANDRA RAY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26063",
+        "NAME OF THE APPLICANT":"LIZA BARDOLOI ",
+        "FATHER'S NAME":"NARAYAN BARDOLOI ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26064",
+        "NAME OF THE APPLICANT":"MADHURJYA PARASHAR",
+        "FATHER'S NAME":"BIRENDRA CHAKRABORTY",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26065",
+        "NAME OF THE APPLICANT":"MAITREYEE PARASHAR",
+        "FATHER'S NAME":"HERAMBA SARMA ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26066",
+        "NAME OF THE APPLICANT":"MANDIRA SARMA",
+        "FATHER'S NAME":"KRISHNA KANTA SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26067",
+        "NAME OF THE APPLICANT":"MANISHA CHETRY",
+        "FATHER'S NAME":"SIBA BAHADUR CHETRY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26068",
+        "NAME OF THE APPLICANT":"MEHBISH SHAHIN ALAM",
+        "FATHER'S NAME":"MANNAN ALAM",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26069",
+        "NAME OF THE APPLICANT":"MIDINA NARZARY",
+        "FATHER'S NAME":"BINOY NARZARY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26070",
+        "NAME OF THE APPLICANT":"MOHIMA BORO ",
+        "FATHER'S NAME":" PRABHAT BORO ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26071",
+        "NAME OF THE APPLICANT":"MOITREYEE MADHU TALUKDAR",
+        "FATHER'S NAME":"BISWA MADHU TALUKDAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26072",
+        "NAME OF THE APPLICANT":"MRIDUSMITA MEDHI",
+        "FATHER'S NAME":"RATNESWAR MEDHI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26073",
+        "NAME OF THE APPLICANT":"NANDITA DEY",
+        "FATHER'S NAME":"NABIN DEY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26074",
+        "NAME OF THE APPLICANT":"NARGISH AKTARA",
+        "FATHER'S NAME":"CHANDULLAH MIAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26075",
+        "NAME OF THE APPLICANT":"NAZMIN SULTANA",
+        "FATHER'S NAME":"MOZAMMIL HUSSAIN",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26076",
+        "NAME OF THE APPLICANT":"NAZMINA KHATUN",
+        "FATHER'S NAME":"LALCHAN ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26077",
+        "NAME OF THE APPLICANT":"NEETI DEKA",
+        "FATHER'S NAME":"BHAGADATTA DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26078",
+        "NAME OF THE APPLICANT":"NIJARA MEDHI",
+        "FATHER'S NAME":"MADAN MEDHI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26079",
+        "NAME OF THE APPLICANT":"NIKUMONI CHAUDHURY",
+        "FATHER'S NAME":"PRADIP CHANDRA CHAUDHURY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26080",
+        "NAME OF THE APPLICANT":"NIMISHA HAZARIKA",
+        "FATHER'S NAME":"KUSHAL KUMAR HAZARIKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26081",
+        "NAME OF THE APPLICANT":"NOORJAHAN NESSA",
+        "FATHER'S NAME":"SIKANDER ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26082",
+        "NAME OF THE APPLICANT":"PALLABI RABHA",
+        "FATHER'S NAME":"JOGANANDA RABHA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26083",
+        "NAME OF THE APPLICANT":"PAPARI SARMA",
+        "FATHER'S NAME":"SIMANTA SARMA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26084",
+        "NAME OF THE APPLICANT":"PARISHMITA DEKA",
+        "FATHER'S NAME":"JOYRAM DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26085",
+        "NAME OF THE APPLICANT":"PARMITA BHOWMIK",
+        "FATHER'S NAME":"SWAPAN BHOWMIK",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26086",
+        "NAME OF THE APPLICANT":"PARTHA PRATIM BARMAN",
+        "FATHER'S NAME":"AJIT KUMAR BARMAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26087",
+        "NAME OF THE APPLICANT":"PARTHA PRATIM BARMAN",
+        "FATHER'S NAME":"RATUL BARMAN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26088",
+        "NAME OF THE APPLICANT":"PARTHA PRATIM CHAKRABARTY",
+        "FATHER'S NAME":"AJIT CHAKRABARTY",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26089",
+        "NAME OF THE APPLICANT":"PHULMONI SWARGIARY ",
+        "FATHER'S NAME":"BIRMALU SWARGIARY ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26090",
+        "NAME OF THE APPLICANT":"PINKI BORO",
+        "FATHER'S NAME":"BISHNU RAM BORO",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26091",
+        "NAME OF THE APPLICANT":"PRADEEP TOPO",
+        "FATHER'S NAME":"LATE PATRAS TOPPO",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26092",
+        "NAME OF THE APPLICANT":"PRANGANA CHOUDHURY",
+        "FATHER'S NAME":"BIBEK CHOUDHURY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26093",
+        "NAME OF THE APPLICANT":"PRATHANA DAS",
+        "FATHER'S NAME":"DILIP DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26094",
+        "NAME OF THE APPLICANT":"PRATYUSHA MOITRA",
+        "FATHER'S NAME":"PRALAY MOITRA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26095",
+        "NAME OF THE APPLICANT":"PRIYA BORO",
+        "FATHER'S NAME":"MANOJ BORO",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26096",
+        "NAME OF THE APPLICANT":"RABIUL ALOM",
+        "FATHER'S NAME":"ASHRAFUL AMIN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26097",
+        "NAME OF THE APPLICANT":"RAHUL TUMUNG ",
+        "FATHER'S NAME":"DEBEN TUMUNG ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26098",
+        "NAME OF THE APPLICANT":"RAJASHREE SHARMA",
+        "FATHER'S NAME":"BINOY KUMAR SARMAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26099",
+        "NAME OF THE APPLICANT":"RAKIBUL TALUKDAR",
+        "FATHER'S NAME":"ABDUL MONNAF TALUKDAR",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26100",
+        "NAME OF THE APPLICANT":"RANGGITA SAROJ LAHKAR",
+        "FATHER'S NAME":"RAJIB LAHKAR",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26101",
+        "NAME OF THE APPLICANT":"RANTU ALI",
+        "FATHER'S NAME":"RUKUN ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26102",
+        "NAME OF THE APPLICANT":"RASKI KALITA ",
+        "FATHER'S NAME":"DIBAKAR KALITA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26103",
+        "NAME OF THE APPLICANT":"RESHMA KHANAM",
+        "FATHER'S NAME":"HANIF KHAN ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26104",
+        "NAME OF THE APPLICANT":"RESMINA BEGUM",
+        "FATHER'S NAME":"FARUK AHMED",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26105",
+        "NAME OF THE APPLICANT":"RIMLEE HAZARIKA",
+        "FATHER'S NAME":"DILIP HAZARIKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26106",
+        "NAME OF THE APPLICANT":"RIMLI DAS",
+        "FATHER'S NAME":"JAGADISH DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26107",
+        "NAME OF THE APPLICANT":"SADIK IMRAN",
+        "FATHER'S NAME":"MAHER ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26108",
+        "NAME OF THE APPLICANT":"SAJIDA NOORIE",
+        "FATHER'S NAME":"BARKAT ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26109",
+        "NAME OF THE APPLICANT":"SAMIR SARKAR",
+        "FATHER'S NAME":"SONATAN SARKAR",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26110",
+        "NAME OF THE APPLICANT":"SHAHI NAZNIN SULTANA",
+        "FATHER'S NAME":"MOINUL HOQUE CHOWDHURY",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26111",
+        "NAME OF THE APPLICANT":"SHEIKH ABDULLA ALI",
+        "FATHER'S NAME":"TAMSER ALI",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26112",
+        "NAME OF THE APPLICANT":"SIDDHARTH SAHA ",
+        "FATHER'S NAME":"SWAPAN KUMAR SAHA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26113",
+        "NAME OF THE APPLICANT":"SIMANTA DEKA",
+        "FATHER'S NAME":"SATISH DEKA",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26114",
+        "NAME OF THE APPLICANT":"SRI JINKI TALUKDAR ",
+        "FATHER'S NAME":"SRI PRAKASH TALUKDAR ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26115",
+        "NAME OF THE APPLICANT":"SUKANYA BISWAS",
+        "FATHER'S NAME":"HARE KRISHNA BISWAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26116",
+        "NAME OF THE APPLICANT":"SUMAN BARUAH",
+        "FATHER'S NAME":"PARESH BARUAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26117",
+        "NAME OF THE APPLICANT":"SUPARNA DEVI ",
+        "FATHER'S NAME":"MATINDRA PANDIT ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26118",
+        "NAME OF THE APPLICANT":"SUSMITA BASAK",
+        "FATHER'S NAME":"SANJIT  BASAK",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26119",
+        "NAME OF THE APPLICANT":"SWEETY DEKA",
+        "FATHER'S NAME":"HEM CHANDRA DEKA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26120",
+        "NAME OF THE APPLICANT":"TANJIKA BHADRA",
+        "FATHER'S NAME":"KRISHNA KAMAL BHADRA",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26121",
+        "NAME OF THE APPLICANT":"TIPON KHORAI ",
+        "FATHER'S NAME":"NORES KHORAI ",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26122",
+        "NAME OF THE APPLICANT":"TRISHA DAS",
+        "FATHER'S NAME":"MUKUL DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26123",
+        "NAME OF THE APPLICANT":"TRISHNA  BARUAH",
+        "FATHER'S NAME":"PRADIP BARUAH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26124",
+        "NAME OF THE APPLICANT":"TRISHNA MANI DAS ",
+        "FATHER'S NAME":"AMULYA DAS",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26125",
+        "NAME OF THE APPLICANT":"TWINKLE TALUKDAR ",
+        "FATHER'S NAME":"DIBAKAR CHANDRA TALUKDAR ",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26126",
+        "NAME OF THE APPLICANT":"UMME MASUMA",
+        "FATHER'S NAME":"SHAHJAMAL",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26127",
+        "NAME OF THE APPLICANT":"UMMEY HABIBA SULTANA",
+        "FATHER'S NAME":"AMINUL HOQUE SHEIKH",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26128",
+        "NAME OF THE APPLICANT":"XAVIER MOSAHARY",
+        "FATHER'S NAME":"PRONAY MOSAHARY",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26129",
+        "NAME OF THE APPLICANT":"YUBRAJ DAS",
+        "FATHER'S NAME":"ANANDA DAS",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"ZOO26130",
+        "NAME OF THE APPLICANT":"ZUNAID HUSSAIN",
+        "FATHER'S NAME":"CHULEIMAN HUSSAIN",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. in ZOOLOGY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     }
 ];
