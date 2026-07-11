@@ -118,6 +118,12 @@
         font-weight: 600 !important;
         margin: 0 !important;
     }
+    .ac-instruction-line {
+    height: 1px;
+    background-color: black;
+    margin: 1rem 0 0 0;
+    width: 100%;
+    }
 
     .ac-title-area h2 {
         color: black !important;
