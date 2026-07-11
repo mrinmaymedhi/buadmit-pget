@@ -1,0 +1,163 @@
+/* PRINT MEDIA STYLES - Add this to your stylesheet */
+
+@media print {
+    /* Hide non-printable elements */
+    .actions-panel,
+    .content-panel:has(.actions-panel),
+    #dark-mode-toggle,
+    .navbar,
+    nav,
+    button,
+    .modal,
+    .autocomplete {
+        display: none !important;
+    }
+
+    /* Ensure all text is black/visible */
+    * {
+        color: #000 !important;
+        background: white !important;
+    }
+
+    /* Override body styles */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: white !important;
+        color: black !important;
+    }
+
+    /* Ensure admit card container is visible */
+    .preview-admit-card {
+        display: block !important;
+        background: white !important;
+        color: black !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Make all borders visible */
+    table {
+        border-collapse: collapse !important;
+        border: 1px solid #000 !important;
+        width: 100%;
+    }
+
+    table th,
+    table td {
+        border: 1px solid #000 !important;
+        padding: 8px !important;
+        color: black !important;
+        background-color: white !important;
+    }
+
+    table th {
+        background-color: #f5f5f5 !important;
+        font-weight: bold !important;
+    }
+
+    /* Make all hr and separator lines visible */
+    hr,
+    .admit-card-separator {
+        border: none !important;
+        border-top: 1px solid #000 !important;
+        color: black !important;
+        background-color: transparent !important;
+    }
+
+    /* Ensure text styling remains */
+    strong {
+        font-weight: bold !important;
+        color: black !important;
+    }
+
+    .text-blue {
+        color: blue !important;
+    }
+
+    .text-black {
+        color: black !important;
+    }
+
+    /* Make boxes and containers visible */
+    .ac-general-instructions-box,
+    .ac-candidate-details,
+    .ac-data-table,
+    .ac-signatures,
+    .ac-final-instructions,
+    .ac-details-grid,
+    .ac-photo-box,
+    .ac-sign-box,
+    .ac-sign-placeholder {
+        border: 1px solid #000 !important;
+        background-color: white !important;
+        color: black !important;
+        page-break-inside: avoid !important;
+    }
+
+    /* Ensure headers and titles are visible */
+    h1, h2, h3, h4 {
+        color: black !important;
+        background-color: white !important;
+    }
+
+    /* Ensure list items are visible */
+    ol, ul, li {
+        color: black !important;
+        background-color: transparent !important;
+    }
+
+    /* Remove any opacity or transparency */
+    .ac-watermark,
+    .ac-watermark img {
+        opacity: 0.15 !important;
+        filter: alpha(opacity=15) !important;
+    }
+
+    /* Set page margins */
+    .admit-card-a4 {
+        margin: 0;
+        padding: 20px;
+        background: white !important;
+        color: black !important;
+        page-break-after: always;
+    }
+
+    /* Ensure logos and images print */
+    img {
+        opacity: 1 !important;
+        display: block !important;
+    }
+
+    /* Force print of backgrounds if they're essential */
+    @supports (-webkit-print-color-adjust: exact) {
+        * {
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+    }
+
+    /* Ensure no page breaks inside cards */
+    .preview-admit-card,
+    .ac-content {
+        page-break-inside: avoid !important;
+    }
+
+    /* Proper spacing for printed output */
+    p, div, span {
+        orphans: 3 !important;
+        widows: 3 !important;
+    }
+}
+
+/* Additional fix: Ensure colors show in dark mode print */
+body.dark-mode {
+    color-scheme: light only;
+}
+
+body.dark-mode @media print {
+    * {
+        color: black !important;
+        background-color: white !important;
+    }
+}
