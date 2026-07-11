@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <li>You are asked to bring one valid <strong>Photo ID Proof</strong> (e.g., Aadhaar Card, PAN Card, Driving License, Voter ID, or Passport) on the day of the entrance test.</li>
                             <li>You must bring the successful <strong>payment receipt of ₹800</strong> to examination on the day of the entrance test.</li>
                             <li>Candidates must bring their own <strong class="text-blue">blue</strong>/<strong class="text-black">black</strong> inked pen. No borrowing of stationery will be allowed during the exam.</li>
-                        </ol>
+                        </ol><div class="ac-instruction-line"></div>
                     </section>
                     <hr class="admit-card-separator">
                     <section class="ac-candidate-details">
