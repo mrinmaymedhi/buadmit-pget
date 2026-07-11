@@ -1074,6 +1074,13 @@ body.dark-mode .ac-watermark {
     opacity: 1;
 }
 
+.ac-instruction-line {
+    height: 1px;
+    background-color: black;
+    margin: 1rem 0 0 0;
+    width: 100%;
+}
+
 .modal-close { 
     position: absolute; 
     top: 15px; 
