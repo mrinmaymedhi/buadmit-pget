@@ -118,14 +118,6 @@
         font-weight: 600 !important;
         margin: 0 !important;
     }
-    
-    .ac-instruction-line {
-        height: 1px !important;
-        background-color: black !important;
-        margin: 1rem 0 0 0 !important;
-        width: 100% !important;
-        display: block !important;
-    }
 
     .ac-title-area h2 {
         color: black !important;
@@ -186,6 +178,20 @@
     .ac-general-instructions-box strong {
         color: black !important;
         font-weight: 600 !important;
+    }
+
+    /* INSTRUCTION LINE - FIXED TO PRINT */
+    .ac-instruction-line {
+        height: auto !important;
+        background: transparent !important;
+        margin: 0.8rem 0 !important;
+        width: 100% !important;
+        display: block !important;
+        border-top: 1.5pt solid black !important;
+        border-bottom: none !important;
+        padding: 0 !important;
+        page-break-inside: avoid !important;
+        page-break-after: avoid !important;
     }
 
     /* Text color classes */
