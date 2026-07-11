@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="ac-logo-area"><img src="Logo.png" alt="Logo" class="ac-logo"></div>
                         <div class="ac-title-area">
                             <h1>BHATTADEV UNIVERSITY</h1>
-                            <p>Pathsala, Bajali, 781325, Assam</p>
+                            <p>Bajali, Pathsala - 781325, Assam</p>
                             <h2>ADMIT CARD</h2>
                             <h3>Post Graduate Entrance Test (PGET) - 2026</h3>
                         </div>
