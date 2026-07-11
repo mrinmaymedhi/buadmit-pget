@@ -1,1 +1,1 @@
-Try the website https://buadmit-pget.netlify.app/
+[Try the website https://buadmit-pget.netlify.app/](https://buportal.netlify.app/)
