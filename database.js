@@ -1727,6 +1727,49 @@ const allCandidates = [
         "DATE OF ENTRANCE TEST":"22-07-2026",
         "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
+
+    // This is the udpated user.
+    {
+        "ROLL NUMBER":"CHE26062",
+        "NAME OF THE APPLICANT":"ROHAN HASAM",
+        "FATHER'S NAME":"DIPEN HASAM",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.Sc. In CHEMISTRY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"COM26072",
+        "NAME OF THE APPLICANT":"RAJ GAUTAM CHETRY ",
+        "FATHER'S NAME":"PREM GAUTAM",
+        "GENDER":"Male",
+        "PROGRAMME APPLIED":"M.COM",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"10.00 AM-11.30 AM"
+    },
+    {
+        "ROLL NUMBER":"GGY26043",
+        "NAME OF THE APPLICANT":"NASRIN YESMIN",
+        "FATHER'S NAME":"SOYEB ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in GEOGRAPHY",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    {
+        "ROLL NUMBER":"PHY26046",
+        "NAME OF THE APPLICANT":"MORJINA KHATUN",
+        "FATHER'S NAME":"ABDUL MOMIN ALI",
+        "GENDER":"Female",
+        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+        "DATE OF ENTRANCE TEST":"22-07-2026",
+        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    },
+    // This is the updated user
+
+
+
+    
     {
         "ROLL NUMBER":"COM26001",
         "NAME OF THE APPLICANT":"ABU FARAK EKBAL HASSAN ",
