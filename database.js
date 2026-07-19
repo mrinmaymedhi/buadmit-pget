@@ -1756,15 +1756,15 @@ const allCandidates = [
         "DATE OF ENTRANCE TEST":"22-07-2026",
         "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
     },
-    {
-        "ROLL NUMBER":"PHY26046",
-        "NAME OF THE APPLICANT":"MORJINA KHATUN",
-        "FATHER'S NAME":"ABDUL MOMIN ALI",
-        "GENDER":"Female",
-        "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
-        "DATE OF ENTRANCE TEST":"22-07-2026",
-        "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
-    },
+    // {
+    //     "ROLL NUMBER":"PHY26046",
+    //     "NAME OF THE APPLICANT":"MORJINA KHATUN",
+    //     "FATHER'S NAME":"ABDUL MOMIN ALI",
+    //     "GENDER":"Female",
+    //     "PROGRAMME APPLIED":"M.Sc. in PHYSICS",
+    //     "DATE OF ENTRANCE TEST":"22-07-2026",
+    //     "TIME OF ENTRANCE TEST":"1.00 PM- 2.30 PM"
+    // },
     // This is the updated user
 
 
